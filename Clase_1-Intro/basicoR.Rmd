@@ -1,0 +1,406 @@
+---
+title: "Basicos de R"
+author: 'Profesor: Análisis de biología computacional'
+date: "3/22/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Introducción a R
+
+## Solución para el profesor laboratorio 01.
+
+### ¿Qué es R?
+* R es un lenguaje de programación y un ambiente de cómputo estadístico
+* R es software libre.
+* Cuando instalamos R, instala la base de R. Pero la funcionalidad adicional está en **paquetes** programados por terceros.
+
+#### ¿Por qué R?
+* R funciona en  las plataformas más usadas (Mac, Windows, Linux).
+* R es un lenguaje de programación completo.
+* R promueve la investigación reproducible: procesamiento, análisis y visualización de datos.
+* R está actualizado en CRAN hay cerca de 8000 paquetes.
+* R se puede combinar con herramientas bioinformáticas y formatos de datos procesados.
+* R tiene capacidades gráficas muy sofisticadas, por el paquete ggplot y sus extensiones.
+* R es popular como herramienta estadística y bioinformática.
+*Los principales paquetes son: de todo tipo de R (CRAN) y especializado en paquetes de bioinformática (Bioconductor).
+
+
+#### Descargar R y RStudio
+Para comenzar se debe descargar [R](https://cran.r-project.org), esta descarga incluye R básico y un editor de textos para escribir código. Después de descargar R se recomienda descargar [RStudio](https://www.rstudio.com/products/rstudio/download/) (gratis y libre).
+
+[RStudio Cloud](https://rstudio.cloud/) Plataforma RStudio que corre en la nube, con una opción gratuita. 
+
+**RStudio** es un ambiente de desarrollo integrado para R: incluye una consola, un editor de texto y un conjunto de herramientas para administrar el espacio de trabajo cuando se  utiliza R.
+
+#### R en breve:
+* Hay una sesión de R corriendo. La consola de R es la interfaz entre R y el programador.
+* En la sesión hay objetos que son creados en una sesión. 
+* Todo en R es un objeto: vectores, tablas,  funciones, etc.
+* Operamos aplicando funciones a los objetos y creando nuevos objetos.
+
+##### La consola (o terminal)
+Es una ventana que nos permite comunicarnos al motor de R. Esta ventana acepta **comandos** en el lenguaje de R y brinda una respuesta (resultado) a dichos comandos.
+
+Por ejemplo, puedes realizar operaciones básicas:
+
+```{r}
+5 + 3
+9 * 8
+10 ^ 4
+5 / 3
+5 %/% 3
+```
+
+
+# Tipos de datos básicos:
+
+
+```{r}
+class(4)
+
+class(5.5)
+
+class(TRUE)
+
+class('hola')
+
+class(5L)
+
+```
+
+## Pruebas con un entero:
+```{r}
+edad <- 45L
+is.numeric(edad)
+is.integer(edad)
+is.vector(edad)
+class(edad)
+```
+
+
+## Operadores aritméticos:
+
+<- #asignación
+```{r}
+
+# Asignar el valor 42 a x
+x <- 42
+# Imprime el valor de la variable x
+x
+print(x)
+
+```
+
+## Pruebas de operadores:
+```{r}
+# Suma
+5 + 5 
+
+# Resta
+5 - 5 
+
+# Multiplicación
+3 * 5
+
+ # División
+(5 + 6) / 2 
+
+# Exponente
+2^5
+
+# Modulo
+28%%6
+
+# División entera
+(5 + 6) %/% 2 
+```
+### Resuelve los siguientes ejemplos:
+
+ * Mostrar el  IVA (16%) de un producto con un valor "precio" y su precio final.
+
+* Si tienes n hamburguesas y tienes m alumnos, al dividirlas cuántas te  quedan, cuántas le tocan a cada uno y cuál es la división exacta.
+
+* Calcula el IMC de una persona, el IMC es: peso / altura ^ 2
+
+```{r}
+#Agrega tus soluciones:
+
+precio <- readline(prompt="Dame precio: ")
+precio <- as.numeric(precio)
+class(precio)
+
+
+```
+## Operadores relacionales:
+```{r}
+3 > 2  # TRUE  (¿tres es mayor que dos?)
+3 < 2  # FALSE (¿tres es menor que dos?)
+3 == 2 # FALSE (¿tres es igual a dos?)
+5 == 5 # TRUE (¿cinco es igual a cinco?)
+5 != 5 # FALSE (¿cinco es distinto de cinco?)
+
+```
+## Operadores lógicos:
+
+```{r}
+cond1 <- 3 > 2
+
+cond2 <- 4/5 < 7/8
+
+cond1 & cond2 # TRUE
+
+cond1 && cond2 # TRUE
+
+3 > 2 || 4/5 < 7/8  # TRUE
+
+3 > 2 || 4/5 == 7/8 # TRUE
+
+1 > 2 || 4/5 == 7/8 # FALSE
+
+x <- 2
+
+xor(x > 0, x < 3) # FALSE
+
+!(x > 0) # FALSE
+```
+### Resuelve los siguientes ejercicios:
+Pide 3 números enteros (a,b,c) y resuelve lo siguiente:
+¿Cuál es número mayor de los tres?
+¿Cuáles números son pares?
+¿Cuáles números son divisibles entre 5?
+¿Cuál es la suma mayor: (a +c) o (c + b)  o (a +b)?
+
+
+
+# Tipos de datos estructurados:
+
+## Vectores: 
+Un vector es la estructura de datos más sencilla en R. Un vector es una colección de uno o más datos del mismo tipo.
+
+#### c( ), función para crear vectores.
+```{r}
+miVector <- c(1, 2, 3, 5, 8, 13) 
+# crea un vector
+miVector
+
+miVector <- c(miVector, 79) 
+# agregar un dato
+miVector
+
+miVector <- 1:10
+# vector como una secuencia
+miVector
+
+miVector <- -43:-30
+# vector como una secuencia
+miVector
+
+
+```
+```{r}
+numeros <- c()
+numeros<-c(numeros, 45)
+secuencia <- 30:450
+numeros <- c(numeros, secuencia)
+numeros
+sum(numeros)
+max(numeros)
+min(numeros)
+length(numeros)
+sd(numeros)
+mean(numeros)
+median(numeros)
+
+```
+
+### Acceso a Vectores: 
+```{r}
+edades <- c(jara=60,odile=37,karla=68,esther=28,rebeca=40)
+edades[1]
+edades[0]
+edades[2:4]
+edades[c(4:2)]
+edades["jara"]
+edades["rebeca"]
+
+```
+
+### Acceso a Vectores con números negativos: 
+```{r}
+edades[-1]
+edades[-c(2:4)]
+edades[-c(3)]
+edades[-100]
+#edades[-"karla"]
+edades[edades>=60]
+
+```
+
+
+## Matrices:
+Las matrices y arrays pueden ser descritas como vectores multidimensionales. Pueden contener datos de un sólo tipo, tienen más dimensiones.
+```{r}
+# Cuatro columnas y tres columnas
+mat <- matrix(1:12, nrow = 4, ncol = 3)
+mat
+print("Vacia")
+matrix() # function
+print(" 2 renglones x 3 columnas")
+matrix( 1:6, nrow = 2)
+print(" 2 renglones x 3 columnas")
+matrix( 1:6, ncol = 3)
+print(" 2 renglones x 3 columnas, con datos por renglon")
+matrix( 1:6, nrow = 2, byrow= TRUE)
+print(" 2 renglones x 3 columnas, PERO no alcanzan los datos")
+matrix( 1:4, nrow = 2, ncol=3)
+
+```
+
+1. cbind: es una función que agrega una columna a una matriz
+2. rbind: es una función que agrega un renglón a una matriz.
+```{r}
+
+cbind(2:6, 5:9, 1:5)
+rbind(2:6, 5:9, 1:5)
+# una matrz
+m<-matrix( 1:6, nrow = 2, byrow= TRUE)
+
+# agrega un renglón
+rbind(m, 5:7)
+# agrega una columna
+cbind(m,c(10,12))
+m
+
+```
+
+1. rownames(), agrega nombres a los renglones
+2. colnames(), agrega nombres a las columnas
+```{r}
+m<-matrix( 1:6, nrow = 2, byrow= TRUE)
+rownames(m) <- c("r1", "r2")
+colnames(m) <- c("c1", "c2","c3")
+m<-matrix( 1:6, nrow = 2, byrow= TRUE, dimnames= list( c("r1", "r2"),c("c1", "c2","c3") ) )
+
+```
+
+Acceso a los elementos de una matriz:
+
+```{r}
+rm <- matrix(sample(1:20, 50, replace=TRUE), nrow=5)
+
+# una posición específica de la matriz:
+rm[3,7]
+#Obtener toda un renglón:
+rm[4,] #row
+#Obtener toda una columna:
+rm[,9] # column
+
+#Obtener un dato en esa posición
+rm[7]
+
+# Asignar nombres:
+rm <- matrix(sample(1:20, 20, replace=TRUE), nrow=4)
+
+rownames(rm) <- c("r1", "r2","r3", "r4")
+colnames(rm) <- c("c1", "c2","c3", "c4","c5")
+rm["r3","c3"]
+rm[1,c("c3","c5")]
+
+```
+## Listas:
+
+Las listas, al igual que los vectores, son estructuras de datos unidimensionales pero a diferencia de los vectores cada uno de sus elementos puede ser de diferente tipo o incluso de diferente clase.
+```{r}
+miVector <- 1:10
+miMatriz <- matrix(1:4, nrow = 2)
+miDf     <- data.frame("num" = 1:3, "let" = c("a", "b", "c"))
+
+mi_lista <- list("un_vector" = miVector, "una_matriz" = miMatriz, "un_df" = miDf)
+
+canciones <- list("Discotheque", "U2", 1997, 5.19) 
+names(canciones) <- c("title","group","year","time")
+
+str(canciones)
+length(canciones)
+dim(canciones)
+class(canciones)
+
+#Acceso a elementos de una lista:
+canciones[1]
+canciones[[1]]
+
+canciones[c(1,3)]
+
+#Error 
+#canciones[[c(1,3)]]
+
+canciones$group
+
+
+### Agregar un vector a una lista:
+members <-c("Bono", "Edge", "Mullen", "Adam")
+canciones$members <- members
+
+str(canciones)
+```
+
+## DataFrame: 
+Los data frames son estructuras de datos de dos dimensiones (rectangulares) que pueden contener datos de diferentes tipos.
+```{r}
+miDF <- data.frame(
+  "entero" = 1:4, 
+  "numero" = c(1.2, 3.4, 4.5, 5.6),
+  "cadena" = as.character(c("a", "b", "c", "d"))
+)
+
+```
+
+
+
+##Funciones: 
+La instalación base de R tiene suficientes funciones para que realicemos todas las tareas básicas de análisis de datos, pero también puedes crear tus propias funciones.
+
+```{r}
+suma<-function(x,y){
+      # suma de los elementos "x" e "y”
+      x+y
+}
+
+suma(4,5)
+
+suma(3:9,5:18)
+
+```
+
+## Estructuras de control, ejemplos:
+```{r}
+# if - else:
+promedio <- function(calificaciones) {
+  media <- mean(calificaciones)
+  
+  if(media >= 6) {
+    print("Aprobado")
+  } else {
+    print("Reprobado")
+  }
+}
+promedio(c(6, 7, 8, 9, 8))
+
+# 
+dado <- 1:6
+
+for(cara in dado) {
+  print(dado ^ 2 )
+  
+}
+
+```
+
+
+# Fin de la primera parte
+
+### Resuelve los ejercicios en parejas para terminar.
+
