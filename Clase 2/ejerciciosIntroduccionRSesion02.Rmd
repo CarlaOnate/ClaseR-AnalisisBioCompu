@@ -7,46 +7,52 @@ Busca que los alumnos usen los datos, funciones y características del lenguaje 
 
 a) Escribe en lo siguiente R:
 * Genera una secuencia de números del 20 al 50.
-* Imprime la media de los números del 20 al 60 
+* Imprime la media de los números del 20 al 60
 * Imprime la suma de los números del 51 al 91. Tip: Utilicen las funciones de R.
 
 ```{r}
 #Escribe tu solución
-
+20:50
+mean(20:60)
+sum(51:91)
 ```
 
 
 
 b) Escribe en R  un vector que contenga 1000 valores enteros aleatorios entre -100 y +50. Revisen la función [sample](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sample)
 ¿A qué problema te enfrentas y cómo lo resuelves?
+Si el replace es FALSE la funcion no puede repetir numeros y como el rando es menor al size que le pediste entonces nunca podrá lograrlo, pero si le pones TRUE entonces ya puede repetir numero y aunque el rango sea menor al size puede hacer lo que le pides que es darte 1000 numero de un rango de 151 numeros.
 ```{r}
-
 #Escribe tu solución
-
-
+sample(-50:100,1000, TRUE ,NULL)
 ```
 
 
 c) Escriban un programa R para obtener los primeros n números de Fibonacci: Revisa qué es la serie de [Fibonacci](https://www.youtube.com/watch?v=sY0HYpU2cwk)
 
-Como código base tienen: 
+Como código base tienen:
 ```{r}
 #Código base:
-
-n<- 50
+n <- 50
 fb <- numeric(n)
+for(i in 1:n){
+
+}
 fb[1] <- fb[2] <- 1
-print(fb)
+fibonacci(n)
 ```
 
 
-d) Escriban un par de funciones en  R para encontrar el valor máximo y mínimo de un vector dado. PERO, creen sus propias funciones de máximo y mínimo. Deben probar con: 
+d) Escriban un par de funciones en  R para encontrar el valor máximo y mínimo de un vector dado. PERO, creen sus propias funciones de máximo y mínimo. Deben probar con:
 
 print(maximo(c(10, 20, 30, 4, 50, -60)))
 print(minimo(c(10, 20, 30, 4, 50, -60)))
 
 ```{r}
 #Escribe tu solución
+maximo <- function(vector_){
+
+}
 print(maximo(c(10, 20, 30, 4, 50, -60)))
 print(minimo(c(10, 20, 30, 4, 50, -60)))
 
@@ -111,13 +117,13 @@ i) Con el datafram anterior, realiza lo siguiente:
 #Escribe tu solución
 
 ```
-  
+
   2. Agrega una columna: rna con sus equivalentes
 ```{r}
 #Escribe tu solución
 df
 ```
-  
+
   3. Agrega un registro más: "Angeles" y los demás datos aleatorios
 ```{r}
 
@@ -126,7 +132,7 @@ df
 df
 
 ```
-  
+
   4. Quita columna de calificacion
 ```{r}
 
@@ -134,4 +140,4 @@ df
 
 df
 ```
-  
+

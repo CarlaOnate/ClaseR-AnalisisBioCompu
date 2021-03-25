@@ -4,11 +4,11 @@
 ### Sesion 02                                                         			 ###
 ### Tecnológico de Monterrey    						                                 ###
 ### BT1013 - marzo, 2021                       		    	                     ###
-### Dr. Hugo Tovar hugo.tovar@tec.mx                                         ### 
+### Dr. Hugo Tovar hugo.tovar@tec.mx                                         ###
 ################################################################################
 
 ## OBJECTIVE:
-## El propósito de este ejercicio es familiarizarte con R y con la forma de 
+## El propósito de este ejercicio es familiarizarte con R y con la forma de
 ## interactuar con la linea de comandos. El profesor tiene en su presentación
 ## estos mismos comandos y la idea es que experimentes introduciendolos a la
 ## consola de R.
@@ -22,8 +22,8 @@ mat
 # MARCO DE DATOS (data freme)
 
 mi_df <- data.frame(
-  "entero" = 1:4, 
-  "factor" = as.factor(c("a", "b", "c", "d")), 
+  "entero" = 1:4,
+  "factor" = as.factor(c("a", "b", "c", "d")),
   "numero" = c(1.2, 3.4, 4.5, 5.6),
   "cadena" = c("a", "b", "c", "d")
 )
@@ -39,6 +39,10 @@ miDf     <- data.frame("num" = 1:3, "let" = c("a", "b", "c"))
 mi_lista <- list("un_vector" = miVector, "una_matriz" = miMatriz, "un_df" = miDf)
 
 mi_lista
+mi_lista$una_matriz
+
+class(mi_lista$un_vector)
+
 
 ## FUNCIONES
 # nombre <- function(argumentos) {
@@ -92,6 +96,10 @@ while(valor < umbral) {
 matriz <- matrix(rep(c(1, 2, 3, 4), 4), nrow = 4)
 matriz
 
+#Esto es para llamar funcinoes:
+#Recibe: objeto donde se va a aplicar la funcion, en que dimensión (renglon, columna) vamos a trabajar con los datos, funcion a correr, argumentos de la funcino a correr
+#Primero es renglon y despues columnas - MARGIN =1 trabajara sobre los renlgoes sino sobre columnas
+
 apply(X = matriz, MARGIN = 1, FUN = sum)
 apply(X = matriz, MARGIN = 2, FUN = sum)
 
@@ -102,8 +110,9 @@ apply(X = matriz, MARGIN = 2, FUN = sum)
 # Objeto dentro de R
 trees
 trees[1:3, ]
-
+#lapply te regresa una lista
 lapply(X = trees, FUN = mean)
+#sapply te regresa lista y simplifica el resultado y te da un vector de la lista
 sapply(X = trees, FUN = mean)
 
 ?apply
