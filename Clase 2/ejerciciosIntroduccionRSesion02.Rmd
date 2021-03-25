@@ -1,0 +1,137 @@
+# Ejercicios básicos que se les piden a los alumnos:
+
+**Recomendación:**
+Busca que los alumnos usen los datos, funciones y características del lenguaje y también el uso de estructuras de control como if, for o while.
+
+2. Realicen los siguientes ejercicios en R Studio y compartan su RMarkdown con la solución de todos:
+
+a) Escribe en lo siguiente R:
+* Genera una secuencia de números del 20 al 50.
+* Imprime la media de los números del 20 al 60 
+* Imprime la suma de los números del 51 al 91. Tip: Utilicen las funciones de R.
+
+```{r}
+#Escribe tu solución
+
+```
+
+
+
+b) Escribe en R  un vector que contenga 1000 valores enteros aleatorios entre -100 y +50. Revisen la función [sample](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sample)
+¿A qué problema te enfrentas y cómo lo resuelves?
+```{r}
+
+#Escribe tu solución
+
+
+```
+
+
+c) Escriban un programa R para obtener los primeros n números de Fibonacci: Revisa qué es la serie de [Fibonacci](https://www.youtube.com/watch?v=sY0HYpU2cwk)
+
+Como código base tienen: 
+```{r}
+#Código base:
+
+n<- 50
+fb <- numeric(n)
+fb[1] <- fb[2] <- 1
+print(fb)
+```
+
+
+d) Escriban un par de funciones en  R para encontrar el valor máximo y mínimo de un vector dado. PERO, creen sus propias funciones de máximo y mínimo. Deben probar con: 
+
+print(maximo(c(10, 20, 30, 4, 50, -60)))
+print(minimo(c(10, 20, 30, 4, 50, -60)))
+
+```{r}
+#Escribe tu solución
+print(maximo(c(10, 20, 30, 4, 50, -60)))
+print(minimo(c(10, 20, 30, 4, 50, -60)))
+
+```
+
+
+e) Escriban una función R para multiplicar dos vectores de tipo entero y longitud n, de la misma longitud ambos.
+print(multiplica(c(1:5), c(6:10) )) #La salida debe ser: [1]  6 14 24 36 50
+
+```{r}
+
+#Escribe tu solución
+print(multiplica(c(1:5), c(6:10) ))
+```
+
+f) Escriban una función R para contar el valor específico en un vector dado.
+print(cuenta(c(10, 20, 10, 7, 24,7, 5),7) )# salida: [1] 2
+```{r}
+
+#Escribe tu solución
+print(cuenta(c(10, 20, 10, 7, 24,7, 5),7) )
+```
+
+
+
+g) Escriban una función en R para generar una secuencia DNA aleatoria, la función recibe la longitud:
+```{r}
+#Escribe tu solución
+print(generaDNA(10))
+```
+
+
+h) Escriban una función en R para crear un data frame a partir de cuatro vectores dados. Los vectores son:
+
+nombre = c('Anastasia', 'Dima', 'Katherine')
+calificacion = c(12.5, 9, 16.5)
+intentos = c(1, 3, 2)
+dna = c('ATCG', 'CTGA', 'AGGG')
+df<-creaDataFrame(nombre, calificacion, intentos, dna)
+df
+```{r}
+
+nombres = c('Anastasia', 'Dima', 'Katherine')
+calificacion = c(12.5, 9, 16.5)
+intentos = c(1, 3, 2)
+dna = c('ATCG', 'CTGA', 'AGGG')
+
+
+#Escribe tu solución
+
+
+df <- creaDataFrame(nombres, calificacion, intentos, dna)
+df
+```
+
+
+
+i) Con el datafram anterior, realiza lo siguiente:
+  1. Obten la columna de dna
+```{r}
+
+#Escribe tu solución
+
+```
+  
+  2. Agrega una columna: rna con sus equivalentes
+```{r}
+#Escribe tu solución
+df
+```
+  
+  3. Agrega un registro más: "Angeles" y los demás datos aleatorios
+```{r}
+
+#Escribe tu solución
+
+df
+
+```
+  
+  4. Quita columna de calificacion
+```{r}
+
+#Escribe tu solución
+
+df
+```
+  

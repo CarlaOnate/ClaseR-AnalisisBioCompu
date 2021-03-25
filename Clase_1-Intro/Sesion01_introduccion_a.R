@@ -4,11 +4,11 @@
 ###                                                               			 ###
 ### Tecnológico de Monterrey    						                     ###
 ### BT1013 - marzo, 2021                       			                     ###
-### Dr. Hugo Tovar hugo.tovar@tec.mx                                         ### 
+### Dr. Hugo Tovar hugo.tovar@tec.mx                                         ###
 ################################################################################
 
 ## OBJECTIVE:
-## El propósito de este ejercicio es familiarizarte con R y con la forma de 
+## El propósito de este ejercicio es familiarizarte con R y con la forma de
 ## interactuar con la linea de comandos. El profesor tiene en su presentación
 ## estos mismos comandos y la idea es que experimentes introduciendolos a la
 ## consola de R.
@@ -24,14 +24,14 @@ help.start()
 ?setwd
 
 ## ASIGNACIÓN
-# el símbolo '<-' se usa para indicar asignación. También se usa para guardar 
+# el símbolo '<-' se usa para indicar asignación. También se usa para guardar
 # información en un objeto:
 
 x <- 45.5
 
 
 ## OPERADORES
-# Estos sirven para hacer varias operaciones aritméticas; estos son los más 
+# Estos sirven para hacer varias operaciones aritméticas; estos son los más
 # comunes:
 
 # + suma
@@ -104,6 +104,10 @@ edades[-"karla"]
 edades >= 60
 edades[edades >= 60]
 
+#Asignación de valores <-
+x <- 45.5 #Se asigna el valor 45.5 a la variable x, como un =. Segun tambien se puede usar =
+
+isTRUE(x)
 
 # Guía de estilo de R:
 # https://google.github.io/styleguide/Rguide.html
