@@ -1,0 +1,78 @@
+---
+title: "R Notebook"
+author: carla
+date: 08/04/21
+output: html_notebook
+---
+Marco Perez
+Abraham Chalita
+Carla Oñate A01653555
+
+Clase 4 - Ejercicios en clase
+
+Ejercicio 1: Escribe una función que genere una secuencia aleatoria de DNA de tamaño “n”.
+Para cambiar de directorio le pones getwd() y te da el folder actual.
+```{r}
+secuencia <- function(n){
+  res <- c()
+  letras <- c("A","T","G","C")
+  for (i in 1:n){
+    res <- c(res,letras[sample(1:4, 1)])
+  }
+  return (res)
+}
+
+res <- secuencia(5)
+res
+
+#Solucion de compañeros
+#Para que acepte inputs tienes que correr en la consola: rmarkdown::render("GenomasAct.Rmd", params = "ask")
+n<-readline(prompt = "Ingresa n: ")
+DNA<- sample(c('A','T','C','G'), n, replace =TRUE)
+DNA
+```
+
+
+Ejercicio 2: Codifica una función que calcula el tamaño de una secuencia de DNA.
+Recomendacion: strsplit
+```{r}
+DNA <- c('A','B','C','D')
+#n <- strsplit(DNA, fixed=TRUE) - Recomendacion maestra
+val <- length(DNA)
+print(val)
+#Compañeros
+tamanoDNA <- function(cadena){
+  return(length(cadena))
+}
+#con strsplit
+string <- readline(prompt = "lol")
+dna <- strsplit(string, "")[[1]] #Separa string que da el usuario y lo separa en vector. Regresa lista.
+length(dna)
+````
+Ejercicio 3: Crea una función que recibe una secuencia de DNA e imprime el porcentaje de cada base en la secuencia.
+Usar table.
+https://duckduckgo.com/?q=get+percentage+on+items+on+array+R&atb=v262-1&ia=web
+```{r}
+DNA <- c('A','T','T','T','T','T','C','C','C','C','C','G','G','G','G','G')
+aProportion <- table(DNA, "A")/length(DNA)
+aPercentage <- aProportion*100
+tProportion <- table(DNA, "T")/length(DNA)
+tPercentage <- tProportion*100
+cProportion <- table(DNA, "C")/length(DNA)
+cPercentage <- cProportion*100
+gProportion <- table(DNA, "G")/length(DNA)
+gPercentage <- gProportion*100
+
+```
+
+Ejercicio 4: Programa una función que transcribe DNA a RNA, usa la siguiente tabla
+Usar sapply
+Maestra hace dos fors pero al final solo se cambia la T por U.
+```{r}
+DNA <- c('A','T','T','T','T','T','C','C','C','C','C','G','G','G','G','G')
+apply(DNA, )
+changeTforU <- function(letter){
+
+}
+```
+
