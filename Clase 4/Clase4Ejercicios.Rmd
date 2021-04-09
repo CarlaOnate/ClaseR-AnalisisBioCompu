@@ -1,0 +1,315 @@
+---
+title: "EjesClase4R"
+author: "Marco, Abraham, Carla"
+date: "8/4/2021"
+output: html_document
+---
+##Integrantes del equipo:
+* A01660337 Marco Uriel Pérez Gutiérrez
+* A01653879 Abraham Chalita Nuñez
+* A01653555 Carla Oñate Gardella
+
+### Ejercicio 1.	Escribe una función que genere una secuencia aleatoria de DNA de tamaño “n”.
+```{r}
+longitud <- readline(prompt = "Entra longitud: ")
+longitud <- as.integer(longitud)
+generarDNA <- function(n){
+  DNA <- sample(c('A','T','C','G'),longitud,replace = TRUE)
+  return (DNA)
+}
+print(generarDNA(longitud))
+```
+### Ejercicio 2.	Codifica una función que calcula el tamaño de una secuencia de DNA.
+```{r}
+DNA <- c('A','T','C','G','A','T','C','G')
+tamañoDNA <- function(secuencia){
+  tamaño <- length(secuencia)
+  return (tamaño)
+}
+print(tamañoDNA(DNA))
+```
+### Ejercicio 3 : 3.	Crea una función que recibe una secuencia de DNA e imprime el porcentaje de cada base en la secuencia.
+
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+porcentajeDNA <- function(secuencia){
+  pA <- 0
+  pT <- 0
+  pC <- 0
+  pG <- 0
+  totA <- 0
+  totT <- 0
+  totC <- 0
+  totG <- 0
+  res <- c()
+  for (i in 1:length(secuencia)){
+    if(secuencia[i] == 'A'){
+      totA <- totA + 1
+    }
+    else if(secuencia[i] == 'T'){
+      totT <- totT + 1
+    }
+    else if(secuencia[i] == 'C'){
+      totC <- totC + 1
+    }
+    else if(secuencia[i] == 'G'){
+      totG <- totG + 1
+    }
+    pA <- totA/length(secuencia)*100
+    pT <- totT/length(secuencia)*100
+    pC <- totC/length(secuencia)*100
+    pG <- totG/length(secuencia)*100
+  }
+  return (res <- c(res,pA,pT,pC,pG))
+}
+print(porcentajeDNA(DNA))
+```
+
+### Ejercicio 4.	Programa una función que transcribe DNA a RNA
+
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+
+transcribe <- function(dna){
+  sapply(dna,function(x){
+    if(x == "T"){
+      return("U")
+    }
+    else{
+      return(x)
+    }
+  }, simplify = TRUE)
+}
+
+print(transcribe(DNA))
+
+```
+
+###5.	Crea una función que traduce una secuencia de RNA a una secuencia de proteínas.
+#### Solución Carla
+```{r}
+proteins <- list(UU=c(U='phe', C='phe', A='leu', G='leu'), CU='leu', AU=c(A='ile', C='ile', U='ile', G='met'), GU='Val', UC='ser', CU='pro', AC='thr', GC='ala', UA=c(U='tyr', C='tyr', A='stop', G='stop'), CA=c(U='his', C='his', A='gin', G='gin'), AA=c(U='asn', C='asn', A='lys', G='lys'), GA=c(U='asp', C='asp', A='glu', G='glu'), UG=c(U='cys', C='cys', G='trp', A='stop'), CG='arg', AG=c(U='ser', C='ser', A='arg', G='arg'), GG='gly')
+
+translation <- function(RNA){
+  resProteins<-c()
+  for(i in seq(from=1, to=nchar(RNA), by=3)){
+    el <- substring(RNA, i, i+2)
+    firstTwoLetter <- substring(el, 1,2)
+    lastLetter <- substring(el, 3)
+    if(length(proteins[[firstTwoLetter]]) == 1){
+      resProteins<-append(resProteins, proteins[[firstTwoLetter]])
+    } else {
+      resProteins<-append(resProteins, proteins[[firstTwoLetter]][[lastLetter]])
+    }
+  }
+  return(resProteins)
+}
+RNA <- readline(prompt = "Enter DNA sequence: ")
+translation(RNA)
+```
+
+#### Solución Abraham
+```{r}
+RNA <- readline(prompt = "Enter RNA sequence: ")
+to_protein <- function(RNA){
+  trio <- seq(1,nchar(RNA),3)
+  mctrio <- sapply(trio, function(x) {
+    substr(RNA, x, x+2)
+    })
+
+protein <- c()
+
+for(i in mctrio){
+	if(i == "UUU" | i =="UCC"){
+		protein <- c(protein, "Phe")
+	}else if(i == "UUA" | i =="UCG"){
+		protein <- c(protein, "Leu")
+	}else if(i =="UCU" | i =="UCC" | i =="UCA" | i =="UCG"){
+		protein <- c(protein, "Ser")
+	}else if(i == "UAU" | i =="UAC"){
+		protein <- c(protein, "Tyr")
+	}else if(i == "UGU" | i =="UGC"){
+		protein <- c(protein, "Cys")
+	}else if(i == "UGG"){
+		protein <- c(protein, "Trp")
+	}else if(i == "CUU" | i =="CUC" | i =="CUA" | i =="CUG"){
+		protein <- c(protein, "Leu")
+	}else if(i == "CCU" | i =="CCC" | i =="CCA" | i =="CCG"){
+		protein <- c(protein, "Pro")
+	}else if(i == "CAU" | i =="CAC"){
+		protein <- c(protein, "His")
+	}else if(i == "CAA" | i =="CAG"){
+		protein <- c(protein, "Gis")
+	}else if(i == "CGU" | i =="CGC" | i =="CGA" | i =="CGG"){
+		protein <- c(protein, "Arg")
+	}else if(i == "AUU" | i =="AUC" | i =="AUA"){
+		protein <- c(protein, "Ile")
+	}else if(i == "AUG"){
+		protein <- c(protein, "Met")
+	}else if(i == "ACU" | i =="ACC" | i =="ACA" | i =="ACG"){
+		protein <- c(protein, "Thr")
+	}else if(i == "AAU" | i =="AAC"){
+		protein <- c(protein, "Asn")
+	}else if(i == "AAA" | i =="AAG"){
+		protein <- c(protein, "Lys")
+	}else if(i == "AGU" | i =="AGC"){
+		protein <- c(protein, "Ser")
+	}else if(i == "AGA" | i =="AGG"){
+		protein <- c(protein, "Arg")
+	}else if(i == "GUU" | i =="GUC" | i =="GUA" | i =="GUG"){
+		protein <- c(protein, "Val")
+	}else if(i == "GCU" | i =="GCC" | i =="GCA" | i =="GCG"){
+		protein <- c(protein, "Ala")
+	}else if(i == "GAU" | i =="GAC"){
+		protein <- c(protein, "Asp")
+	}else if(i == "GAA" | i =="GAG"){
+		protein <- c(protein, "Glu")
+	}else if(i == "GGU" | i =="GGC" | i =="GGA" | i =="GGG"){
+		protein <- c(protein, "Gly")
+	}else if(i == "UAA" | i =="UAG"){
+		protein <- c(protein, "Stop")
+	}
+}
+
+return(protein)
+}
+
+
+print(to_protein(RNA))
+
+
+```
+
+### 6. Escribe una función que recibe una hebra directa y regresa la hebra inversa.
+
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+
+inversa <- function(dna){
+  inv <- c()
+  size = length(dna)
+  for(i in 1:length(dna)){
+    inv <- c(inv,dna[size])
+    size <- size - 1
+  }
+  return(inv)
+}
+
+print(inversa(DNA))
+
+```
+### 7. Escribe una función qué recibe una hebra directa y obtiene la hebra complementaria.
+#### a.	Hebra directa: 5'-TGCGATAC-3'
+#### b.	Hebra complementaria: 3'-ACGCTATG-5'.
+
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+
+complement <- function(dna){
+  com <- c()
+  for(i in 1:length(dna)){
+    if(dna[i] == 'T'){
+      com <- c(com,'A')
+    }
+    else if(dna[i] == 'A'){
+      com <- c(com,'T')
+    }
+    else if(dna[i] == 'C'){
+      com <- c(com,'G')
+    }
+    else if(dna[i] == 'G'){
+      com <- c(com,'C')
+    }
+    else{
+      com <- c(com,dna[i])
+    }
+  }
+  return(com)
+}
+
+print(complement(DNA))
+
+```
+### 8. Escribe la función en R para obtener la hebra complementaria inversa, desde una hebra DIRECTA.
+
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+
+complement <- function(dna){
+  com <- c()
+  for(i in 1:length(dna)){
+    if(dna[i] == 'T'){
+      com <- c(com,'A')
+    }
+    else if(dna[i] == 'A'){
+      com <- c(com,'T')
+    }
+    else if(dna[i] == 'C'){
+      com <- c(com,'G')
+    }
+    else if(dna[i] == 'G'){
+      com <- c(com,'C')
+    }
+    else{
+      com <- c(com,dna[i])
+    }
+  }
+  return(com)
+}
+
+inversa <- function(dna){
+  inv <- c()
+  size = length(dna)
+  for(i in 1:length(dna)){
+    inv <- c(inv,dna[size])
+    size <- size - 1
+  }
+  return(inv)
+}
+
+compinver <- function(dna){
+  res <- dna
+  res <- complement(res)
+  res <- inversa(res)
+}
+
+print(compinver(DNA))
+```
+
+### 9.	Prueba UNA de las funciones y recuerda que las secuencias pueden contener caracteres especiales donde aparte de ATGC, en ADN, y AUGC, en ARN, pudimos ver algunos guiones (omitidos) y N (desconocido) nucleótido
+```{r}
+string <- readline(prompt = "Enter DNA sequence: ")
+DNA <- strsplit(string,"")[[1]]
+
+complement <- function(dna){
+  com <- c()
+  for(i in 1:length(dna)){
+    if(dna[i] == 'T'){
+      com <- c(com,'A')
+    }
+    else if(dna[i] == 'A'){
+      com <- c(com,'T')
+    }
+    else if(dna[i] == 'C'){
+      com <- c(com,'G')
+    }
+    else if(dna[i] == 'G'){
+      com <- c(com,'C')
+    }
+    else{
+      com <- c(com,dna[i])
+    }
+  }
+  return(com)
+}
+
+print(complement(DNA))
+#Observaremos que si aparece un guion, N, o algún otro caracter
+#el algortimo no lo cambia y lo deja igual
+
+```
