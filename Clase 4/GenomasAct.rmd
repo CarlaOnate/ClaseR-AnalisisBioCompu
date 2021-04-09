@@ -90,11 +90,10 @@ proteins <- list(UU=c(U='phe', C='phe', A='leu', G='leu'), CU='leu', AU=c(A='ile
 
 translation <- function(RNA){
   resProteins<-c()
-  for(el in RNA){
-
+  for(i in seq(from=1, to=nchar(RNA), by=3)){
+    el <- substring(RNA, i, i+2)
     firstTwoLetter <- substring(el, 1,2)
     lastLetter <- substring(el, 3)
-
     if(length(proteins[[firstTwoLetter]]) == 1){
       resProteins<-append(resProteins, proteins[[firstTwoLetter]])
     } else {
@@ -104,8 +103,7 @@ translation <- function(RNA){
   return(resProteins)
 }
 
-
-RNA <- c('UUU', 'CUA','GUC','UAU','AAU','GAU','GGU','UGA')
+RNA <- c("UUUCUAGUCUAUAAUGAUGGUUGA")
 translation(RNA)
 ```
 
