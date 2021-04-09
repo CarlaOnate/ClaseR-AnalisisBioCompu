@@ -86,37 +86,26 @@ sapply(DNA, changeTforU, simplify=TRUE)
 Ejercicio 5: Crea una función que traduce una secuencia de RNA a una secuencia de proteínas
 ```{r}
 
-letters <- c('A','U','C','G')
-stop<-c('UAA', 'UAG','UGA')
-
-proteins <- list(UU=c(U='phe', C='phe', A='leu', G='leu'), CU='Leu', AU=c(A='ile', C='ile', U='ile', G='met'), GU='Val', UC='Ser', CU='Pro', AC='Thr', GC='Ala', UA=c(U='tyr', C='tyr'), CA=c(U='his', C='his', A='gin', G='gin'), AA=c(U='asn', C='asn', A='lys', G='lys'), GA=c(U='asp', C='asp', A='glu', G='glu'), UG=c(U='cys', C='cys', G='trp'), CG='Arg', AG=c(U='ser', C='ser', A='arg', G='arg'), GG='Gly')
+proteins <- list(UU=c(U='phe', C='phe', A='leu', G='leu'), CU='leu', AU=c(A='ile', C='ile', U='ile', G='met'), GU='Val', UC='ser', CU='pro', AC='thr', GC='ala', UA=c(U='tyr', C='tyr', A='stop', G='stop'), CA=c(U='his', C='his', A='gin', G='gin'), AA=c(U='asn', C='asn', A='lys', G='lys'), GA=c(U='asp', C='asp', A='glu', G='glu'), UG=c(U='cys', C='cys', G='trp', A='stop'), CG='arg', AG=c(U='ser', C='ser', A='arg', G='arg'), GG='gly')
 
 translation <- function(RNA){
-  #Add if for stop values
-
   resProteins<-c()
-
   for(el in RNA){
+
     firstTwoLetter <- substring(el, 1,2)
     lastLetter <- substring(el, 3)
-    print(lastLetter)
 
-    proteinValType<-typeof(proteins[firstTwoLetter])
-
-    if(proteinValType == "character"){
-      print(proteins[firstTwoLetter][lastLetter])
-      print(proteins[firstTwoLetter])
-      #resProteins<-c(resProteins, proteins[firstTwoLetter])
+    if(length(proteins[[firstTwoLetter]]) == 1){
+      resProteins<-append(resProteins, proteins[[firstTwoLetter]])
     } else {
-      print(proteins[firstTwoLetter][lastLetter])
-      #resProteins<-c(resProteins, proteins[firstTwoLetter][lastLetter])
+      resProteins<-append(resProteins, proteins[[firstTwoLetter]][[lastLetter]])
     }
   }
   return(resProteins)
 }
 
-RNA <- c('UUU', 'UUA', 'CUA')
 
+RNA <- c('UUU', 'CUA','GUC','UAU','AAU','GAU','GGU','UGA')
 translation(RNA)
 ```
 
