@@ -24,6 +24,13 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 4/EjerciciosC4.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 4" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Clase 4/GenomasAct.rmd">
           <value>
             <RMarkdownRenderProfile>
