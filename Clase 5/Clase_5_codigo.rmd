@@ -1,0 +1,144 @@
+---
+title: "R Notebook"
+author: carla
+date: 12/04/21
+output: html_document
+---
+
+Grupo Lea, Adahair
+ENTREGA 1 POR EQUIPO
+
+```{r}
+
+```
+
+```{r}
+setwd("/Users/carla/WebstormProjects/NotasClaseR/Clase 5/")
+```
+
+```{r}
+pacientes <- read.delim("diseases.csv", sep=",", header = TRUE, stringsAsFactors = TRUE)
+```
+El string as factors nos dice que los stirng se interpretan como factores. Donde dice factor especifica cuantos niveles tiene. Esto quiere decir que este tipo de dato es un clasificacion, cada nivel tiene un numero, como female es 0 y male es 1. Esto ayuda a que las operaciones sean mas rapidas y que otras no funciones. Es importante saber si tenemos un texto o un factor.
+
+
+Visualizando tiop de dato
+Str te da info del arc
+```{r}
+Visualizando tipo de dato
+{r}
+str(pacientes)
+class(pacientes)
+
+dim(pacientes) # Num renglones y columnas
+dimnames(pacientes) # Nombres de renglones y columnas
+
+
+Accesar a la información
+
+{r}
+pacientes[5, 1] # Renglón, columna
+
+pacientes[5, "id"]  # Columna por nombre
+
+pacientes$id[5]  # Columna como vector y accedo a la posición 5
+
+pacientes[5,]  # Todo el renglón 5
+
+pacientes[ , "id"] # Acceder a una columna
+pacientes[ , 1]
+pacientes$id
+
+pacientes[c(1995, 200), c("id", "disease")]  # renglón 1995 y 200, columnas id y diseases
+
+head(pacientes)  # Primeros 6 renglones
+tail(pacientes)  # Últimos 6 renglones
+
+
+Modificar información
+
+{r}
+income <- sample(5000:10000, 2000, replace = TRUE)
+```
+
+
+Acceso a la informacion
+```{r}
+paciente[5,1]
+pcientes[5, "id"]
+pacientes$id[5]
+
+pacientes[5,]
+pacientes[,"id"]
+
+pacientes$id
+
+pacientes[c(19995, 200), c("id", "disease")]
+
+head(pacientes)
+tail(pacientes)
+```
+
+Modificar la informacion
+Agregar columna - tiene 2mil elementos porque el data frame tiene 2 mil renglores y si agregas un renglon tienes que checar que tenga la misma longitud de la columnas o sino si agregas columna tienes que checar que tenga longitud de renlgoes. Porque el data frame tiene que ser pareja.
+Cbind agregar columnas -
+```{r}
+income <- sample(5000:10000, 2000, replace = TRUE)
+pacientes$income <- income
+
+income2 <- sample(5000:10000, 2000, replace = TRUE)
+pacientes <- cbind(pacientes, income2) #cbind agrega columna
+
+bw <- data<-frame(id="Bruce Wayne", gender="male",dob="12/1987",zipcode=53446,education="Bachelor",employment="Employed",children=1,marital_status="married",ancestry="Europe",number_vehicles=10,commute_time=2.5,accommodation="Mansion",disease="crime fighting",income=9999999, income2=5000)
+
+pacientes <- rbind(pacientes, bw)
+dim(pacientes)
+ncol(paceintes)
+nrom(pacientes)
+```
+
+
+Algunas estadisticas de nuestros datos
+```{r}
+summary(pacientes)
+summary(pacientes$disease)
+summary(pacientes$id)
+summary(pacientes$number_vehicles)
+table(paceintes$number_vehicules)
+sim(pacientes$number_vehicle)
+```
+
+Graficar
+```{r}
+plot(pacientes$education)
+table(pacientes$education)
+
+plot(pacientes$income) #Hace el plot de la parte de income
+
+```
+
+
+Graficar solo lo de PhD
+```{r}
+pacientes[c(5,7)]
+pacientes[c(5,7), "disease"]
+cond <- c(rep(0.1000), rep(1,1001)) #Saca los daots de todos los que tengan factor 1 - male
+pacientes[cond, "disease"]
+table(pacientes$disease)
+
+```
+
+Vecotr logico se puede generar a partir de una comparacion.
+```{r}
+vect <- c(10,20,30,40)
+#vector logico
+doctores <- pacientes$education == "PhD/md" #Vector con todos datos de pacientes que tengan en eduaction phd/md
+doctores.pacientes <- pacientes[doctores, "disease"] #Enfermedades para cada uno de los doctores
+table(doctores.pacientes)
+plot(sort(table(doctores.pacientes), decreasing = TRUE))
+
+```
+
+UIPAC - https://www.bioinformatics.org/sms/iupac.html
+
+

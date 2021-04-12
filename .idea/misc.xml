@@ -38,6 +38,13 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 5/Clase_5_codigo.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 5" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Clase_1-Intro/basicoR.Rmd">
           <value>
             <RMarkdownRenderProfile>
