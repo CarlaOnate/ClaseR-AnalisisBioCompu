@@ -1,0 +1,627 @@
+"","country","city","year","month","female","age","respSX","pna","mechVent","ards","death","hospDelay","hospDelay4","survTime","antiviral","labData","path","pcgeh","pcgeh4","pcteh","pcteh4","comorbid","complic","whoCase","hemisphere","season","ageCat4","countryCat","sickBird","birdContact"
+"1","Azerbaijan","Salyan Rayon  (Sarvan settlement)",2006,2,1,17,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4","Neoplasm",NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"2","Azerbaijan","Salyan Rayon (Daikyand settlement)",2006,3,1,20,NA,1,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","a3","Other","bYes","bYes"
+"3","Azerbaijan","Tarter Province",2006,2,0,24,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"0","Northern","cWinter","a3","Other",NA,NA
+"4","Azerbaijan","Tarter Province",2006,3,1,18,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other",NA,NA
+"5","Azerbaijan","Salyan Rayon ",2006,3,1,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"6","Azerbaijan","Salyan Rayon ",2006,3,0,16,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"7","Azerbaijan","Salyan Rayon ",2006,3,0,10,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"8","Azerbaijan","Salyan Rayon ",2006,3,1,15,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"9","Azerbaijan","Salyan Rayon ",2006,3,1,17,NA,1,NA,NA,0,NA,NA,NA,NA,NA,NA,20.8,"Q2",148.7,"Q4",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"10","Bangladesh","Kamalapur, Dhaka",2008,1,0,1.333333333,1,1,0,0,0,NA,NA,NA,0,0,NA,6.9,"Q1",19.4,"Q1",NA,NA,"1","Northern","cWinter","b1","Other","cLikely","bYes"
+"11","Bangladesh","Kamalapur, Dhaka",2011,3,1,1.333333333,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.7,"Q1",26.5,"Q1",NA,NA,"1","Northern","dSpring","b1","Other",NA,NA
+"12","Bangladesh","Kamalapur, Dhaka",2011,3,0,2,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.7,"Q1",26.5,"Q1",NA,NA,"1","Northern","dSpring","b1","Other","bYes","bYes"
+"13","Bangladesh","Dhaka City",2012,2,0,40,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.7,"Q1",26.5,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,"bYes"
+"14","Bangladesh","Dhaka City",2012,2.5,0,26,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.7,"Q1",26.5,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,"bYes"
+"15","Bangladesh","Dhaka City",2012,2.5,0,18,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.7,"Q1",26.5,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,"bYes"
+"16","Cambodia","Kampot Province",2005,1,0,14,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,7.2,"Q1",32.8,"Q1",NA,NA,"0","Northern","cWinter","b2","Other",NA,NA
+"17","Cambodia","Kampot Province",2005,1,1,25,1,NA,NA,NA,1,6,"Q3",NA,NA,1,NA,7.2,"Q1",32.8,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"18","Cambodia","Kampot Province",2005,3,0,28,1,1,1,NA,1,4,"Q2",5,NA,1,NA,7.2,"Q1",32.8,"Q1",NA,NA,"1","Northern","dSpring","b4","Other","bYes","bYes"
+"19","Cambodia","Kampot Province",2005,3,1,8,1,NA,NA,NA,1,9,"Q4",NA,NA,1,NA,7.2,"Q1",32.8,"Q1",NA,NA,"1","Northern","dSpring","b2","Other","aNo",NA
+"20","Cambodia","Kampot Province",2005,4,1,20,1,NA,NA,NA,1,NA,NA,NA,NA,1,NA,7.2,"Q1",32.8,"Q1",NA,NA,"1","Northern","dSpring","a3","Other",NA,NA
+"21","Cambodia","Kampong Speu Province",2006,3,1,3,1,NA,NA,NA,1,6,"Q3",7,NA,1,NA,6.5,"Q1",30.3,"Q1",NA,NA,"1","Northern","dSpring","b1","Other","bYes","bYes"
+"22","Cambodia","Kampong Speu Province",2006,5,0,16,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1",NA,NA,"0","Northern","dSpring","b2","Other","cLikely","bYes"
+"23","Cambodia","Prey Veng Province",2006,3,0,12,1,NA,NA,NA,1,6,"Q3",7,NA,1,NA,6.5,"Q1",30.3,"Q1",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"24","Cambodia","Prey Veng Province",2006,5,0,4,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1","Asthma",NA,"0","Northern","dSpring","b1","Other","bYes","bYes"
+"25","Cambodia","Prey Veng Province",2006,5,1,4,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1","Chronic bronchitis",NA,"0","Northern","dSpring","b1","Other","cLikely","bYes"
+"26","Cambodia","Prey Veng Province",2006,5,0,10,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1",NA,NA,"0","Northern","dSpring","b2","Other","bYes","bYes"
+"27","Cambodia","Prey Veng Province",2006,5,0,12,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1",NA,NA,"0","Northern","dSpring","b2","Other","bYes","bYes"
+"28","Cambodia","Prey Veng Province",2006,5,0,16,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1",NA,NA,"0","Northern","dSpring","b2","Other","bYes","bYes"
+"29","Cambodia","Prey Veng Province",2006,5,0,18,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,6.5,"Q1",30.3,"Q1","Smoking habit",NA,"0","Northern","dSpring","b2","Other","cLikely","bYes"
+"30","Cambodia","Kampong Cham province",2007,4,1,13,NA,NA,NA,NA,1,1,"Q1",3,NA,NA,NA,6.2,"Q1",27.7,"Q1",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"31","Cambodia","Kandal Province",2008,11,0,19,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,7.6,"Q1",40.5,"Q1",NA,NA,"1","Northern","bFall","a3","Other",NA,NA
+"32","Cambodia","Kampong Cham Province",2009,12,0,57,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,9.6,"Q1",47.2,"Q2",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"33","Cambodia","Prey Veng Province",2010,4,0,27,NA,NA,NA,NA,1,3,"Q2",4,NA,NA,NA,10.3,"Q1",48,"Q2",NA,NA,"1","Northern","dSpring","b4","Other","bYes","bYes"
+"34","Cambodia","Phnom Penh",2011,1,1,5,NA,NA,NA,NA,1,5,"Q3",5.5,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"35","Cambodia","Banteay Meanchey Province",2011,2,1,19,NA,NA,NA,NA,1,7,"Q4",7,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","a3","Other","bYes","bYes"
+"36","Cambodia","Banteay Meanchey Province",2011,2,0,0.916666667,NA,NA,NA,NA,1,10,"Q4",12,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"37","Cambodia","Kampong Cham Province",2011,3,1,11,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","cLikely","cLikely"
+"38","Cambodia","Prey Veng Province",2011,4,1,5,NA,NA,NA,NA,1,2,"Q1",4,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","cLikely","cLikely"
+"39","Cambodia","Prey Veng Province",2011,5,1,7,NA,NA,NA,NA,1,7,"Q4",7,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","cLikely","cLikely"
+"40","Cambodia","Banteay Meanchey Province",2011,7,1,4,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","aSummer","b1","Other","cLikely","cLikely"
+"41","Cambodia","Kampong Cham Province",2011,8,1,6,NA,NA,NA,NA,1,5,"Q3",7,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","aSummer","b2","Other","bYes","bYes"
+"42","Cambodia","Banteay Meanchey Province",2012,1,0,2,NA,NA,1,NA,1,6,"Q3",15,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"43","Cambodia","Kampong Chhnang Province",2012,3,1,6,NA,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"44","Cambodia","Kampong Speu Province",2012,5,1,10,1,NA,NA,NA,1,5,"Q3",7,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"45","Cambodia","Phnom Penh",2013,1,0,0.666666667,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other",NA,"bYes"
+"46","Cambodia","Takeo Province",2013,1,1,17,1,NA,NA,NA,1,6,"Q3",10,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"47","Cambodia","Kong Pisey district, Kampong Speu Province",2013,1,0,35,1,NA,NA,NA,1,8,"Q4",8,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"48","Cambodia","Kong Pisey district, Kampong Speu Province",2013,1,1,1.416666667,1,NA,NA,NA,1,4,"Q2",15,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other",NA,"cLikely"
+"49","Cambodia","Toeuk Chhou district, Kampot province",2013,1,1,9,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b2","Other",NA,"cLikely"
+"50","Cambodia","Trapeang Kamphleanh village, Ang Phnom Toch commune, Angkor Chey district in Kampot province",2013,2,1,3,0,NA,NA,NA,1,3,"Q2",10,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other","cLikely","bYes"
+"51","Cambodia","Ang Romduol village, Angkor Chey commune, Angkor Chey district in Kampot province",2013,2,0,1.666666667,NA,NA,NA,NA,1,12,"Q4",13,NA,NA,NA,11.5,"Q1",51.2,"Q2",NA,NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"52","Hong Kong SAR China","Hong Kong",1997,5,0,3,1,1,1,1,1,6,"Q3",12,0,1,1,13.7,"Q1",31,"Q1","Previously healthy","Bilateral pneumonia; Reye's syndrome; haemophagocytosis; renal failure; coagulopathy. 
+Pneumothorax ~ 1 hr after starting endotracheal surfactant replacement therapy.","0","Northern","dSpring","b1","Other","cLikely","bYes"
+"53","Hong Kong SAR China","Hong Kong",1997,11,0,2,1,1,0,0,0,1,"Q1",NA,0,1,NA,13.7,"Q1",31,"Q1","Congenital heart disease (VSD)","None","0","Northern","bFall","b1","Other",NA,"aNo"
+"54","Hong Kong SAR China","Hong Kong",1997,11,1,13,1,1,1,1,1,6,"Q3",30,1,1,1,13.7,"Q1",31,"Q1","Previously healthy","Hemoptysis due to pulmonary hemorrhage; ARDS; gastrointestinal bleeding; renal failure; haemophagocytosis.","0","Northern","bFall","b2","Other",NA,"aNo"
+"55","Hong Kong SAR China","Hong Kong",1997,11,0,54,1,1,1,NA,1,5,"Q3",11,1,1,1,13.7,"Q1",31,"Q1","ECG evidence of old myocardial infarct","Acute renal failure","0","Northern","bFall","b4","Other",NA,"aNo"
+"56","Hong Kong SAR China","Hong Kong",1997,12,1,24,1,1,1,1,0,3,"Q2",NA,1,NA,NA,13.7,"Q1",31,"Q1","Previously healthy","Septic shock; ARDS; bilateral pleural effusion","0","Northern","cWinter","a3","Other",NA,"aNo"
+"57","Hong Kong SAR China","Hong Kong",1997,12,1,5,1,NA,NA,NA,0,NA,NA,NA,1,1,NA,13.7,"Q1",31,"Q1","Previously healthy","None.","0","Northern","cWinter","b2","Other",NA,"bYes"
+"58","Hong Kong SAR China","Hong Kong",1997,12,0,2,1,NA,NA,NA,0,NA,NA,NA,1,1,NA,13.7,"Q1",31,"Q1","Glucose-6-phosphate dehydrogenase deficiency","None.","0","Northern","cWinter","b1","Other",NA,"bYes"
+"59","Hong Kong SAR China","Hong Kong",1997,12,1,60,0,1,1,1,1,NA,NA,NA,1,1,NA,13.7,"Q1",31,"Q1","Malignant thymoma treated with radiotherapy 10 yrs ago","Progressive bilateral pneumonia; ARDS; renal failure","0","Northern","cWinter","b4","Other",NA,"aNo"
+"60","Hong Kong SAR China","Hong Kong",1997,12,1,19,1,1,1,1,0,NA,NA,NA,1,1,NA,13.7,"Q1",31,"Q1","Previously healthy","Progressive bilateral pneumonia; ARDS; pleural effusions requiring tube thoractomy drainage.","0","Northern","cWinter","a3","Other",NA,"bYes"
+"61","Hong Kong SAR China","Hong Kong",1997,12,1,25,1,NA,1,1,1,NA,NA,NA,1,1,1,13.7,"Q1",31,"Q1","Previously healthy","ARDS; bilateral massive haemorrhagic pleural effusions","0","Northern","cWinter","a3","Other",NA,"bYes"
+"62","Hong Kong SAR China","Hong Kong",1997,12,0,1,1,NA,NA,NA,0,NA,NA,NA,0,1,NA,13.7,"Q1",31,"Q1","Previously healthy","None","0","Northern","cWinter","b1","Other",NA,"aNo"
+"63","Hong Kong SAR China","Hong Kong",1997,12,1,3,1,NA,NA,NA,0,NA,NA,NA,0,1,NA,13.7,"Q1",31,"Q1","Previously healthy","None","0","Northern","cWinter","b1","Other",NA,"aNo"
+"64","Hong Kong SAR China","Hong Kong",1997,12,0,37,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Previously healthy",NA,"0","Northern","cWinter","b4","Other",NA,"bYes"
+"65","Hong Kong SAR China","Hong Kong",1997,12,0,4,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Previously healthy",NA,"0","Northern","cWinter","b1","Other",NA,"aNo"
+"66","Hong Kong SAR China","Hong Kong",1997,12,1,14,NA,1,1,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Histiocytosis X and diabetes insipidus","Severe pneumonia requiring ventilatory support;
+recovered","0","Northern","cWinter","b2","Other",NA,"bYes"
+"67","Hong Kong SAR China","Hong Kong",1997,12,0,3,NA,NA,0,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Previously healthy",NA,"0","Northern","cWinter","b1","Other",NA,"aNo"
+"68","Hong Kong SAR China","Hong Kong",1997,12,1,6,NA,1,0,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Previously healthy",NA,"0","Northern","cWinter","b2","Other",NA,"bYes"
+"69","Hong Kong SAR China","Hong Kong",1997,12,1,34,NA,1,1,NA,1,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1","Systemic lupus erythematosus  complicated by nephritis and pleural effusion",NA,"0","Northern","cWinter","b4","Other",NA,"aNo"
+"70","Hong Kong SAR China","Hong Kong",1997,11.5,0,34,1,NA,NA,NA,0,NA,NA,NA,NA,0,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","bFall","b4","Other",NA,"bYes"
+"71","Hong Kong SAR China","Hong Kong",1997,11.5,1,36,NA,NA,NA,NA,0,NA,NA,NA,NA,0,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","bFall","b4","Other",NA,"bYes"
+"72","Hong Kong SAR China","Hong Kong",1997,11.5,1,52,NA,NA,NA,NA,0,NA,NA,NA,NA,0,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","bFall","b4","Other",NA,"bYes"
+"73","Hong Kong SAR China","Hong Kong",1997,11.5,0,24,NA,NA,NA,NA,0,NA,NA,NA,NA,0,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","bFall","a3","Other",NA,"aNo"
+"74","Hong Kong SAR China","Hong Kong",1997,11,0,39,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","bFall","b4","Other",NA,NA
+"75","Hong Kong SAR China","Hong Kong",1997,12,1,39,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,13.7,"Q1",31,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"76","Hong Kong SAR China","Hong Kong",1998,1,0,43,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,14.8,"Q2",35.4,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"77","Hong Kong SAR China","Hong Kong",1998,1,0,43,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,14.8,"Q2",35.4,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"78","Hong Kong SAR China","Hong Kong",1998,1,0,41,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,14.8,"Q2",35.4,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"79","Hong Kong SAR China","Hong Kong",1998,1,0,37,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,14.8,"Q2",35.4,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"80","China","Travelled to Fujian Province in January",2003,1,1,7,1,1,NA,NA,1,NA,NA,7,NA,0,NA,22.2,"Q2",61.2,"Q2",NA,NA,"0","Northern","cWinter","b2","Other",NA,NA
+"81","China","Travelled to Fujian Province in January",2003,2,0,9,NA,1,0,NA,0,3,"Q2",NA,1,1,1,22.2,"Q2",61.2,"Q2","Previously healthy",NA,"1","Northern","cWinter","b2","Other",NA,"bYes"
+"82","China","Travelled to Fujian Province in January",2003,2,0,33,1,1,1,1,1,4,"Q2",10,1,1,1,22.2,"Q2",61.2,"Q2","Previously healthy",NA,"1","Northern","cWinter","b4","Other",NA,NA
+"83","China","Beijing (military base)",2003,11,0,24,NA,1,NA,1,1,NA,NA,8,NA,NA,1,22.2,"Q2",61.2,"Q2",NA,NA,"1","Northern","bFall","a3","Other",NA,NA
+"84","China","Hunan Province",2005,10,1,12,1,1,1,1,1,NA,NA,NA,0,1,NA,31.2,"Q3",80.4,"Q3","Previously healthy.","ARDS, disseminated intravascular coagulation, and multiorgan distress syndrome","0","Northern","bFall","b2","Other","bYes","bYes"
+"85","China","Hunan Province",2005,10,0,9,1,NA,NA,NA,0,NA,NA,NA,1,NA,NA,31.2,"Q3",80.4,"Q3",NA,NA,"1","Northern","bFall","b2","Other","bYes","bYes"
+"86","China","Anhui Province",2005,11,1,24,1,1,1,1,1,6,"Q3",9,0,1,1,31.2,"Q3",80.4,"Q3","Pregnant - 4 months","disseminated intravascular coagulation and multiorgan failure, ARDS","1","Northern","bFall","a3","Other",NA,"bYes"
+"87","China","Anhui Province",2005,11,1,35,NA,NA,NA,NA,1,4,"Q2",11,NA,NA,NA,31.2,"Q3",80.4,"Q3",NA,NA,"1","Northern","bFall","b4","Other",NA,NA
+"88","China","Guangxi Province",2005,11,1,10,1,1,NA,NA,1,NA,NA,14,NA,NA,NA,31.2,"Q3",80.4,"Q3",NA,NA,"1","Northern","bFall","b2","Other",NA,NA
+"89","China","Liaoning Province",2005,10,1,31,1,1,NA,NA,0,7,"Q4",NA,1,1,NA,31.2,"Q3",80.4,"Q3",NA,NA,"1","Northern","bFall","b4","Other","bYes","bYes"
+"90","China","Jiangxi Province",2005,12,0,35,1,1,1,1,1,6,"Q3",27,1,NA,1,31.2,"Q3",80.4,"Q3",NA,"Multiple organ failure.  Sputum Cx (+) forseveral gram-positive microorganisms and Candida albicans. Tracheostomy. Chest tube due to pneumo-mediastinum. ARDS.","1","Northern","cWinter","b4","Other","bYes","bYes"
+"91","China","Fujian Province (Sanming)",2005,12,1,41,1,1,NA,1,1,2,"Q1",15,NA,NA,NA,31.2,"Q3",80.4,"Q3","thymectomy for benign thymoma 6 wk before illness onset, had recovered fully, did not require any medications, and resumed working","Respiratory
+failure, ARDS,
+cardiac failure,
+septicemia","1","Northern","cWinter","b4","Other","cLikely","cLikely"
+"92","China","Hunan Province",2005,12,0,6,NA,1,NA,NA,0,NA,NA,NA,NA,NA,NA,31.2,"Q3",80.4,"Q3",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"93","China","Sichuan Province",2006,1,1,35,1,1,NA,NA,1,7,"Q4",8,1,NA,1,38,"Q3",93.4,"Q3",NA,"toxic shock","1","Northern","cWinter","b4","Other",NA,"bYes"
+"94","China","Sichuan Province (Chengdu City) ",2006,1,1,29,1,1,NA,NA,1,NA,NA,11,NA,NA,NA,38,"Q3",93.4,"Q3","Previously healthy",NA,"1","Northern","cWinter","b4","Other","cLikely","cLikely"
+"95","China","Fujian Province",2006,1,1,26,NA,1,NA,1,0,NA,NA,NA,NA,NA,NA,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","cWinter","b4","Other","aNo",NA
+"96","China","Hunan Province",2006,1,1,20,1,1,NA,NA,1,NA,NA,8,NA,1,1,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","cWinter","a3","Other",NA,"bYes"
+"97","China","Zhejiang Province (Anji county)",2006,2,1,9,1,1,NA,NA,1,NA,NA,24,NA,NA,NA,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"98","China","Anhui Province",2006,2,1,26,NA,1,1,1,0,8,"Q4",NA,1,1,NA,38,"Q3",93.4,"Q3","Pregnancy","Miscarriage, ARDS.","1","Northern","cWinter","b4","Other","bYes","bYes"
+"99","China","Guangdong Province (City: Guangzhou)",2006,2,0,32,1,1,NA,1,1,NA,NA,8,0,NA,1,38,"Q3",93.4,"Q3","Previously healthy","Respiratory failure, ARDS.  Also liver failure, renal failure, disseminated intravascular coagulopathy. ","1","Northern","cWinter","b4","Other",NA,"cLikely"
+"100","China","Shanghai",2006,3,1,29,1,1,NA,1,1,NA,NA,8,NA,NA,NA,38,"Q3",93.4,"Q3",NA,"Respiratory failure, ARDS, cardiac failure","1","Northern","dSpring","b4","Other",NA,"bYes"
+"101","China","Hubei Province (City: Wuhan)",2006,4,0,21,1,NA,NA,1,1,NA,NA,18,NA,NA,NA,38,"Q3",93.4,"Q3",NA,"Respiratory failure, ARDS, cardiac failure, septicemia","1","Northern","dSpring","a3","Other","aNo",NA
+"102","China","Sichuan Province",2006,4,1,8,NA,1,NA,NA,0,NA,NA,NA,NA,NA,NA,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","dSpring","b2","Other","cLikely",NA
+"103","China","Guangdong Province (Shenzhen City)",2006,6,0,31,1,1,1,1,0,6,"Q3",NA,1,1,NA,38,"Q3",93.4,"Q3",NA,"Respiratory failure, ARDS.  (+) Pseudomonas aeruginosa from tracheal aspirate on 6/16/06 (which was drug-resistant to all Abx except poymyxin).","1","Northern","aSummer","b4","Other","aNo","bYes"
+"104","China","Xinjiang Uygur Autonomous Region",2006,6,0,62,NA,NA,NA,NA,1,NA,NA,23,NA,NA,NA,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","aSummer","b4","Other","aNo",NA
+"105","China","Anhui Province (Tunxi)",2006,12,0,37,NA,NA,NA,NA,0,7,"Q4",NA,NA,NA,NA,38,"Q3",93.4,"Q3",NA,NA,"1","Northern","cWinter","b4","Other",NA,"bYes"
+"106","China","Fujian Province (Jian'ou country)",2007,2,1,44,1,1,1,1,0,4,"Q2",NA,1,1,NA,53.7,"Q4",114.5,"Q3","20 years of bronchiectasis; 1 year of Rheumatoid arthritis; 10 years of Psoriasis;","ARDS, bilateral pneumothorax (right side on hospital day #16, left side on hospital day #35).  Right-sided bronchopleural fistula (resolving downstream).","1","Northern","cWinter","b4","Other","bYes","bYes"
+"107","China","Anhui Province",2007,3,0,16,1,1,NA,1,1,3,"Q2",10,1,1,NA,53.7,"Q4",114.5,"Q3",NA,"(ARDS) and  pneumohypoderma.  Co-infection with Mycoplasma (and fungus)","1","Northern","dSpring","b2","Other","aNo",NA
+"108","China","Fujian Province",2007,5,0,19,NA,NA,NA,NA,1,5,"Q3",25,NA,NA,NA,53.7,"Q4",114.5,"Q3",NA,NA,"1","Northern","dSpring","a3","Other","aNo",NA
+"109","China","Jiangsu Province",2007,11,0,24,NA,1,1,1,1,3,"Q2",8,0,1,NA,53.7,"Q4",114.5,"Q3",NA,"(+) Bcx from 11/28/07 for Salmonella choleraesuis. Acute respiratory distress syndrome, respiratory failure, cardiac failure, disseminated intravenous coagulation, liver function impairment, renal dysfunction","1","Northern","bFall","a3","Other","aNo",NA
+"110","China","Jiangsu Province",2007,12,0,52,NA,1,0,NA,0,NA,NA,NA,NA,1,NA,53.7,"Q4",114.5,"Q3","Hypertension","Respiratory failure, liver dysfunction","1","Northern","cWinter","b4","Other","aNo",NA
+"111","China","Hunan Province (Jianghua County, Yongzhou Prefecture)",2008,1,0,22,NA,NA,NA,NA,1,7,"Q4",8,NA,NA,NA,78.2,"Q4",156.6,"Q4",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"112","China","Guangxi Autonomous Region (Xixiangtang District of Nanning City)",2008,2,0,41,NA,1,NA,NA,1,6,"Q3",8,0,NA,1,78.2,"Q4",156.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"113","China","Guangdong Province (Haifeng county, Shanwei city)",2008,2,1,44,NA,NA,NA,NA,1,6,"Q3",9,NA,NA,NA,78.2,"Q4",156.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"114","China","Beijing (Chaoyang District)",2008,12,1,19,NA,1,NA,NA,1,NA,NA,12,NA,NA,NA,78.2,"Q4",156.6,"Q4",NA,NA,"1","Northern","cWinter","a3","Other",NA,"bYes"
+"115","China","Shandong Province (Jinan City)",2009,1,1,27,1,1,1,1,1,6,"Q3",12,1,NA,NA,100.4,"Q4",191.3,"Q4",NA,"ARDS, multiple organ failure","1","Northern","cWinter","b4","Other","aNo","aNo"
+"116","China","Shanxi Province (Luliang City)",2009,1,1,2.916666667,1,1,NA,NA,0,10,"Q4",NA,1,1,NA,100.4,"Q4",191.3,"Q4","None",NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"117","China","Shanxi Province (Luliang City)",2008,12,1,NA,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,78.2,"Q4",156.6,"Q4",NA,NA,"0","Northern","cWinter",NA,"Other",NA,NA
+"118","China","Shanxi Province (Luliang City)",2009,1,0,NA,1,NA,NA,NA,0,NA,NA,NA,1,NA,NA,100.4,"Q4",191.3,"Q4",NA,NA,"0","Northern","cWinter",NA,"Other",NA,NA
+"119","China","Hunan Province (Huaihua City)",2009,1,0,16,NA,NA,NA,NA,1,8,"Q4",12,NA,NA,NA,100.4,"Q4",191.3,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"120","China","Xinjiang Autonomous Region (Urumqi)",2009,1,1,31,NA,NA,NA,NA,1,NA,NA,13,NA,NA,NA,100.4,"Q4",191.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Other",NA,"bYes"
+"121","China","Guizhou (Guiyang city)",2009,1,0,29,1,1,1,NA,0,1,"Q1",NA,1,1,NA,100.4,"Q4",191.3,"Q4","None","Organ damage present but no MODS.  Atrial fibrillation while hospitalized.","1","Northern","cWinter","b4","Other","bYes","bYes"
+"122","China","Guangxi Province (Beiliu City)",2009,1,0,18,NA,NA,NA,NA,1,NA,NA,7,NA,NA,NA,100.4,"Q4",191.3,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"123","China","Hunan Province (Xupu County)",2009,1,1,21,1,1,NA,NA,0,6,"Q3",NA,1,1,NA,100.4,"Q4",191.3,"Q4","None",NA,"1","Northern","cWinter","a3","Other","bYes","bYes"
+"124","China","Hubei Province",2010,5,1,22,NA,NA,NA,NA,1,NA,NA,11,NA,NA,NA,118.8,"Q4",218.8,"Q4","Pregnant",NA,"1","Northern","dSpring","a3","Other","bYes","bYes"
+"125","Hong Kong SAR China","Travelled to Shanghai, Nanjing, and Hangzhou.",2010,11,1,59,1,1,0,NA,0,12,"Q4",NA,1,1,NA,118.8,"Q4",218.8,"Q4","None","Co-infection with Mycoplasma pneumoniae.","1","Northern","bFall","b4","Other","aNo","aNo"
+"126","China","Guangdong Province (Shenzhen City)",2011,12,0,39,NA,NA,NA,NA,1,4,"Q2",10,NA,NA,NA,155.4,"Q4",278,"Q4",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"127","China","Guizhou Province (Guiyan City)",2012,1,0,39,NA,NA,NA,NA,1,NA,NA,16,NA,NA,NA,155.4,"Q4",278,"Q4",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"128","China","Guangzhou City, Guangdong province",2012,5,0,2,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,155.4,"Q4",278,"Q4",NA,NA,"1","Northern","dSpring","b1","Other",NA,"bYes"
+"129","China","city of Guiyang, Guizhou province",2013,2,1,21,NA,NA,NA,NA,1,NA,NA,11,NA,NA,NA,155.4,"Q4",278,"Q4",NA,NA,"1","Northern","cWinter","a3","Other",NA,"bYes"
+"130","China","city of Guiyang, Guizhou province",2013,2,0,31,NA,NA,NA,NA,1,5,"Q3",19,NA,NA,NA,155.4,"Q4",278,"Q4",NA,NA,"1","Northern","cWinter","b4","Other",NA,"bYes"
+"131","Djibouti","Arta district",2006,4,1,2,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,43.9,"Q3",65.8,"Q2",NA,NA,"1","Equatorial","dSpring","b1","Other",NA,NA
+"132","Egypt","Qualiubiya governorate",2006,3,1,30,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"133","Egypt","Qualiubiya governorate",2006,3,1,30,NA,NA,NA,NA,1,4,"Q2",15,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt",NA,"bYes"
+"134","Egypt","",2006,3,0,32,NA,NA,NA,NA,0,0,"Q1",NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt",NA,"bYes"
+"135","Egypt","Gharbiya governorate",2006,3,0,17,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,"bYes"
+"136","Egypt","Kafr El-Sheikh governate",2006,3,1,18,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"137","Egypt","Kafr El-Sheikh governate",2006,3.5,1,6,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,NA
+"138","Egypt","Kafr El-Sheikh governate",2006,3.5,1,1.5,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,NA
+"139","Egypt","Fayoum governorate",2006,3,0,31,1,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"140","Egypt","Sohaj governorate",2006,3.5,1,1.333333333,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,NA
+"141","Egypt","Qaliubiya governorate ",2006,3.5,0,8,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,NA
+"142","Egypt","Minufiyah governorate",2006,3,1,18,NA,NA,NA,NA,1,7,"Q4",8,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,NA
+"143","Egypt","Minufiyah governorate",2006,4,1,18,NA,NA,NA,NA,1,6,"Q3",9,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"144","Egypt","Cairo",2006,4,1,27,NA,1,NA,NA,1,NA,NA,3,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"145","Egypt","Al Minya governorate",2006,5,1,75,NA,NA,NA,NA,1,7,"Q4",7,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"146","Egypt","Gharbiya governorate",2006,9,1,39,NA,1,NA,NA,1,4,"Q2",30,NA,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","bFall","b4","Egypt","bYes","bYes"
+"147","Egypt","Gharbiyah province",2006,12,1,30,NA,NA,NA,1,1,NA,NA,NA,1,NA,NA,32.9,"Q3",74.9,"Q3",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"148","Egypt","Gharbiyah province",2006,12,1,16,NA,NA,NA,1,1,NA,NA,NA,1,NA,NA,32.9,"Q3",74.9,"Q3",NA,"Viruses with a genetic mutation, linked in laboratory testing to moderately reduced susceptibility to oseltamivir.  Both patients had been on treatment with oseltamivir, but only for two days before the samples that yielded the viruses were taken. This genetic marker of resistance had previously been identified in Vietnam in one patient in 2005","1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"149","Egypt","Gharbiyah province",2006,12,0,26,NA,NA,NA,1,1,NA,NA,NA,1,NA,NA,32.9,"Q3",74.9,"Q3",NA,"Viruses with a genetic mutation, linked in laboratory testing to moderately reduced susceptibility to oseltamivir.  Both patients had been on treatment with oseltamivir, but only for two days before the samples that yielded the viruses were taken. This genetic marker of resistance had previously been identified in Vietnam in one patient in 2005","1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"150","Egypt","Beni Sweif Governate",2007,1,1,27,NA,NA,NA,NA,1,NA,NA,10,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"151","Egypt","Fayyoum Governorate",2007,1,1,17,NA,NA,NA,NA,1,7,"Q4",8,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"152","Egypt","Fayyoum Governorate",2007,2,1,37,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"153","Egypt","Sharkia Governorate",2007,2,0,5,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"154","Egypt","Dakahlea Governorate",2007,2,1,4,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"155","Egypt","Ad Daqahliyah Governorate",2007,3,0,4,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"156","Egypt","Aswan Governorate",2007,3,1,10,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"157","Egypt","Aswan Governorate",2007,3,0,2,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,"bYes"
+"158","Egypt","Aswan Governorate",2007,3,1,3,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,"bYes"
+"159","Egypt","Qena Governorate",2007,3,1,6,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"160","Egypt","Menia Governorate",2007,3,0,5,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"161","Egypt","Qena Governorate",2007,3,0,4,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"162","Egypt","Sohag Governorate",2007,3,0,7,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"163","Egypt","Qalubiea Governorate",2007,3,1,4,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"164","Egypt","Menia Governorate",2007,4,1,2,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,"bYes"
+"165","Egypt","Cairo Governorate",2007,3,1,15,NA,NA,NA,NA,1,6,"Q3",11,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,NA
+"166","Egypt","Qena Governorate",2007,6,1,10,NA,NA,NA,NA,1,5,"Q3",8,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","aSummer","b2","Egypt","bYes","bYes"
+"167","Egypt","Qena Governorate",2007,6,1,4,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"168","Egypt","Qena Governorate",2007,6,0,4,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"169","Egypt","Damietta Governorate",2007,7,1,25,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","aSummer","a3","Egypt","bYes","bYes"
+"170","Egypt","Bany Suwef Governorate",2007,12,1,25,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","a3","Egypt",NA,NA
+"171","Egypt","Domiatt Governorate",2007,12,1,50,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"172","Egypt","Menofia Governorate",2007,12,1,22,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"173","Egypt","Dekerns District (Dakahlyah Governorate)",2007,12,1,25,NA,NA,NA,NA,1,1,"Q1",4,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"174","Egypt","Menof District (Menofia Governorate)",2007,12,1,36,NA,NA,NA,NA,1,3,"Q2",5,NA,NA,NA,35.1,"Q3",84.9,"Q3",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"175","Egypt","El-Edwa district (Menia Governorate)",2008,2,1,4,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"176","Egypt","Sennoris District (Fayum Governorate)",2008,2,1,25,NA,NA,NA,NA,1,3,"Q2",NA,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"177","Egypt","Menof District (Menofia Governorate)",2008,2,0,11,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"178","Egypt","Etsa District (Fayum Governorate)",2008,3,0,8,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"179","Egypt","Kafr El-Dawar District (Behera Governorate)",2008,3,0,19,NA,NA,NA,NA,1,1,"Q1",5,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","dSpring","a3","Egypt","bYes","bYes"
+"180","Egypt","Al-Matarya (Cairo Governorate)",2008,4,1,30,NA,NA,NA,NA,1,NA,NA,9,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"181","Egypt","Al-Honsanya (Sharkea Governorate)",2008,4,0,2,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"182","Egypt","Assuit Governorate",2008,12,1,16,NA,NA,NA,NA,1,3,"Q2",7,NA,NA,NA,42.7,"Q3",101.2,"Q3",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"183","Egypt","Kerdasa District (6th October Governorate)",2009,1,1,1.75,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"184","Egypt","Shebin Elkom District (Manofia Governorate)",2009,1,1,2,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"185","Egypt","Ganain District (Suez Governorate)",2009,2,0,2,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"186","Egypt","Maghagha District (Menia Governorate)",2009,2,0,1.5,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"187","Egypt","Yousef El Seddik District (Fayoum Governorate)",2009,2,0,2,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"188","Egypt","Amaria District (Alexandria Governorate)",2009,3,0,2.5,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"189","Egypt","Menofia Governorate",2009,3,1,1.5,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"190","Egypt","Elfath District (Assiut Governorate)",2009,3,1,38,NA,NA,NA,NA,0,0,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"191","Egypt","Qena District (Qena Governorate)",2009,3,1,2.5,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"192","Egypt","Kom Hamada District (El Behira Governorate)",2009,3,0,2,NA,NA,NA,NA,0,3,"Q2",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"193","Egypt","Kom Hamada District (El Behira Governorate)",2009,3,0,2,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"194","Egypt","Shubra El Khema District (Qaliobia Governorate)",2009,3,0,6,NA,NA,NA,NA,1,NA,NA,6,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"195","Egypt","Kellin District (Kfr El Sheikh Governorate)",2009,4,1,33,NA,NA,NA,NA,1,8,"Q4",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"196","Egypt","El Marg District (Cairo Governorate)",2009,4,1,25,NA,NA,NA,NA,1,5,"Q3",NA,1,NA,NA,49,"Q3",118,"Q3","Pregnancy.",NA,"1","Northern","dSpring","a3","Egypt","bYes","bYes"
+"197","Egypt","Kellin District (Kafr Elsheikh Governorate)",2009,4,1,1.5,NA,NA,NA,NA,0,3,"Q2",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"198","Egypt","Akhmim District (Sohag Governorate)",2009,4,0,4,NA,NA,NA,NA,0,0,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"199","Egypt","Tanta District (Gharbia Governorate)",2009,4,1,34,NA,NA,NA,NA,0,0,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"200","Egypt","Tama District (Sohag Governorate)",2009,5,1,5,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"201","Egypt","Kafr Sakr District (Sharkia Governorate)",2009,5,0,4,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"202","Egypt","Mahalla District (Gharbia Governorate)",2009,5,0,3,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"203","Egypt","Meet Ghamr District (Dakahlia Governorate)",2009,5,1,4,NA,NA,NA,NA,1,8,"Q4",9,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"204","Egypt","Sherbin District (Dakahlia Governorate)",2009,5,0,4,NA,NA,NA,NA,0,0,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"205","Egypt","Sohag District (Sohag Governorate)",2009,5,0,3,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"206","Egypt","Hehia City, Hehia District (Sharkia Governorate)",2009,5,0,4,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"207","Egypt","Abo Hammad District (Sharkia Governorate)",2009,5,1,4,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"208","Egypt","Dekernes District (Dhkalia Governorate)",2009,5,1,1.166666667,NA,NA,NA,NA,0,4,"Q2",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"209","Egypt","Kefr El Sheikh District (Kefr El Sheikh Governorate)",2009,5,1,4,1,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"210","Egypt","Domiat Governorate",2009,6,0,1,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"211","Egypt","Dakhlia Governorate",2009,6,1,4,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"212","Egypt","Kaleen District (Kefr El Sheikh Governorate)",2009,6,0,1,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"213","Egypt","Kfr Elsheikh District (Kfr Elsheikh Governorate)",2009,7,1,8,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b2","Egypt","bYes","bYes"
+"214","Egypt","Shebin Elkom District (Menofyia Governorate)",2009,7,0,1.5,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"215","Egypt","Menofyia Governorate",2009,8,1,2,NA,NA,NA,NA,0,3,"Q2",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"216","Egypt","Damitta Governorate",2009,8,1,14,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","aSummer","b2","Egypt","bYes","bYes"
+"217","Egypt","Alexandria Governorate",2009,9,0,13,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","bFall","b2","Egypt","bYes","bYes"
+"218","Egypt","Tahrer District (Behira Governorate)",2009,9,1,1.166666667,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","bFall","b1","Egypt","bYes","bYes"
+"219","Egypt","Sedy Beshir District (Alexandria Governorate)",2009,11,0,21,NA,NA,NA,NA,0,4,"Q2",NA,NA,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","bFall","a3","Egypt","bYes","bYes"
+"220","Egypt","Minia Governorate",2009,11,0,3,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","bFall","b1","Egypt","bYes","bYes"
+"221","Egypt","El Tanta District (Gharbia Governorate)",2009,12,1,21,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49,"Q3",118,"Q3",NA,NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"222","Egypt","Baniswief Governorate",2010,12,1,20,NA,NA,NA,NA,0,5,"Q3",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"223","Egypt","Dakahalya Governorate",2010,1,0,1,NA,NA,NA,NA,0,5,"Q3",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"224","Egypt","Assuit Governorate",2010,1,0,3,NA,NA,NA,NA,0,12,"Q4",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"225","Egypt","Shargea Governorate",2010,1,0,45,NA,NA,NA,NA,0,7,"Q4",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"226","Egypt","Banha District (Qalyubiya Governorate)",2010,1,1,40,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"227","Egypt","Elsadat District (Menofya Governorate)",2010,1,1,29,NA,NA,NA,NA,1,6,"Q3",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"228","Egypt","Helwan District (Helwan Governorate)",2010,1,0,37,NA,NA,NA,NA,1,6,"Q3",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,NA
+"229","Egypt","Ashmon District (Menofya Governorate)",2010,2,0,32,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"230","Egypt","Elsadat District (Menofya Governorate)",2010,2,1,29,NA,NA,NA,NA,1,6,"Q3",NA,1,NA,NA,49.1,"Q4",125.3,"Q4","Pregnancy.",NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"231","Egypt","Shobra Elkhima District (Qaliobia Governorate)",2010,2,0,53,NA,NA,NA,NA,1,0,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"232","Egypt","Banha District (Qaliobia Governorate)",2010,2,0,1,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"233","Egypt","Meet Ghamr District (Dakalia Governorate)",2010,2,0,10,NA,NA,NA,NA,0,4,"Q2",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"234","Egypt","Kellin District (Kafr El-Sheik Governorate)",2010,2,1,30,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"235","Egypt","Kafr El-Sheik District (Kafr El-Sheik Governorate)",2010,2,0,13,NA,NA,NA,NA,0,4,"Q2",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"236","Egypt","El Khanka District (Qaliobia Governorate)",2010,2.5,1,20,NA,NA,NA,NA,1,NA,NA,4,1,NA,NA,49.1,"Q4",125.3,"Q4","Pregnancy.",NA,"1","Northern","cWinter","a3","Egypt","bYes","bYes"
+"237","Egypt","Elhamool District (Kfr Elsheikh Governorate)",2010,2.5,0,1.5,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","bYes","bYes"
+"238","Egypt","Damietta Disrtrict (Damietta Governorate)",2010,3,1,30,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"239","Egypt","Beba District (Beni Suaif Governorate)",2010,3,0,4,NA,NA,NA,NA,1,NA,NA,6,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","bYes","bYes"
+"240","Egypt","Etsa District (Fayoum Governorate)",2010,3,1,18,NA,NA,NA,NA,1,NA,NA,4,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","dSpring","b2","Egypt","bYes","bYes"
+"241","Egypt","Shobra Elkhima District (Qliubia Governorate)",2010,7,1,20,NA,NA,1,NA,1,NA,NA,6,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","aSummer","a3","Egypt","bYes","bYes"
+"242","Egypt","Elsalam District (Cairo)",2010,7.5,1,2,NA,NA,NA,NA,0,0,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","aSummer","b1","Egypt","bYes","bYes"
+"243","Egypt","Qaluibia Governorate",2010,8,1,33,NA,NA,NA,NA,1,7,"Q4",9,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","aSummer","b4","Egypt","bYes","bYes"
+"244","Egypt","Gharbia Governorate",2010,11,1,30,NA,NA,NA,NA,1,3,"Q2",4,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","bFall","b4","Egypt","bYes","bYes"
+"245","Egypt","Damanhour District (El Beheira Governorate)",2010,12,1,28,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,"cLikely"
+"246","Egypt","Esna District (Luxor Governorate)",2010,12,1,11,1,NA,1,NA,1,1,"Q1",5,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt",NA,NA
+"247","Egypt","Sharkia Governorate",2010,12,1,56,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,NA
+"248","Egypt","Qena Governorate",2010,12,1,25,NA,NA,NA,NA,1,8,"Q4",10,NA,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","a3","Egypt",NA,"bYes"
+"249","Egypt","Ismailia Governorate",2010,12,0,27,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,NA
+"250","Egypt","Dakahlia Governorate",2010,12,1,40,NA,NA,NA,NA,1,5,"Q3",8,NA,NA,NA,49.1,"Q4",125.3,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,"bYes"
+"251","Egypt","Giza Governorate",2011,1,0,10,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt",NA,"bYes"
+"252","Egypt","Alexandria Governorate",2011,1,0,1,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt",NA,"bYes"
+"253","Egypt","Gharbia Governorate",2011,1,0,7,NA,NA,NA,NA,0,0,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"254","Egypt","Dakahlia Governorate",2011,1,1,26,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","cLikely","bYes"
+"255","Egypt","Menofia Governorate",2011,1,0,45,NA,NA,NA,NA,1,6,"Q3",16,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","cLikely","bYes"
+"256","Egypt","Damiata Governorate",2011,2,0,4,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","cLikely","bYes"
+"257","Egypt","Sharkia Governorate",2011,2,1,32,NA,NA,NA,NA,1,4,"Q2",21,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","cLikely","bYes"
+"258","Egypt","Kafr Elsheikh Governorate",2011,2,0,2,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","cLikely","bYes"
+"259","Egypt","Behira Governorate",2011,2,1,17,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"260","Egypt","Dakahlia Governorate",2011,2,1,17,NA,NA,NA,NA,1,2,"Q1",4,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Egypt","bYes","bYes"
+"261","Egypt","Ismailia Governorate",2011,3,1,38,NA,NA,1,NA,1,6,"Q3",10,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"262","Egypt","Suez Governorate",2011,3,0,32,NA,NA,NA,NA,1,4,"Q2",5,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"263","Egypt","Giza Governorate",2011,3,1,28,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"264","Egypt","Behira Governorate",2011,3,0,4,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","cLikely","bYes"
+"265","Egypt","Behaira Governorate",2011,2,0,1,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt","cLikely","bYes"
+"266","Egypt","Behaira Governorate",2011,3,1,3,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","cLikely","bYes"
+"267","Egypt","Alexandria Governorate",2011,3,1,34,NA,NA,NA,NA,0,6,"Q3",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"268","Egypt","Kafr El-Shaikh Governorate",2011,3,1,30,NA,NA,NA,NA,0,8,"Q4",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"269","Egypt","Behaira Governorate",2011,3,1,20,NA,NA,NA,NA,1,5,"Q3",14,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","a3","Egypt","cLikely","bYes"
+"270","Egypt","Menofeya Governorate",2011,3,1,2,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","cLikely","bYes"
+"271","Egypt","Behaira Governorate",2011,3,1,55,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"272","Egypt","Fayoum Governorate",2011,3,0,1,NA,NA,NA,NA,0,8,"Q4",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","cLikely","bYes"
+"273","Egypt","Fayoum Governorate wadi Elrian area",2011,4,0,29,NA,NA,NA,NA,1,3,"Q2",6,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"274","Egypt","Sennores District (Fayoum Governorate)",2011,4,0,1.5,NA,NA,NA,NA,0,2,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt","cLikely","bYes"
+"275","Egypt","Amria District (Alexandria Govenorate)",2011,4,1,30,NA,NA,1,NA,1,7,"Q4",13,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"276","Egypt","Aswan District (Aswan Governorate)",2011,5,1,40,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"277","Egypt","Ashmoun District (Menofia Governorate)",2011,5,1,21,NA,NA,NA,NA,1,NA,NA,8,1,NA,NA,55.3,"Q4",136.6,"Q4","Pregnancy.",NA,"1","Northern","dSpring","a3","Egypt","cLikely","bYes"
+"278","Egypt","Shobra Elkhima District (Qaliobia Governorate)",2011,5,0,31,NA,NA,NA,NA,1,NA,NA,15,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"279","Egypt","Elzawya District (Cairo Governorate)",2011,5,0,32,NA,NA,NA,NA,1,NA,NA,10,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","cLikely","bYes"
+"280","Egypt","Ashmoon District (Menofia Governorate)",2011,5,0,16,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b2","Egypt","cLikely","bYes"
+"281","Egypt","Deshna District (Qena Governorate)",2011,6,0,27,NA,NA,NA,NA,1,NA,NA,9,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","aSummer","b4","Egypt","cLikely","bYes"
+"282","Egypt","Demnhoor District (Behira Governorate)",2011,7,1,6,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","aSummer","b2","Egypt","cLikely","bYes"
+"283","Egypt","Mahala District (Gharbia Governorate)",2011,9,0,1,NA,NA,NA,NA,0,4,"Q2",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","bFall","b1","Egypt",NA,"bYes"
+"284","Egypt","Cairo Governorate",2011,10,1,2,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","bFall","b1","Egypt",NA,NA
+"285","Egypt","Meet Salseel District (Dakahlia Governorate)",2011,11,1,31,NA,NA,1,NA,0,6,"Q3",NA,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","bFall","b4","Egypt","bYes","bYes"
+"286","Egypt","Dakahlia Governorate",2011,11,1,NA,NA,NA,NA,NA,1,6,"Q3",7,1,NA,NA,55.3,"Q4",136.6,"Q4","Pregnancy.",NA,"1","Northern","bFall",NA,"Egypt","bYes","bYes"
+"287","Egypt","Dakahlia Governorate",2011,11,NA,NA,NA,NA,NA,NA,0,6,"Q3",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","bFall",NA,"Egypt","bYes","bYes"
+"288","Egypt","Dakahlia Governorate",2011,12,0,29,NA,NA,NA,NA,1,7,"Q4",11,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,"bYes"
+"289","Egypt","Menofia Governorate",2011,12,0,42,NA,NA,NA,NA,1,5,"Q3",6,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"290","Egypt","Cairo Governorate",2012,1,0,31,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,NA
+"291","Egypt","Menofia Governorate",2012,2,1,45,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt",NA,"bYes"
+"292","Egypt","Gharbeia Governorate",2012,2,1,1,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Egypt",NA,"bYes"
+"293","Egypt","Abo Elmatameer District (Behira Governorate)",2012,2,0,32,NA,NA,NA,NA,1,5,"Q3",12,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"294","Egypt","Kelleen District (Kafr Elshihk Governorate)",2012,2,1,37,NA,NA,NA,NA,1,5,"Q3",8,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"295","Egypt","Dakahlia Governorate",2012,3,1,40,NA,NA,NA,NA,1,6,"Q3",9,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt","bYes","bYes"
+"296","Egypt","Demiatta Governorate",2012,3,1,2,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,NA
+"297","Egypt","Giza Governorate",2012,3,1,15,NA,NA,NA,NA,1,4,"Q2",6,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b2","Egypt",NA,NA
+"298","Egypt","Giza Governorate",2012,4,1,36,NA,NA,NA,NA,1,6,"Q3",6,NA,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b4","Egypt",NA,"bYes"
+"299","Egypt"," Kfr -Elsheikh governorate",2012,4,1,4,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","dSpring","b1","Egypt",NA,"bYes"
+"300","Egypt","Beheira governorate",2013,1,1,36,NA,NA,NA,NA,1,4,"Q2",10,1,NA,NA,55.3,"Q4",136.6,"Q4",NA,NA,"1","Northern","cWinter","b4","Egypt","bYes","bYes"
+"301","Indonesia","Tangerang, Banten Province",2005,6,1,8,1,1,1,NA,1,6,"Q3",26,0,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","aNo","aNo"
+"302","Indonesia","Tangerang, Banten Province",2005,6,1,1,1,1,1,NA,1,8,"Q4",10,NA,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"0","Equatorial","aSummer","b1","Indonesia","aNo","aNo"
+"303","Indonesia","Tangerang, Banten Province",2005,7,0,38,1,1,1,NA,1,5,"Q3",10,0,1,NA,11.5,"Q1",35.6,"Q1","History of cigarette smoking",NA,"1","Equatorial","aSummer","b4","Indonesia","aNo","aNo"
+"304","Indonesia","Jakarta Province (Bintaro)",2005,8,1,37,1,1,1,NA,1,3,"Q2",10,1,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","cLikely",NA
+"305","Indonesia","Jakarta Province (Bintaro)",2005,9,0,9,NA,1,NA,NA,0,8,"Q4",NA,0,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","aNo","aNo"
+"306","Indonesia","Jakarta Province",2005,9,1,27,NA,NA,NA,NA,1,2,"Q1",9,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b4","Indonesia","bYes","bYes"
+"307","Indonesia","Lampung, Sumatra",2005,8,0,21,1,1,NA,NA,0,4,"Q2",NA,1,1,NA,11.5,"Q1",35.6,"Q1","History of cigarette smoking","Pleural effusion","1","Equatorial","aSummer","a3","Indonesia","bYes","bYes"
+"308","Indonesia","Lampung Province",2005,10,0,5,1,NA,NA,NA,0,4,"Q2",NA,0,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"309","Indonesia","Lampung Province, Sumatra Island",2005,10,0,4,1,1,NA,NA,0,4,"Q2",NA,1,1,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b1","Indonesia","cLikely","bYes"
+"310","Indonesia","Bogor, West Java",2005,9,0,23,NA,NA,NA,NA,1,NA,NA,2,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia",NA,"bYes"
+"311","Indonesia","Tangerang, Banten Province (near Jakarta)",2005,10,1,19,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia","cLikely","cLikely"
+"312","Indonesia","",2005,10,0,8,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","cLikely","cLikely"
+"313","Indonesia","Jakarta Province",2005,11,1,16,NA,NA,NA,NA,1,2,"Q1",4,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia",NA,NA
+"314","Indonesia","Jakarta Province",2005,11,1,20,NA,NA,NA,NA,1,4,"Q2",7,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia",NA,NA
+"315","Indonesia","West Java Province",2005,11,0,16,1,NA,NA,NA,0,10,"Q4",NA,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"316","Indonesia","Tangerang (west of Jakarta)",2005,11,1,25,1,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia","bYes","bYes"
+"317","Indonesia","West Jakarta",2005,11,0,35,1,NA,NA,NA,1,3,"Q2",13,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,"bYes"
+"318","Indonesia","Magelang, Central Java Province",2005,11,0,45,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","bFall","b4","Indonesia","bYes","bYes"
+"319","Indonesia","Central Jakarta",2005,12,0,8,1,NA,NA,NA,1,5,"Q3",7,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia",NA,NA
+"320","Indonesia","East Jakarta",2005,12,0,39,1,NA,NA,NA,1,2,"Q1",3,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"cLikely"
+"321","Indonesia","Jakarta Province",2005,12,1,29,NA,NA,NA,NA,1,2,"Q1",11,NA,NA,NA,11.5,"Q1",35.6,"Q1",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","cLikely","bYes"
+"322","Indonesia","",2006,1,1,13,NA,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"323","Indonesia","",2006,1,0,4,NA,NA,NA,NA,1,6,"Q3",9,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b1","Indonesia","bYes","bYes"
+"324","Indonesia","West Java Province",2006,1,0,22,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","cLikely","cLikely"
+"325","Indonesia","West Java Province",2006,1,0,15,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"326","Indonesia","West Java Province",2006,1,1,9,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"327","Indonesia","West Java Province",2006,1,1,22,NA,NA,NA,NA,1,NA,NA,16,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,"cLikely"
+"328","Indonesia","West Java Province",2006,1,1,27,NA,NA,NA,NA,1,NA,NA,10,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","cLikely","cLikely"
+"329","Indonesia","East Jakarta",2006,2,0,23,NA,NA,NA,NA,1,2,"Q1",5,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","cLikely","cLikely"
+"330","Indonesia","West Java Province",2006,2,1,27,NA,NA,NA,NA,1,NA,NA,7,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","cLikely","cLikely"
+"331","Indonesia","Semerang, Central Java",2006,2,0,4,NA,NA,NA,NA,1,NA,NA,18,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b1","Indonesia","cLikely","cLikely"
+"332","Indonesia","Boyolali, Central Java",2006,2,1,12,NA,NA,NA,NA,1,4,"Q2",10,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"333","Indonesia","Kapuk, West Jakarta",2006,3,1,1.666666667,NA,NA,NA,NA,1,5,"Q3",6,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b1","Indonesia","cLikely","cLikely"
+"334","Indonesia","West Java Province",2006,3,0,23,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","a3","Indonesia","bYes","bYes"
+"335","Indonesia","Tangerang (near Greater Jakarta)",2006,3,0,24,NA,NA,NA,NA,1,7,"Q4",10,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","a3","Indonesia",NA,NA
+"336","Indonesia","Greater Jakarta",2006,4,0,30,NA,NA,NA,NA,1,4,"Q2",9,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,"cLikely"
+"337","Indonesia","Surabaya City, East Java",2006,5,1,38,NA,NA,NA,NA,1,5,"Q3",10,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"338","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4,1,37,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"0","Equatorial","dSpring","b4","Indonesia","bYes","bYes"
+"339","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,0,15,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"340","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,0,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"341","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,1,29,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"342","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,1,1.111111111,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,NA
+"343","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,0,25,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","a3","Indonesia",NA,NA
+"344","Indonesia","Village of Kubu Sembelang, Karo district of North Sumatra",2006,4.5,0,10,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"345","Indonesia","Bekasi, East Jakarta",2006,4.5,0,12,NA,NA,NA,NA,1,NA,NA,6,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"346","Indonesia","Kubu Sembelang Village, North Sumatra",2006,5,0,32,NA,NA,NA,NA,1,NA,NA,7,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"347","Indonesia","East Java Province",2006,5,0,18,NA,NA,NA,NA,0,11,"Q4",NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","bYes","bYes"
+"348","Indonesia","Bandung City, West Java Province",2006,1,1,10,NA,NA,NA,NA,1,6,"Q3",7,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"349","Indonesia","Bandung City, West Java Province",2006,1,0,18,NA,NA,NA,NA,1,6,"Q3",7,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"350","Indonesia","West Jakarta",2006,5,0,39,NA,NA,NA,NA,1,8,"Q4",11,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,"bYes"
+"351","Indonesia","South Jakarta",2006,5,0,43,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"352","Indonesia","West Sumatra",2006,5,1,15,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"353","Indonesia","Tasikmalaya District, West Java Province",2006,5,0,15,NA,NA,NA,NA,1,2,"Q1",6,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","bYes","bYes"
+"354","Indonesia","Tangerang District, Banten Province",2006,5,1,7,NA,NA,NA,NA,1,4,"Q2",6,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","bYes","bYes"
+"355","Indonesia","South Jakarta",2006,6,0,13,NA,NA,NA,NA,1,4,"Q2",5,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","bYes","bYes"
+"356","Indonesia","Tulungagung District, East Java Province",2006,6,0,5,NA,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","bYes","bYes"
+"357","Indonesia","suburb of Jakarta",2006,6,1,3,NA,NA,NA,NA,1,12,"Q4",14,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b1","Indonesia","bYes","bYes"
+"358","Indonesia","East Jakarta, Jakarta Province",2006,6,0,44,NA,NA,NA,NA,1,16,"Q4",18,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","cLikely","bYes"
+"359","Indonesia","West Java Province",2006,7,0,16,NA,NA,NA,NA,1,9,"Q4",12,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","bYes","bYes"
+"360","Indonesia","Jakarta Province",2006,7,1,17,NA,NA,NA,NA,1,7,"Q4",11,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia",NA,"bYes"
+"361","Indonesia","Garut District, West Java Province",2006,7,0,17,NA,NA,NA,NA,0,14,"Q4",NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","bYes","bYes"
+"362","Indonesia","Garut District, West Java Province",2006,8,1,9,NA,NA,NA,NA,1,13,"Q4",14,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","bYes","bYes"
+"363","Indonesia","Cikelet subdistrict, West Java Province",2006,8,1,35,NA,NA,NA,NA,1,11,"Q4",NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","cLikely","cLikely"
+"364","Indonesia","Bekasi, West Java Province",2006,8,1,6,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia",NA,NA
+"365","Indonesia","Makassar, South Sulawesi Province",2006,6,1,14,NA,NA,NA,NA,1,5,"Q3",6,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","aSummer","b2","Indonesia",NA,"bYes"
+"366","Indonesia","East Bekasi, West Java Province",2006,3,0,5,NA,NA,NA,NA,1,2,"Q1",15,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","bYes","bYes"
+"367","Indonesia","Solok, West Sumatra Province",2006,5,0,27,1,NA,NA,NA,0,NA,NA,NA,1,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","dSpring","b4","Indonesia","aNo",NA
+"368","Indonesia","East Java Province",2006,9,0,11,1,NA,NA,NA,1,2,"Q1",2,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"369","Indonesia","South Jakarta",2006,9,0,9,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"370","Indonesia","Bandung, West Java",2006,9,0,20,1,NA,NA,NA,1,7,"Q4",11,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia","bYes","bYes"
+"371","Indonesia","East Java Province",2006,9,1,21,NA,NA,NA,NA,0,6,"Q3",NA,1,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","a3","Indonesia","cLikely","cLikely"
+"372","Indonesia","West Java Province",2006,10,1,67,NA,NA,NA,NA,1,4,"Q2",12,NA,NA,NA,16.4,"Q2",46.7,"Q1","""chronic diseases""",NA,"1","Equatorial","bFall","b4","Indonesia","bYes","bYes"
+"373","Indonesia","South Jakarta, Jakarta Province",2006,10,0,11,NA,NA,NA,NA,1,3,"Q2",12,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b2","Indonesia","cLikely","cLikely"
+"374","Indonesia","Central Java Province",2006,10,1,27,NA,NA,NA,NA,1,4,"Q2",5,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,NA
+"375","Indonesia","Tangerang, Banten Province",2006,11,1,35,NA,NA,NA,NA,1,3,"Q2",21,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,NA
+"376","Indonesia","Karawang, West Java Province",2006,11,0,2.5,NA,NA,NA,NA,1,5,"Q3",8,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","bFall","b1","Indonesia","cLikely","cLikely"
+"377","Indonesia","West Jakarta",2006,12,0,14,NA,NA,NA,NA,1,4,"Q2",10,NA,NA,NA,16.4,"Q2",46.7,"Q1",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"378","Indonesia","Tangerang City, Banten Province",2007,1,1,37,NA,NA,NA,NA,1,5,"Q3",10,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","cLikely","cLikely"
+"379","Indonesia","Tangerang City, Banten Province",2007,1,1,22,NA,NA,NA,NA,1,NA,NA,9,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","cLikely","cLikely"
+"380","Indonesia","South Jakarta",2007,1,1,27,NA,NA,NA,NA,1,NA,NA,6,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","cLikely","cLikely"
+"381","Indonesia","Tangerang City, Banten Province",2007,1,0,18,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"382","Indonesia","West Java Province",2007,1,1,32,NA,NA,NA,NA,1,NA,NA,8,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"bYes"
+"383","Indonesia","Magelang District, Central Java Province",2007,1,1,6,NA,NA,NA,NA,1,NA,NA,11,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"384","Indonesia","West Java Province",2007,1,0,30,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"385","Indonesia","Central Jakarta",2007,1,1,16,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia",NA,NA
+"386","Indonesia","West Java Province",2007,2,1,20,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,NA
+"387","Indonesia","East Java Province",2007,2,1,20,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,NA
+"388","Indonesia","East Jakarta",2007,3,0,32,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"389","Indonesia","South Sumatra",2007,3,1,22,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","a3","Indonesia",NA,NA
+"390","Indonesia","West Java Province",2007,3,0,16,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"391","Indonesia","East Java Province",2007,3,0,39,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"392","Indonesia","West Sumatra",2007,3,0,14,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","bYes","bYes"
+"393","Indonesia","Jakarta Province",2007,3,1,29,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"394","Indonesia","Jakarta Province",2007,3,1,23,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","a3","Indonesia",NA,NA
+"395","Indonesia","Jakarta Province",2007,3,1,15,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"396","Indonesia","Central Java",2007,3,0,29,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"397","Indonesia","Riau Province",2007,4,1,29,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"398","Indonesia","North Sumatra",2007,5,1,26,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"399","Indonesia","Wonogiri District, Central Java Province",2007,5,1,5,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","cLikely","cLikely"
+"400","Indonesia","Grobogan District, Central Java Province",2007,5,0,45,NA,NA,NA,NA,1,9,"Q4",11,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia","cLikely","cLikely"
+"401","Indonesia","Kendal District, Central Java Province",2007,5,1,16,NA,NA,NA,NA,1,4,"Q2",8,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","cLikely","cLikely"
+"402","Indonesia","Riau Province",2007,6,0,26,1,NA,NA,NA,1,3,"Q2",9,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","bYes","bYes"
+"403","Indonesia","Riau Province",2007,6,1,3,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b1","Indonesia","bYes","bYes"
+"404","Indonesia","Banten Province",2007,6,1,6,NA,NA,NA,NA,1,12,"Q4",15,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","cLikely","cLikely"
+"405","Indonesia","Bali Province",2007,8,1,29,NA,NA,NA,NA,1,4,"Q2",9,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","bYes","bYes"
+"406","Indonesia","Tangerang District, Banten Province",2007,8,1,17,NA,NA,NA,NA,1,4,"Q2",5,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b2","Indonesia",NA,NA
+"407","Indonesia","Tabanan District, Bali Province",2007,8,1,28,NA,NA,NA,NA,1,4,"Q2",7,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","cLikely","bYes"
+"408","Indonesia","Riau Province",2007,8,0,33,NA,NA,NA,NA,1,8,"Q4",12,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","aSummer","b4","Indonesia",NA,NA
+"409","Indonesia","Jakarta Province",2007,9,0,21,NA,NA,NA,NA,1,7,"Q4",10,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","a3","Indonesia",NA,"cLikely"
+"410","Indonesia","Pekanbaru City, Riau Province",2007,10,1,44,NA,NA,NA,NA,1,NA,NA,5,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,NA
+"411","Indonesia","Tangerang District, Banten Province",2007,9,0,12,NA,NA,NA,NA,1,NA,NA,13,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"412","Indonesia","Tangerang District, Banten Province",2007,10,1,5,NA,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b2","Indonesia","cLikely","cLikely"
+"413","Indonesia","Tangerang District, Banten Province",2007,10,0,3,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b1","Indonesia","bYes","bYes"
+"414","Indonesia","Tangerang Municipality, Banten Province",2007,10,1,30,NA,NA,NA,NA,1,1,"Q1",4,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b4","Indonesia","cLikely","cLikely"
+"415","Indonesia","Bengkalis District, Riau Province",2007,10,0,31,NA,NA,NA,NA,1,3,"Q2",6,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,NA
+"416","Indonesia","Tangerang City, Banten Province",2007,12,1,28,NA,NA,NA,NA,1,6,"Q3",9,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"cLikely"
+"417","Indonesia","Tangerang City, Banten Province",2007,12,0,47,NA,NA,NA,NA,1,7,"Q4",11,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"418","Indonesia","West Jakarta Municipality, DKI Jakarta Province",2007,12,1,24,NA,NA,NA,NA,1,5,"Q3",11,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,NA
+"419","Indonesia","West Java Province",2007,12,1,16,NA,NA,NA,NA,1,5,"Q3",16,NA,NA,NA,23.1,"Q2",58.3,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"420","Indonesia","Tangerang District, Banten Province",2008,1,1,32,NA,NA,NA,NA,1,6,"Q3",7,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"bYes"
+"421","Indonesia","Tangerang District, Banten Province",2008,1,0,8,NA,NA,NA,NA,1,9,"Q4",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"422","Indonesia","Tangerang District, Banten Province",2008,1,0,30,NA,NA,NA,NA,1,6,"Q3",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"423","Indonesia","East Jakarta, Jakarta Province",2008,1,1,31,NA,NA,NA,NA,1,4,"Q2",13,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"cLikely"
+"424","Indonesia","Depok Municipality, West Java Province",2008,1,0,9,NA,NA,NA,NA,1,7,"Q4",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia",NA,"cLikely"
+"425","Indonesia","Tangerang Municipality, Banten Province",2008,1,0,32,NA,NA,NA,NA,1,8,"Q4",13,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"426","Indonesia","East Jakarta, Jakarta Province",2008,1,1,23,NA,NA,NA,NA,1,5,"Q3",8,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,NA
+"427","Indonesia","Tangerang City, Banten Province",2008,1,1,29,NA,NA,NA,NA,1,6,"Q3",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"428","Indonesia","West Jakarta, Jakarta Province",2008,1,1,38,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,NA
+"429","Indonesia","West Jakarta, Jakarta Province",2008,2,1,15,NA,NA,NA,NA,0,6,"Q3",NA,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia",NA,"cLikely"
+"430","Indonesia","Sragen District, Central Java Province",2008,2,0,16,NA,NA,NA,NA,1,4,"Q2",7,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"431","Indonesia","South Jakarta District, Jakarta Province",2008,2,0,3,NA,NA,NA,NA,1,7,"Q4",12,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b1","Indonesia","cLikely","cLikely"
+"432","Indonesia","Subang District, West Java Province",2008,3,0,15,NA,NA,NA,NA,1,3,"Q2",7,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"433","Indonesia","Bekasi City, West Java Province",2008,3,1,11,NA,NA,NA,NA,1,3,"Q2",7,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,NA
+"434","Indonesia","Bukit Tinggi, West Sumatra Province",2008,3,1,1.75,NA,NA,NA,NA,0,4,"Q2",NA,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,NA
+"435","Indonesia","Wonogiri District, Central Java Province",2008,4,0,3,NA,NA,NA,NA,1,7,"Q4",9,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b1","Indonesia","cLikely","cLikely"
+"436","Indonesia","South Jakarta District, DKI Jakarta Province",2008,5,1,16,NA,NA,NA,NA,1,5,"Q3",7,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b2","Indonesia","cLikely","cLikely"
+"437","Indonesia","Tangerang District, Banten Province",2008,5,1,34,NA,NA,NA,NA,1,7,"Q4",8,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"438","Indonesia","Tangerang Municipality, Banten Province",2008,7,0,38,NA,NA,NA,NA,1,5,"Q3",6,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","aSummer","b4","Indonesia",NA,"bYes"
+"439","Indonesia","Tangerang District, Banten Province",2008,11,0,20,NA,NA,NA,NA,1,9,"Q4",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","bFall","a3","Indonesia","bYes","bYes"
+"440","Indonesia","Riau Province",2008,11,1,9,NA,NA,NA,NA,0,5,"Q3",10,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"441","Indonesia","East Jakarta",2008,11,1,2,NA,NA,NA,NA,1,8,"Q4",11,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","bFall","b1","Indonesia","cLikely","bYes"
+"442","Indonesia","Tangerang District, Banten Province",2008,12,1,29,NA,NA,NA,NA,1,3,"Q2",5,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"bYes"
+"443","Indonesia","Bekasi City, West Java Province",2008,12,1,5,NA,NA,NA,NA,1,4,"Q2",10,NA,NA,NA,24.8,"Q2",61.8,"Q2",NA,NA,"1","Equatorial","cWinter","b2","Indonesia",NA,"bYes"
+"444","Indonesia","South Jakarta District, DKI Jakarta Province",2010,1,1,25,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","cLikely","cLikely"
+"445","Indonesia","city of Malang, East Java Province",2010,2,1,45,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","cWinter","b4","Indonesia","bYes","bYes"
+"446","Indonesia","city of Pekanbaru, Riau Province",2010,4,1,4,NA,NA,NA,NA,1,3,"Q2",9,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,NA
+"447","Indonesia","South Jakarta District, DKI Jakarta Province",2010,5,1,34,NA,NA,NA,NA,1,2,"Q1",7,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","dSpring","b4","Indonesia",NA,NA
+"448","Indonesia","Sukoharjo District, Central Java Province",2010,6,1,13,NA,NA,NA,NA,1,5,"Q3",8,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","aSummer","b2","Indonesia","cLikely","cLikely"
+"449","Indonesia","Tangerang District, Banten Province",2010,7,1,34,NA,NA,NA,NA,1,2,"Q1",5,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","aSummer","b4","Indonesia",NA,NA
+"450","Indonesia","West Jakarta, Jakarta Province",2010,8,1,35,NA,NA,NA,NA,1,4,"Q2",11,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","aSummer","b4","Indonesia","cLikely","bYes"
+"451","Indonesia","Kota Depok, West Java Province",2010,9,1,40,NA,NA,NA,NA,1,3,"Q2",8,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","bFall","b4","Indonesia",NA,"bYes"
+"452","Indonesia","Bandung City, West Java Province",2010,11,1,21,NA,NA,NA,NA,0,8,"Q4",NA,NA,NA,NA,30.3,"Q3",84.1,"Q3",NA,NA,"1","Equatorial","bFall","a3","Indonesia",NA,"cLikely"
+"453","Indonesia","Karawang District, West Java Province",2011,1,1,26,NA,NA,NA,NA,1,4,"Q2",9,1,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"bYes"
+"454","Indonesia","Depok City, West Java Province",2011,2,0,2,NA,NA,NA,NA,1,2,"Q1",3,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b1","Indonesia","cLikely","cLikely"
+"455","Indonesia","Bekasi City, West Java Province",2011,2,1,31,NA,NA,NA,NA,1,2,"Q1",6,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b4","Indonesia",NA,"cLikely"
+"456","Indonesia","Bekasi City, West Java Province",2011,3,1,2,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,"cLikely"
+"457","Indonesia","Gunung Kidul district, Yogyakarta Province",2011,3,1,28,NA,NA,NA,NA,1,5,"Q3",13,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","dSpring","b4","Indonesia","cLikely","bYes"
+"458","Indonesia","West Jakarta district, DKI Jakarta Province",2011,4,1,8,NA,NA,NA,NA,1,3,"Q2",10,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","dSpring","b2","Indonesia",NA,"bYes"
+"459","Indonesia","North Jakarta district, DKI Jakarata Province",2011,4,1,1,NA,NA,NA,NA,0,5,"Q3",NA,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,"bYes"
+"460","Indonesia","West Jakarta district, DKI Jakarta Province",2011,8,1,1,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","aSummer","b1","Indonesia",NA,"cLikely"
+"461","Indonesia","Bangli District, Bali Province",2011,9,1,5,NA,NA,NA,NA,1,8,"Q4",12,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"462","Indonesia","Bangli District, Bali Province",2011,9,0,10,NA,NA,NA,NA,1,5,"Q3",10,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","bFall","b2","Indonesia","bYes","bYes"
+"463","Indonesia","Bangli District, Bali Province",2011,10,1,29,NA,NA,NA,NA,1,NA,NA,7,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","bFall","b4","Indonesia","bYes","bYes"
+"464","Indonesia","Jakarta Province",2011,12,0,23,NA,NA,NA,NA,1,6,"Q3",7,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","bYes","bYes"
+"465","Indonesia","Jakarta Province",2012,1,1,5,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","bYes","bYes"
+"466","Indonesia","Banten Province",2012,2,1,19,NA,NA,NA,NA,1,4,"Q2",5,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","a3","Indonesia",NA,NA
+"467","Indonesia","Badung, Bali",2012,2,0,12,1,NA,NA,NA,1,5,"Q3",10,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","aNo","bYes"
+"468","Indonesia","Bengkulu Province",2012,2,1,24,1,NA,NA,NA,1,1,"Q1",6,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","a3","Indonesia","cLikely","cLikely"
+"469","Indonesia","Nusa Tenggara Barat Province",2012,2,0,17,NA,NA,NA,NA,1,1,"Q1",9,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","cWinter","b2","Indonesia","cLikely","cLikely"
+"470","Indonesia","Riau Province",2012,4,0,2,NA,NA,NA,NA,1,4,"Q2",10,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","dSpring","b1","Indonesia",NA,"cLikely"
+"471","Indonesia","West Java Province",2012,6,1,8,1,NA,NA,NA,1,NA,NA,15,NA,NA,NA,32.4,"Q3",95,"Q3",NA,NA,"1","Equatorial","aSummer","b2","Indonesia",NA,"bYes"
+"472","Iraq","Sulaimaniyah Province (Raniya town)",2006,1,1,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,42.1,"Q3",66.1,"Q2",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"473","Iraq","Sulaimaniyah Province (Raniya town)",2006,1,0,39,NA,NA,NA,NA,1,NA,NA,3,NA,NA,NA,42.1,"Q3",66.1,"Q2",NA,NA,"1","Northern","cWinter","b4","Other","cLikely","cLikely"
+"474","Iraq","Hospitalized In Baghdad",2006,3,0,3,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,42.1,"Q3",66.1,"Q2",NA,NA,"1","Northern","dSpring","b1","Other",NA,NA
+"475","Laos","Vientiane",2007,2,1,15,1,1,1,1,1,5,"Q3",25,1,NA,NA,7.4,"Q1",29.5,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"476","Laos","Vientiane Province (Saka village, Pong Hong district)",2007,2,1,42,NA,NA,NA,NA,1,2,"Q1",6,NA,NA,NA,7.4,"Q1",29.5,"Q1",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"477","Myanmar","Kyaing Tone Township (Shan State (East))",2007,11,1,7,NA,NA,NA,NA,0,6,"Q3",NA,NA,NA,NA,0.9,"Q1",7.5,"Q1",NA,NA,"1","Northern","bFall","b2","Other","bYes","bYes"
+"478","Nigeria","Lagos",2007,1,1,22,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,26.8,"Q3",79.6,"Q3",NA,NA,"1","Equatorial","cWinter","a3","Other",NA,NA
+"479","Pakistan","Peshawar area",2007,10,0,25,1,1,NA,NA,0,7,"Q4",NA,NA,NA,NA,7.1,"Q1",26.1,"Q1",NA,NA,"1","Northern","bFall","a3","Other","bYes","bYes"
+"480","Pakistan","Peshawar area",2007,11,0,22,1,1,1,NA,1,2,"Q1",7,NA,NA,NA,7.1,"Q1",26.1,"Q1",NA,NA,"0","Northern","bFall","a3","Other","aNo",NA
+"481","Pakistan","Peshawar area",2007,11,0,27,1,1,1,NA,1,2,"Q1",7,1,NA,NA,7.1,"Q1",26.1,"Q1",NA,NA,"1","Northern","bFall","b4","Other","aNo",NA
+"482","Pakistan","Peshawar area",2007,11,0,32,1,1,NA,NA,0,2,"Q1",NA,1,NA,NA,7.1,"Q1",26.1,"Q1",NA,NA,"1","Northern","bFall","b4","Other","aNo",NA
+"483","Pakistan","Peshawar area",2007,11,0,33,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,7.1,"Q1",26.1,"Q1",NA,NA,"0","Northern","bFall","b4","Other",NA,NA
+"484","Thailand","Suphanburi Province",2004,1,0,7,1,1,1,1,1,NA,NA,31,1,1,NA,55.7,"Q4",85.8,"Q3",NA,"Respiratory failure on day 10; cardiac failure, pneumothorax, ARDS¤, gastrointestinal bleeding.","1","Northern","cWinter","b2","Other",NA,NA
+"485","Thailand","Kanchanaburi Province",2004,1,0,6,1,1,1,1,1,NA,NA,19,1,1,1,55.7,"Q4",85.8,"Q3",NA,"Respiratory failure on day 8; hepatitis, ARDS.  Also barotrauma with pneumothorax and pneumomediastinum.","1","Northern","cWinter","b2","Other","bYes","bYes"
+"486","Thailand","Sukhothai Province",2004,1,0,6,1,1,1,1,1,NA,NA,18,0,1,1,55.7,"Q4",85.8,"Q3",NA,"Respiratory failure on day 6; pneumothorax, ARDS.","1","Northern","cWinter","b2","Other",NA,NA
+"487","Thailand","",2004,1,1,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,55.7,"Q4",85.8,"Q3",NA,NA,"0","Northern","cWinter",NA,"Other",NA,NA
+"488","Thailand","",2004,1,1,58,1,1,1,1,1,NA,NA,8,0,1,NA,55.7,"Q4",85.8,"Q3",NA,"Respiratory failure on day 4; cardiac failure, renal failure, ARDS.","1","Northern","cWinter","b4","Other",NA,NA
+"489","Thailand","Kanchanaburi Province",2004,1,0,6,1,1,1,1,1,NA,NA,7,1,1,NA,55.7,"Q4",85.8,"Q3",NA,"Respiratory failure on day 5; cardiac failure, renal failure, ARDS.","1","Northern","cWinter","b2","Other",NA,NA
+"490","Thailand","",2004,2,0,13,1,NA,NA,1,1,NA,NA,16,1,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"491","Thailand","Suphanburi Province",2004,2,0,2,1,NA,NA,0,0,NA,NA,NA,1,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"492","Thailand","Uttaradit Province",2004,2,1,27,1,NA,NA,0,0,NA,NA,NA,0,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"493","Thailand","Khon Kaen Province",2004,1.5,0,4,1,NA,NA,1,1,NA,NA,13,1,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b1","Other","cLikely","bYes"
+"494","Thailand","Lopburi Province",2004,2,1,46,1,1,NA,0,0,NA,NA,NA,0,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"495","Thailand","Nakhon Ratchasima Province",2004,2,0,29,NA,NA,NA,NA,0,7,"Q4",NA,NA,NA,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"496","Thailand","Ayudhaya Province",2004,3,1,39,0,1,1,1,1,2,"Q1",11,0,1,NA,55.7,"Q4",85.8,"Q3","Previously healthy","MODS","1","Northern","dSpring","b4","Other","bYes","bYes"
+"497","Thailand","Prachinburi Province",2004,8.5,0,18,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","aSummer","b2","Other",NA,NA
+"498","Thailand","northern province of Kamphaeng Phet",2004,9,1,7,1,1,NA,NA,1,5,"Q3",6,0,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"0","Northern","bFall","b2","Other","bYes","bYes"
+"499","Thailand","Bangkok area",2004,9,1,26,1,1,NA,NA,1,6,"Q3",9,0,1,1,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","bFall","b4","Other","aNo","aNo"
+"500","Thailand","northern province of Kamphaeng Phet",2004,9,1,32,1,1,0,NA,0,7,"Q4",NA,1,1,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","bFall","b4","Other","bYes","bYes"
+"501","Thailand","Phetchabun Province",2004,9,1,9,1,1,1,1,1,4,"Q2",10,1,1,NA,55.7,"Q4",85.8,"Q3","Previously healthy",NA,"1","Northern","bFall","b2","Other","bYes","bYes"
+"502","Thailand","Sukhothai Province",2004,10,1,14,NA,NA,NA,NA,1,NA,NA,11,NA,NA,NA,55.7,"Q4",85.8,"Q3",NA,NA,"1","Northern","bFall","b2","Other","bYes","bYes"
+"503","Thailand","Kanchanaburi Province",2005,10,0,48,1,1,NA,NA,1,4,"Q2",6,NA,NA,1,60.4,"Q4",93.8,"Q3",NA,NA,"1","Northern","bFall","b4","Other","bYes","bYes"
+"504","Thailand","Kanchanaburi Province",2005,10,0,7,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,60.4,"Q4",93.8,"Q3",NA,NA,"1","Northern","bFall","b2","Other",NA,NA
+"505","Thailand","Bangkok area",2005,10,1,50,NA,NA,NA,NA,0,3,"Q2",NA,NA,NA,NA,60.4,"Q4",93.8,"Q3",NA,NA,"1","Northern","bFall","b4","Other","cLikely","bYes"
+"506","Thailand","Bangkok area",2005,11,0,1.5,NA,NA,NA,NA,0,4,"Q2",NA,NA,NA,NA,60.4,"Q4",93.8,"Q3",NA,NA,"1","Northern","bFall","b1","Other",NA,NA
+"507","Thailand","Nakhonnayok Province",2005,11,0,5,NA,1,NA,1,1,7,"Q4",9,1,1,0,60.4,"Q4",93.8,"Q3",NA,NA,"1","Northern","bFall","b2","Other","cLikely","cLikely"
+"508","Thailand","Thap Khlo District (Phichit Province)",2006,7,0,17,NA,NA,NA,NA,1,5,"Q3",9,NA,NA,NA,78.2,"Q4",107.5,"Q3",NA,NA,"1","Northern","aSummer","b2","Other","bYes","bYes"
+"509","Thailand","Uthai Thani Province",2006,7,0,27,NA,NA,NA,NA,1,6,"Q3",10,NA,NA,NA,78.2,"Q4",107.5,"Q3",NA,NA,"1","Northern","aSummer","b4","Other","bYes","bYes"
+"510","Thailand","Nong Bua Lam Phu Province",2006,7,0,59,1,1,NA,NA,1,10,"Q4",27,1,NA,1,78.2,"Q4",107.5,"Q3","alcohol abuser"," Acinetobacter baumanii was isolated from the lung tissue","1","Northern","aSummer","b4","Other","bYes","bYes"
+"511","Turkey","Agri Province (district of Dogubayazit)",2005,12,0,14,NA,NA,1,NA,1,5,"Q3",7,0,1,NA,260.4,"Q4",383.8,"Q4",NA,"Alveolar hemorrhage
+was present","1","Northern","cWinter","b2","Other","bYes","bYes"
+"512","Turkey","Agri Province (district of Dogubayazit)",2005,12,1,15,NA,NA,1,NA,1,3,"Q2",8,1,1,NA,260.4,"Q4",383.8,"Q4",NA,"Alveolar hemorrhage
+was present","1","Northern","cWinter","b2","Other","bYes","bYes"
+"513","Turkey","Agri Province (district of Dogubayazit)",2005,12,1,12,NA,NA,1,NA,1,3,"Q2",10,1,1,NA,260.4,"Q4",383.8,"Q4",NA,"Alveolar hemorrhage
+was present","1","Northern","cWinter","b2","Other","bYes","bYes"
+"514","Turkey","Agri Province (district of Dogubayazit)",2005,12,0,5,NA,NA,NA,NA,0,7,"Q4",NA,1,1,NA,260.4,"Q4",383.8,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"515","Turkey","Van Province (city of Van)",2006,1,1,8,NA,NA,NA,NA,0,2,"Q1",NA,1,1,NA,303.8,"Q4",444.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"516","Turkey","Agri Province (district of Dogubeyazit)",2005,12,0,3,NA,NA,NA,NA,0,6,"Q3",NA,1,NA,NA,260.4,"Q4",383.8,"Q4",NA,NA,"1","Northern","cWinter","b1","Other","bYes","bYes"
+"517","Turkey","Agri Province (district of Dogubeyazit)",2005,12,1,9,NA,NA,NA,NA,0,5,"Q3",NA,1,1,NA,260.4,"Q4",383.8,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"518","Turkey","Agri Province (district of Dogubayazit)",2006,1,0,5,NA,NA,NA,NA,0,7,"Q4",NA,1,1,NA,303.8,"Q4",444.6,"Q4",NA,NA,"1","Northern","cWinter","b2","Other","cLikely","bYes"
+"519","Turkey","Agri Province (district of Dogubayazit)",2006,1,1,14,NA,NA,1,NA,1,7,"Q4",11,1,1,NA,303.8,"Q4",444.6,"Q4",NA,"Alveolar hemorrhage
+was present","1","Northern","cWinter","b2","Other","bYes","bYes"
+"520","Turkey","Agri Province (district of Dogubayazit)",2006,1,0,4,NA,NA,NA,NA,0,3,"Q2",NA,1,NA,NA,303.8,"Q4",444.6,"Q4",NA,NA,"1","Northern","cWinter","b1","Other",NA,"bYes"
+"521","Turkey","",NA,NA,0,27,1,NA,NA,NA,0,3,"Q2",NA,1,1,NA,303.8,"Q4",444.6,"Q4",NA,NA,"0","Northern",NA,"b4","Other",NA,NA
+"522","Viet Nam","Ha Nam",2003,12,1,12,1,1,1,1,1,NA,NA,6,0,1,1,8.1,"Q1",25.4,"Q1",NA,"Multi-organ failure","1","Northern","cWinter","b2","Other",NA,NA
+"523","Viet Nam","Nam Dinh",2003,12,0,5,1,1,1,1,1,8,"Q4",17,0,1,1,8.1,"Q1",25.4,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"524","Viet Nam","",2004,1,1,7,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.25,"Q1",28,"Q1",NA,NA,"0","Northern","cWinter","b2","Other",NA,NA
+"525","Viet Nam","Hanoi",2004,1,1,30,1,NA,NA,NA,1,NA,NA,8,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"526","Viet Nam","Bac Ninh",2004,1,0,10,1,1,1,1,1,NA,NA,14,1,1,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other","cLikely","cLikely"
+"527","Viet Nam","Hanoi",2004,1,1,8,1,NA,1,NA,1,NA,NA,7,1,1,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other","cLikely","cLikely"
+"528","Viet Nam","Ho Chi Minh City",2004,1,1,8,1,NA,NA,NA,0,NA,NA,NA,1,1,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other","bYes","bYes"
+"529","Viet Nam","Ho Chi Minh City",2004,1,0,13,1,NA,1,NA,1,NA,NA,9,NA,1,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,"bYes"
+"530","Viet Nam","",2003,12,0,4,NA,NA,NA,NA,0,7,"Q4",NA,NA,NA,NA,8.1,"Q1",25.4,"Q1",NA,NA,"1","Northern","cWinter","b1","Other",NA,NA
+"531","Viet Nam","Thai Binh Province",2004,1,1,23,NA,NA,NA,NA,1,3,"Q2",13,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"532","Viet Nam","Thai Binh Province",2004,1,1,30,NA,NA,NA,NA,1,3,"Q2",13,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"533","Viet Nam","Thai Binh Province",2004,1,0,31,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"534","Viet Nam","Thai Binh Province",2004,1,1,28,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"535","Viet Nam","",2004,1.5,0,19,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"536","Viet Nam","",2004,1.5,1,20,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"537","Viet Nam","Lam Dong",2004,1,0,18,1,NA,1,NA,1,NA,NA,9,1,1,NA,8.4,"Q1",30.6,"Q1",NA,"Treated with dopamine and norepinephrine for hypotension. Marked hyperglycemia requiring insulin treatment.","1","Northern","cWinter","b2","Other",NA,NA
+"538","Viet Nam","Soc Trang",2004,1,1,16,1,NA,1,NA,1,NA,NA,14,1,1,NA,8.4,"Q1",30.6,"Q1",NA,"Treated with dopamine and norepinephrine for hypotension.  Small gastrointestinal hemorrhage on the third day of hospitalization.  Marked hyperglycemia requiring insulin treatment.","1","Northern","cWinter","b2","Other","bYes","bYes"
+"539","Viet Nam","Southern part of country.",2004,1,1,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"540","Viet Nam","",2004,1.5,NA,6,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"541","Viet Nam","Lam Dong",2004,1,0,24,NA,NA,1,NA,1,NA,NA,6,1,1,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,"bYes"
+"542","Viet Nam","Lam Dong",2004,1,0,23,1,1,0,NA,0,3,"Q2",NA,1,1,NA,8.4,"Q1",30.6,"Q1",NA,"Lung bulla formations","1","Northern","cWinter","a3","Other","bYes","bYes"
+"543","Viet Nam","",2004,1.5,0,19,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"544","Viet Nam","Dong Thap Province",2004,1,1,9,0,NA,1,NA,1,4,"Q2",5,0,NA,NA,8.4,"Q1",30.6,"Q1","Previously healthy.","Coma, Acute encephalitis ","0","Northern","cWinter","b2","Other",NA,NA
+"545","Viet Nam","Dong Thap Province",2004,2,0,4,NA,NA,NA,NA,1,2,"Q1",7,0,1,0,8.4,"Q1",30.6,"Q1",NA,"generalized convulsion and became comatose -> clinical diagnosis of encephalitis","1","Northern","cWinter","b1","Other",NA,NA
+"546","Viet Nam","Ho Chi Minh City",2004,1.5,0,NA,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter",NA,"Other",NA,NA
+"547","Viet Nam","Thanh Hoa Province",2004,2,0,15,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"548","Viet Nam","Lam Dong Province",2004,2,0,3,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b1","Other",NA,NA
+"549","Viet Nam","Dong Nai Province",2004,2,1,1.333333333,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b1","Other",NA,NA
+"550","Viet Nam","Ha Tay Province",2004,7.5,0,4,NA,NA,NA,NA,1,8,"Q4",NA,1,1,1,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","aSummer","b1","Other",NA,NA
+"551","Viet Nam","Ha Tay Province",2004,7.5,1,0.916666667,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","aSummer","b1","Other",NA,NA
+"552","Viet Nam","Hau Giang Province",2004,7,1,25,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","aSummer","a3","Other",NA,NA
+"553","Viet Nam","",2004,7,0,19,NA,1,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"0","Northern","aSummer","a3","Other",NA,NA
+"554","Viet Nam","",2004,7,1,22,NA,1,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"0","Northern","aSummer","a3","Other",NA,NA
+"555","Viet Nam","",2004,8.5,NA,NA,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","aSummer",NA,"Other",NA,NA
+"556","Viet Nam","Tay Ninh Province",2004,12,1,16,NA,NA,NA,NA,1,7,"Q4",20,1,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"557","Viet Nam","Dong Thap Province",2004,12,0,6,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"558","Viet Nam","Tra Vinh Province",2005,1,0,9,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,9.1,"Q1",33.95,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"559","Viet Nam","Tien Giang Province",2005,1,1,18,NA,NA,NA,NA,1,4,"Q2",18,1,NA,NA,9.8,"Q1",37.3,"Q1",NA,"Oseltamivir-resistant virus","1","Northern","cWinter","b2","Other",NA,NA
+"560","Viet Nam","Hau Giang Province",2005,1,1,18,NA,NA,NA,NA,1,NA,NA,9,NA,NA,NA,9.1,"Q1",33.95,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"561","Viet Nam","Tra Vinh Province",2005,1,1,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.1,"Q1",33.95,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"562","Viet Nam","Hanoi",2005,1,0,42,1,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"563","Viet Nam","Thai Binh Province",2004,12,0,46,NA,NA,NA,NA,1,NA,NA,14,NA,NA,NA,8.4,"Q1",30.6,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"564","Viet Nam","",2005,1,0,36,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.1,"Q1",33.95,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"565","Viet Nam","Dong Thap Province",2005,1,1,35,NA,NA,NA,NA,1,6,"Q3",7,1,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"566","Viet Nam","Dong Thap Province",2005,1,1,13,NA,1,1,NA,1,2,"Q1",8,1,1,NA,9.8,"Q1",37.3,"Q1",NA,"Oseltamivir-resistant virus","0","Northern","cWinter","b2","Other",NA,NA
+"567","Viet Nam","Bac Lieu Province",2005,1,0,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"568","Viet Nam","",2005,1,1,22,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"0","Northern","cWinter","a3","Other",NA,NA
+"569","Viet Nam","Thai Binh Province",2005,2,0,21,NA,NA,NA,NA,NA,6,"Q3",NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","a3","Other",NA,NA
+"570","Viet Nam","Thai Binh Province",2005,2,1,14,NA,NA,NA,NA,0,1,"Q1",NA,1,NA,NA,9.8,"Q1",37.3,"Q1",NA,"drug-resistant H5N1 virus isolated","1","Northern","cWinter","b2","Other","aNo","aNo"
+"571","Viet Nam","",2005,2,1,80,NA,NA,NA,NA,0,NA,NA,NA,1,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"572","Viet Nam","Thai Binh Province",2005,2,0,69,NA,NA,NA,NA,1,0,"Q1",4,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"573","Viet Nam","",2005,2,1,61,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"0","Northern","cWinter","b4","Other",NA,NA
+"574","Viet Nam","Hanoi",2005,2,1,35,NA,NA,NA,NA,NA,6,"Q3",NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b4","Other","aNo","aNo"
+"575","Viet Nam","",2005,2.5,1,13,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"0","Northern","cWinter","b2","Other",NA,NA
+"576","Viet Nam","Quang Binh Province",2005,3,0,5,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","dSpring","b2","Other",NA,NA
+"577","Viet Nam","",2005,2.5,1,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"UNCLEAR IF THIS CASE WAS EVER CONFIRMED.  IN ADDITION, ? IF THIS REFLECTS 40 Y/O FEMALE WHO GAR CASE OR NOT.","Northern","cWinter",NA,"Other",NA,NA
+"578","Viet Nam","Nam Dinh Province",2005,2.5,1,17,NA,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b2","Other",NA,NA
+"579","Viet Nam","Quang Binh Province",2005,2.5,1,40,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA
+"580","Viet Nam","Haiphong (northern port city)",2005,NA,0,35,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern",NA,"b4","Other",NA,NA
+"581","Viet Nam","Haiphong (northern port city)",2005,NA,1,33,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern",NA,"b4","Other",NA,NA
+"582","Viet Nam","Haiphong (northern port city)",2005,NA,1,13,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern",NA,"b2","Other",NA,NA
+"583","Viet Nam","Haiphong (northern port city)",2005,NA,1,10,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern",NA,"b2","Other",NA,NA
+"584","Viet Nam","Haiphong (northern port city)",2005,NA,1,0.333333333,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern",NA,"b1","Other",NA,NA
+"585","Viet Nam","Ben Tre Province",2005,7,0,35,NA,NA,NA,NA,1,NA,NA,6,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","aSummer","b4","Other",NA,NA
+"586","Viet Nam","Hanoi",2005,10,0,35,1,NA,NA,NA,1,NA,NA,NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","bFall","b4","Other",NA,NA
+"587","Viet Nam","Hai Phong Province",2005,11,0,15,NA,NA,NA,NA,0,2,"Q1",NA,NA,NA,NA,9.8,"Q1",37.3,"Q1",NA,NA,"1","Northern","bFall","b2","Other",NA,NA
+"588","Viet Nam","Vinh Phuc Province",2007,5,0,29,1,1,1,1,0,5,"Q3",NA,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"Pneumothorax, ARDS","1","Northern","dSpring","b4","Other","bYes","bYes"
+"589","Viet Nam","Thai Nguyen Province",2007,5,0,19,1,1,1,1,0,5,"Q3",NA,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"Pneumothorax, ARDS","1","Northern","dSpring","a3","Other",NA,"bYes"
+"590","Viet Nam","Ha Nam Province",2007,6,1,28,1,1,1,1,1,0,"Q1",18,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"Pneumothorax, ARDS, pleural effusion.  Also ventilator associated pneumonia with Acinetobacter spp.","1","Northern","aSummer","b4","Other",NA,"bYes"
+"591","Viet Nam","Thanh Hoa Province",2007,5,0,29,1,1,0,NA,0,1,"Q1",NA,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"2nd PLoS article reports this patient developed pneumomediastinum and bilateral pneumothoraces; 1st PLoS article reported that he did NOT get PTx.","1","Northern","dSpring","b4","Other",NA,"bYes"
+"592","Viet Nam","Ha Tay Province",2007,6,0,20,1,1,1,NA,1,6,"Q3",8,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"Aspergillus fumigatus cultured from sputum","1","Northern","aSummer","a3","Other",NA,"bYes"
+"593","Viet Nam","Ha Tay Province",2007,7,1,22,1,1,1,1,1,7,"Q4",12,1,1,NA,23.3,"Q2",58.4,"Q2","Pregnancy.","Pneumothorax, ARDS, pleural effusion. ","1","Northern","aSummer","a3","Other",NA,NA
+"594","Viet Nam","Thanh Hoa Province",2007,7,0,15,1,1,1,NA,1,5,"Q3",7,1,1,NA,23.3,"Q2",58.4,"Q2",NA,NA,"1","Northern","aSummer","b2","Other","bYes","bYes"
+"595","Viet Nam","Son La Province",2007,12,0,4,1,1,1,1,1,4,"Q2",9,1,1,NA,23.3,"Q2",58.4,"Q2",NA,"Pneumothorax, ARDS, pleural effusion. ","1","Northern","cWinter","b1","Other","bYes","bYes"
+"596","Viet Nam","Tuyen Quang Province",2008,1,0,34,NA,NA,NA,NA,1,6,"Q3",8,NA,NA,NA,24.4,"Q2",70.5,"Q2",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"597","Viet Nam","Hai Duong Province (Gia Loc District)",2008,2,0,40,NA,NA,NA,NA,1,6,"Q3",11,NA,NA,NA,24.4,"Q2",70.5,"Q2",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"598","Viet Nam","Ninh Binh Province (Ninh Nhat District)",2008,2,0,27,NA,NA,NA,NA,1,9,"Q4",11,NA,NA,NA,24.4,"Q2",70.5,"Q2",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"599","Viet Nam","Phu Tho Province (Cam Khe District)",2008,2,1,23,NA,NA,NA,NA,1,5,"Q3",11,NA,NA,NA,24.4,"Q2",70.5,"Q2",NA,NA,"1","Northern","cWinter","a3","Other","bYes","bYes"
+"600","Viet Nam","Ha Nam Province (Thanh Liem District)",2008,3,0,11,NA,NA,NA,NA,1,5,"Q3",10,1,1,1,24.4,"Q2",70.5,"Q2",NA,NA,"1","Northern","dSpring","b2","Other","bYes","bYes"
+"601","Viet Nam","Thanh Hoa Province (Dien Turng commune, Ba Thuoc district)",2008,12,1,8,1,1,NA,NA,0,6,"Q3",NA,1,1,NA,24.4,"Q2",70.5,"Q2",NA,"acute lung injury.  Infected with Streptococcus pneumoniae on admission. ","1","Northern","cWinter","b2","Other","bYes","bYes"
+"602","Viet Nam","Quang Ninh Province (Dam Ha District)",2009,1,1,23,NA,NA,NA,NA,1,3,"Q2",24,NA,NA,NA,30.5,"Q3",78.6,"Q3",NA,NA,"1","Northern","cWinter","a3","Other","bYes","bYes"
+"603","Viet Nam","Ninh Binh Province (Kim Son District)",2009,2,0,32,1,1,1,NA,1,8,"Q4",20,1,NA,NA,30.5,"Q3",78.6,"Q3","HIV co-infection.","Right pleural effusion on admission.  Aspergillus fumigatus was cultured from tracheal aspirate obtained on day 14.  (+) respiratory and renal failure.","1","Northern","cWinter","b4","Other","bYes","bYes"
+"604","Viet Nam","Dong Thap Province (Chau Thanh District)",2009,3,0,3,NA,NA,NA,NA,1,1,"Q1",7,NA,NA,NA,30.5,"Q3",78.6,"Q3",NA,NA,"1","Northern","dSpring","b1","Other","bYes","bYes"
+"605","Viet Nam","Thanh Hoa Province (Quan Hoa District)",2009,4,1,23,NA,NA,NA,NA,1,5,"Q3",6,NA,NA,NA,30.5,"Q3",78.6,"Q3",NA,NA,"1","Northern","dSpring","a3","Other","bYes","bYes"
+"606","Viet Nam","Dien Bien Province (Bien Bien Phu City)",2009,11,0,NA,NA,NA,NA,NA,1,NA,NA,10,NA,NA,NA,30.5,"Q3",78.6,"Q3",NA,NA,"1","Northern","bFall",NA,"Other",NA,"bYes"
+"607","Viet Nam","Khanh Hoa Province (Ninh Hoa District)",2010,1,1,3,NA,NA,NA,NA,0,1,"Q1",NA,NA,NA,NA,30.7,"Q3",82.8,"Q3",NA,NA,"1","Northern","cWinter","b1","Other",NA,"bYes"
+"608","Viet Nam","Tien Giang Province (Cai Be District)",2010,2,1,38,NA,NA,NA,NA,1,8,"Q4",10,NA,NA,NA,30.7,"Q3",82.8,"Q3",NA,NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"609","Viet Nam","Tuyen Quang Province (Son Duong District)",2010,2,1,17,1,1,NA,NA,0,5,"Q3",NA,1,1,NA,30.7,"Q3",82.8,"Q3",NA,"Acute lung injury.","1","Northern","cWinter","b2","Other","bYes","bYes"
+"610","Viet Nam","Hanoi (Soc Son District)",2010,3,1,25,1,1,1,1,0,2,"Q1",NA,1,1,NA,30.7,"Q3",82.8,"Q3",NA,"Multi-organ failure.  ARDS.  Acinetobacter (ON day 5).  RENAL FAILURE, ON DIALYSIS (PMX/CHDF).","1","Northern","dSpring","a3","Other","bYes","bYes"
+"611","Viet Nam","Binh Duong Province (Thuan An District)",2010,3,1,3,NA,NA,NA,NA,1,5,"Q3",12,NA,NA,NA,30.7,"Q3",82.8,"Q3",NA,NA,"1","Northern","dSpring","b1","Other",NA,NA
+"612","Viet Nam","Bac Kan Province (Nhu Co commune)",2010,3,0,22,NA,NA,NA,NA,0,NA,NA,NA,NA,NA,NA,30.7,"Q3",82.8,"Q3",NA,NA,"1","Northern","dSpring","a3","Other","bYes","bYes"
+"613","Viet Nam","Bac Kan Province (Cho Moi district)",2010,4,1,2,1,0,NA,NA,0,2,"Q1",NA,1,1,NA,30.7,"Q3",82.8,"Q3",NA,NA,"1","Northern","dSpring","b1","Other","bYes","bYes"
+"614","Viet Nam","Kien Giang Province",2012,1,0,18,NA,NA,NA,NA,1,4,"Q2",6,NA,NA,NA,38.3,"Q3",94.8,"Q3",NA,NA,"1","Northern","cWinter","b2","Other",NA,"bYes"
+"615","Viet Nam","Soc Trang Province",2012,1,1,26,NA,NA,NA,NA,1,2,"Q1",5,1,NA,NA,38.3,"Q3",94.8,"Q3","Pregnancy.",NA,"1","Northern","cWinter","b4","Other","bYes","bYes"
+"616","Viet Nam","Binh Duong Province",2012,2,0,22,NA,NA,NA,NA,0,4,"Q2",NA,1,NA,NA,38.3,"Q3",94.8,"Q3",NA,NA,"1","Northern","cWinter","a3","Other",NA,"bYes"
+"617","Viet Nam","Dak Lak Province",2012,2,0,31,NA,1,NA,NA,0,4,"Q2",NA,NA,NA,NA,38.3,"Q3",94.8,"Q3",NA,NA,"1","Northern","cWinter","b4","Other",NA,NA

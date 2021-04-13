@@ -25,7 +25,7 @@ El string as factors nos dice que los stirng se interpretan como factores. Donde
 Visualizando tiop de dato
 Str te da info del arc
 ```{r}
-Visualizando tipo de dato
+#Visualizando tipo de dato
 {r}
 str(pacientes)
 class(pacientes)
@@ -33,10 +33,7 @@ class(pacientes)
 dim(pacientes) # Num renglones y columnas
 dimnames(pacientes) # Nombres de renglones y columnas
 
-
-Accesar a la información
-
-{r}
+#Accesar a la información
 pacientes[5, 1] # Renglón, columna
 
 pacientes[5, "id"]  # Columna por nombre
@@ -55,9 +52,8 @@ head(pacientes)  # Primeros 6 renglones
 tail(pacientes)  # Últimos 6 renglones
 
 
-Modificar información
+#Modificar información
 
-{r}
 income <- sample(5000:10000, 2000, replace = TRUE)
 ```
 
