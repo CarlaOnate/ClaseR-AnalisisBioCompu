@@ -1,0 +1,111 @@
+---
+title: "Bases de datos NCBI"
+author: carla
+date: 15/04/21
+output: html_document
+---
+
+K514389.1
+
+```{r}
+library("Biostrings")
+library("seqinr")
+
+setwd("/Users/carla/WebstormProjects/NotasClaseR/Clase 6")
+
+apple <- read.fasta("./apple_chr_1.fasta")
+banana <- read.fasta("./banana.fasta")
+table(apple$CM007867.1)  # - Nos da cuantas A,C,T,G hay en esa lista
+table(banana$NC_025202.1)
+plot(table(apple$CM007867.1))
+plot(table(banana$NC_025202.1))
+
+```
+
+
+
+```{r}
+zika <- read.fasta("./Zika.fasta")
+dengue <- read.fasta("./dengue.fasta")
+table(zika$NC_035889.1)  # - Nos da cuantas A,C,T,G hay en esa lista
+table(dengue$NC_002640.1)  # - Nos da cuantas A,C,T,G hay en esa lista
+plot(table(zika$NC_035889.1))
+plot(table(dengue$NC_002640.1))
+```
+
+
+
+```{r}
+table(banana$NC_025202.1)
+plot(table(banana$NC_025202.1))
+table(dengue$NC_002640.1)  # - Nos da cuantas A,C,T,G hay en esa lista
+plot(table(dengue$NC_002640.1))
+
+```
+
+
+Parte 2: Zika
+```{r}
+#1 tamamño secuencia
+print(length(zika$NC_035889.1))
+#
+##2 composicion nucleotidos
+count(zika$NC_035889.1, 1)
+
+##3 GC contenido
+GC(dengue$NC_002640.1)
+
+#4  Complemtary seq
+comSeq <- function(seq){
+  #Lista con los valores contariarios a cada letra de la secuencia
+  letters <- list(a='t', t='a', g='c', c='g')
+  #Separar el vector de un string a un string por letra
+  splitSeq <- strsplit(seq, "")
+  #Aplica en el vector separado la funcion
+  #La funcion regresa el valor que al accesar la lista regresa el valor complementario y cambia el valor dentro del vector separado
+  sapply(splitSeq, function(seqEl){
+    return(letters[[seqEl]])
+  }, simplify = TRUE)
+}
+comSeq(zika$NC_035889.1)
+
+
+  #split <- function (seq){
+  #finalSeq <- c()
+  #  for(ind in range(1, length(seq))){
+  #    if(mod(ind, 10) == 0){
+  #      firstInd <- ind-10
+  #      lastInd <- ind
+  #      finalSeq[ind/10] <- str_c(seq[firstInd:lastInd])
+  #    }
+  #  }
+  #  return(finalSeq)
+  #}
+  #
+  #seq <- split(seq)
+  #splitSeq <- split(splitSeq)
+
+  #Another solution
+  #chartr("agtc", "tcag", seq)
+
+
+```
+
+
+
+
+```{r}
+#5 - Comparación
+sars <- read.fasta("./sarsSequence.fasta")
+covid <- read.fasta("./WuhanSequence.fasta")
+
+zikaVec <- table(zika$NC_035889.1)
+dengueVec <- table(dengue$NC_002640.1)
+sarsVec <- table(sars$NC_004718.3)
+covidVec <- table(covid$NC_045512.2)
+
+test <- rbind(zikaVec, dengueVec, sarsVec, covidVec)
+barplot(test, beside = TRUE)
+
+
+```

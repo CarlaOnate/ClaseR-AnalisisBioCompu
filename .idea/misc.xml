@@ -45,6 +45,29 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 6/Actividad.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 6" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 6/BasesDatosNCBI.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Clase 6/BasesDatosNCBI.html" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 6" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 6/BasesDatosNCBI_pt2.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Clase 6/BasesDatosNCBI_pt2.html" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 6" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Clase_1-Intro/basicoR.Rmd">
           <value>
             <RMarkdownRenderProfile>

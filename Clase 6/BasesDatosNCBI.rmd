@@ -1,0 +1,94 @@
+---
+title: "R Notebook"
+author: carla
+date: 18/04/21
+output: html_document
+---
+
+```{r}
+setwd("/Users/carla/WebstormProjects/NotasClaseR/Clase 6")
+library("Biostrings")
+library("seqinr")
+```
+
+## Secuencia de la manzana
+```{r}
+apple <- read.fasta("./apple_chr_1.fasta")
+table(apple$CM007867.1)  # Nos da cuantas A,C,T,G hay en esa lista
+plot(table(apple$CM007867.1)) # Grafica los datos del table (los datos de A,C,T,G en x, cantidad en x)
+```
+
+## Secuencia de la banana
+```{r}
+banana <- read.fasta("./banana.fasta")
+table(banana$NC_025202.1) # Nos da cuantas A,C,T,G hay en esa lista
+plot(table(banana$NC_025202.1)) # Grafica los datos del table (los datos de A,C,T,G en x, cantidad en x)
+```
+
+
+
+## Secuencia del Dengue
+```{r}
+dengue <- read.fasta("./dengue.fasta")
+table(dengue$NC_002640.1) # Nos da cuantas A,C,T,G hay en esa lista
+plot(table(dengue$NC_002640.1)) # Grafica los datos del table (los datos de A,C,T,G en x, cantidad en x)
+```
+
+
+## Secuencia del Zika
+```{r}
+zika <- read.fasta("./ZIKAseq.fasta")
+table(zika$NC_012532.1) # Nos da cuantas A,C,T,G hay en esa lista
+plot(table(zika$NC_012532.1)) # Grafica los datos del table (los datos de A,C,T,G en x, cantidad en x)
+```
+
+## Comparaciones
+
+### Comparación Manzana vs Banana
+```{r}
+var.test(table(apple$CM007867.1), table(banana$NC_025202.1))
+```
+Podemos observar que el p-value es bastante elevado por lo que podemos concluir que no hay mucha diferencia entre las variancias.
+
+```{r}
+appleVec <- table(apple$CM007867.1)
+bananaVec <- table(banana$NC_025202.1)
+test <- rbind(appleVec, bananaVec)
+barplot(test, beside = TRUE)
+```
+
+Podemos ver que hay una gran cantidad de adenina (a) y timina (t) en ambos pero la manzana tiene mucho más que la manzana. Además observamos que la manzana tiene muchos más nucleotidos desconocidos (n). En general el genoma de la manzana es mucho más larga que la de la banana.
+
+## Comparación Dengue vs Zika
+```{r}
+var.test(table(dengue$NC_002640.1), table(zika$NC_012532.1))
+```
+
+Podemos observar que el p-value es elevado por lo que podemos concluir que no hay mucha diferencia entre las variancias.
+
+```{r}
+zikaVec <- table(zika$NC_012532.1)
+dengueVec <- table(dengue$NC_002640.1)
+test <- rbind(zikaVec, dengueVec)
+barplot(test, beside = TRUE)
+```
+
+
+Podemos observar que la la cantidad de nucleótidos es más parecida entre los dos virus. Tenemos aproximadamnete la misma cantidad de timina (t) en los dos.
+
+## Comparación Dengue vs Banana
+```{r}
+var.test(table(dengue$NC_002640.1), table(banana$NC_025202.1))
+```
+
+Podemos observar que el p-value es bastante bajo, por lo que podemos concluir que la hipótesis de que los conjuntos de datos evaluados provienen de distribuciones con la misma varianza.
+
+```{r}
+bananaVec <- table(banana$NC_025202.1)
+dengueVec <- table(dengue$NC_002640.1)
+test <- rbind(bananaVec, dengueVec)
+barplot(test, beside = TRUE)
+```
+
+
+Podemos observar que esta comparación está muy dispareja. El genoma de la fruta es mucho mayor al del virus. A parte de eso, el zika no tiene ningún nucleótido desconocido (n).

@@ -1,0 +1,153 @@
+---
+title: "DatabaseNCBI_pt2"
+author: carla
+date: 18/04/21
+output: html_document
+---
+
+```{r}
+library("Biostrings")
+library("seqinr")
+```
+
+## Leer las secuencias
+```{r}
+zika<- read.fasta("./ZIKAseq.fasta")
+SARS <- read.fasta("./sarsSequence.fasta")
+wuhan <- read.fasta("./WuhanSequence.fasta")
+mers <- read.fasta("./MEsequence.fasta")
+dengue <- read.fasta("./dengue.fasta")
+```
+
+
+## Tamaño de las secuencias
+```{r}
+headline <- c('Zika','SARS','Wuhan','MERS','Dengue') # Creación del vector con las enfermedades
+Zika <- length(zika$NC_012532.1) # Medir el tamaño de la secuencia
+Sars <- length(SARS$NC_004718.3)
+Wuhan <- length(wuhan$NC_045512.2)
+Mers <- length(mers$NC_019843.3)
+Dengue <- length(dengue$NC_001477.1)
+
+df1 <- data.frame(Virus = headline, Tamaño = c(Zika,Sars,Wuhan,Mers,Dengue)) # Crear data frame para una comparación más visual
+print(df1) # Imprimir el data frame
+```
+Podemos observar que el que tiene mayor tamaño es el Middle East respiratory syndrome con 30 119.
+
+
+## Composición de nucleótidos de cada secuencia
+Para el Zika:
+```{r}
+count(zika[[1]],1) # Se puede usar también table(x)
+```
+La que predomina es la guanina (g).
+
+
+## Para el SARS:
+```{r}
+count(SARS[[1]],1)
+```
+La que predomina es la timina (t).
+
+## Para el de Wuhan:
+```{r}
+count(wuhan[[1]],1)
+```
+La que predomina es la timina (t), los datos se parecen mucho al anterior. Es normal ya que los 2 son coronavirus.
+
+## Para el MERS:
+```{r}
+count(mers[[1]],1)
+```
+La que predomina es la timina (t), igual que los anteriores.
+
+## Para el Dengue:
+```{r}
+count(dengue[[1]],1)
+```
+La que predomina es la adenina (a).
+
+```{r}
+zika <- read.fasta("./ZIKAseq.fasta")
+zika[[1]]
+length(zika[[1]])
+count(zika[[1]], 2)
+count(zika[[1]], 1)
+GC(zika$NC_012532.1)
+```
+
+```{r}
+df_l <- data.frame(Enfermedades = 'nombres', Tamanio = c(Zika,Sars,Wuhan,Mers,Dengue))
+print(df_l)
+```
+
+
+## Contenido de GC de cada virus
+```{r}
+GCzika <- GC(zika$NC_012532.1) # Función de la librería seqinr que calcula la frecuencia de gc
+GCsars <- GC(SARS$NC_004718.3)
+GCwuhan <- GC(wuhan$NC_045512.2)
+GCmers <- GC(mers$NC_019843.3)
+GCdengue <- GC(dengue$NC_001477.1)
+
+df2 <- data.frame(Virus = c("Zika", "SARS", "Wuhan", "MERS", "Dengue"), GC = c(GCzika, GCsars, GCwuhan, GCmers, GCdengue), Porcentaje = c(GCzika*100, GCsars*100, GCwuhan*100,GCmers*100, GCdengue*100))
+print(df2) # Crear data frame para una comparación más visual, se agregó el porcentaje
+```
+Se observa que el que tiene más contenido de GC es el Zika con 50.94%
+
+
+## Secuencia complementaria
+```{r}
+comSeq <- function(seq){
+  #Lista con los valores contariarios a cada letra de la secuencia
+  letters <- list(a='t', t='a', g='c', c='g')
+  #Separar el vector de un string a un string por letra
+  splitSeq <- strsplit(seq, "")
+  #Aplica en el vector separado la funcion
+  #La funcion regresa el valor que al accesar la lista regresa el valor complementario y cambia el valor dentro del vector separado
+  sapply(splitSeq, function(seqEl){
+    return(letters[[seqEl]])
+  }, simplify = TRUE)
+}
+```
+
+
+```{r}
+print("Zika", quote = FALSE); print(head(zika$NC_012532.1)); print(head(comSeq(zika$NC_012532.1))) # Se usó la función head para no imprimir toda la secuencia
+```
+
+```{r}
+print("SARS", quote = FALSE); print(head(SARS$NC_004718.3)); print(head(comSeq(SARS$NC_004718.3)))
+```
+
+
+```{r}
+print("Wuhan", quote = FALSE); print(head(wuhan$NC_045512.2)); print(head(comSeq(wuhan$NC_045512.2)))
+```
+
+
+```{r}
+print("MERS", quote = FALSE)
+print(head(mers$NC_019843.3))
+print(head(mers$NC_019843.3))
+```
+
+
+```{r}
+print("Dengue", quote = FALSE); print(head(dengue$NC_001477.1)); print(head(comSeq(dengue$NC_001477.1)))
+```
+
+
+## Gráfica de resumen
+
+```{r}
+zikaVec <- table(zika$NC_012532.1)
+sarsVec <- table(SARS$NC_004718.3)
+wuhanVec <- table(wuhan$NC_045512.2)
+mersVec <- table(mers$NC_019843.3)
+dengueVec <- table(dengue$NC_001477.1)
+
+test <- rbind(zikaVec, sarsVec, wuhanVec,mersVec, dengueVec)
+barplot(test, beside = TRUE)
+```
+Podemos observar que el Zika y el Dengue tienen la menor cantidad de ACGT de todos los virus presentados. Por otro lado el coronavirus presenta un vasto genoma.En especial, tienen la mayor cantidad de timina (t). Todos precentan una menor cantidad de citosina (c).

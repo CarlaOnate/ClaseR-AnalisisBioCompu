@@ -1,7 +1,10 @@
 # Title     : TODO
 # Objective : TODO
-# Created by: carla
+# Created by: Carla, Lea, Adhair
 # Created on: 13/04/21
+
+#Carla Oñate Gardella A01653555
+
 
 #¿Cuántas observaciones y variables tiene el dataset?
 #¿Cuáles son el menor y mayor año registrados ?
@@ -31,7 +34,7 @@ mean(pacientes[,7])
 #En su mayoría, hay más pacientes que han tenido contacto con aves a los que no.
 
 
-
-
+#¿En qué estación se han enfermado más?
+summary(pacientes$season)
 
 
