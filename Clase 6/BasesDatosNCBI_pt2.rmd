@@ -5,6 +5,12 @@ date: 18/04/21
 output: html_document
 ---
 
+# Integrantes
+- Carla Oñate Gardella A01653555
+- Léa Rodríguez Jouault A01659896
+- Adahir Cortez Zavala A01660523
+
+
 ```{r}
 library("Biostrings")
 library("seqinr")
@@ -66,21 +72,6 @@ La que predomina es la timina (t), igual que los anteriores.
 count(dengue[[1]],1)
 ```
 La que predomina es la adenina (a).
-
-```{r}
-zika <- read.fasta("./ZIKAseq.fasta")
-zika[[1]]
-length(zika[[1]])
-count(zika[[1]], 2)
-count(zika[[1]], 1)
-GC(zika$NC_012532.1)
-```
-
-```{r}
-df_l <- data.frame(Enfermedades = 'nombres', Tamanio = c(Zika,Sars,Wuhan,Mers,Dengue))
-print(df_l)
-```
-
 
 ## Contenido de GC de cada virus
 ```{r}

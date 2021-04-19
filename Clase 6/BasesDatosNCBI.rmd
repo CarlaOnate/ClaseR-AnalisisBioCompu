@@ -5,6 +5,11 @@ date: 18/04/21
 output: html_document
 ---
 
+# Integrantes
+- Carla Oñate Gardella A01653555
+- Léa Rodríguez Jouault A01659896
+- Adahir Cortez Zavala A01660523
+
 ```{r}
 setwd("/Users/carla/WebstormProjects/NotasClaseR/Clase 6")
 library("Biostrings")
