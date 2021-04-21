@@ -1,46 +1,72 @@
 ---
-title: "Evidencia_1"
-author: CarlaO
+title: "Evidencia 1"
+author: Carla Oñate Gardella - A01653555
 date: 4/20/21
 output: html_document
 ---
 
 
-
-# Evidencia 1
 ## Parte 1
-Investiga, ¿Cuál es la situación actual de COVID-19 a nivel mundial, en México, en tu estado de origen y en tu municipio, alcaldía o colonia? Puedes iniciar tu búsqueda en el sitio de Johns Hopkins.
-Hoy en día, más específicamente el 20 de abril de 2021 cuando se hizo este trabajo, la cantidad de casos confirmados de Covid a nivel mundial llegan a una cifra de 142,242,353 casos. Estos casos se encuentran en todos los países del mundo siendo Estados Unidos, India y Brazil los primeros tres países con más casos confirmados. Las muertes hasta este momento llegan a 3,033,145 siendo Estados Unidos, Brazil y México los primeros tres países con más muertes por este virus. La diferencia entre casos confirmados y muertes es enorme pero aun así los hospitales no pueden manejar la demanda de casos que llegan por sus puertas causando estragos en el sistema de salud de estos países.
-México tiene en total 212,466 muertes por covid-19, más específicamente la Ciudad de México tiene 629 mil casos confirmados y 32 mil muertes por este virus. En la colonia donde habito al 20 de abril de 2021 se tienen 5 muertes y 109 casos confirmados.
+#### 1.- Investiga, ¿Cuál es la situación actual de COVID-19 a nivel mundial, en México, en tu estado de origen y en tu municipio, alcaldía o colonia? Puedes iniciar tu búsqueda en el sitio de Johns Hopkins.
 
+Hoy en día, más específicamente el 20 de abril de 2021 cuando se hizo este trabajo, la cantidad de casos confirmados de Covid a nivel **mundial** llegan a una **cifra de 142,242,353 casos**.
+Estos casos se encuentran en todos los países del mundo siendo Estados Unidos, India y Brazil los primeros tres países con más casos confirmados. Las **muertes** hasta este momento llegan a **3,033,145** siendo Estados Unidos, Brazil y México los primeros tres países con más muertes por este virus.
+ La diferencia entre casos confirmados y muertes es enorme pero aun así los hospitales no pueden manejar la demanda de casos que llegan por sus puertas causando estragos en el sistema de salud de estos países.
+**México tiene en total 212,466 muertes** por covid-19, más específicamente la **Ciudad de México tiene 629 mil casos** confirmados y **32 mil muertes** por este virus. En la colonia donde habito al 20 de abril de 2021 se tienen 5 muertes y 109 casos confirmados.
+
+#### Resumen
+* Mundial Casos: 142,242,353
+* Mundial Muertes: 3,033,145
+* México Muertes:  212,466
+* Cdmx Casos: 629,000
+* Cdmx Muertes: 32,000
+* Mi colonia casos: 109
+* Mi colonia muertes: 5
+
+
+
+#### 2.- ¿Cuál fue la primera variante del virus que se propagó a todo el mundo?
+De acuerdo a la WHO(World Health Organization) hubo varias variantes confirmadas del virus después de que fuera detectado en Wuhan.  Las muestras se tomaron de gente en las afueras de Wuhan del virus 2019-vnCoV y se lograron identificar **80 variantes** pero la **más común fue la de 28144T>C**. Así mismo un artículo de PubMed dice que la variante más común que se extendió al mundo a inicios de la pandemia es una con el **nombre D614G**.
+
+
+
+#### 3.- ¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo?
+Durante la pandemia el virus ha sufrido mutaciones y hemos visto nuevas variantes. Una es la variante B.1.1.7 que surgió en UK. Otra fue registrada por primera vez en Brasil la cual es la variante P.1. Otra variante se encontró por primera vez en Sudáfrica la cual es B.1.351.
+
+* Brazil - P.1
+* UK - B.1.1.7
+* Sudáfrica - B.1.351
+
+Todas estas variantes hacen que el virus se comporte diferente, se cree que estas variantes se trasmiten más fácil que la variante inicial.
+
+#### 4.- ¿Cómo buscarías información de la variante del virus en tu país?
+Para buscar este tipo de información sobre las variantes el sitio de **PubMed** relacionado con la base de datos biológica de NCBI sería la mejor opción. Esto porque aquí se publican muchos artículos medicos los cuales están relacionados con las variantes en diferentes países.
+
+
+
+#### 5.- Imagina que te encuentras en una situación similar a la de Li Wenliang, médico chino que intentó alertar sobre el brote de coronavirus en su país, pero fue detenido por las autoridades y obligado a retractarse, ¿qué harías en su caso?
+#### Selecciona un inciso:
+
+* **a) Lo reportas al centro de investigación o la universidad.**
+* **b) Lo reportas a la prensa.**
+* **c) Guardas la información. Elige y justifica tu respuesta.**
+
+Este caso es delicado porque el gobierno de China no es conocido por ser abierto hacía otros países ni de ser un gobierno abierto con sus ciudadanos. En el caso del doctor él sintió que su obligación era alertar a la gente cercana sobre el virus y hacer lo posible para que se pudiera detener el contagio en su ciudad. Esto siento fue lo correcto y al igual si el gobierno chino me pide que me retracte probablemente lo haría ya que se está entrando en un territorio donde el gobierno no quiere hacer escándalos y menos hacía el mundo por lo que por eso le pidieron que se retractara e intentaron controlar silenciosamente este virus pero eso nunca iba a funcionar. Por lo que yo escogería la **opción (a)**. A pesar de retractarte ante el gobierno para no hacer un escándalo puedes comunicar esta información vital a tus compañeros medicos para que más gente este de acuerdo y sea más difícil para las autoridades esconder la epidemia.
+
+
+#### Referencias:
 https://coronavirus.jhu.edu/map.html
 https://mexico.as.com/mexico/2020/04/19/tikitakas/1587254041_991129.html
-
-
-¿Cuál fue la primera variante del virus que se propagó a todo el mundo?
-De acuerdo a la WHO(World Health Organization) hubo varias variantes confirmadas del virus después de que fuera detectado en Wuhan.  Las muestras se tomaron de gente en las afueras de Wuhan del virus 2019-vnCoV y se lograron identificar 80 variantes pero la más común fue la de 28144T>C. Así mismo un artículo de PubMed dice que la variante más común que se extendió al mundo a inicios de la pandemia es una con el nombre D614G.
-
 https://www.who.int/bulletin/online_first/20-253591.pdf
 https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html
 https://www.who.int/news/item/27-04-2020-who-timeline---covid-19
 https://pubmed.ncbi.nlm.nih.gov/33243994/
-
-¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo?
-Durante la pandemia el virus ha sufrido mutaciones y hemos visto nuevas variantes. Una es la variante B.1.1.7 que surgió en UK. Otra fue registrada por primera vez en brasil la cual es la variante P.1. Otra variante se encontró por primera vez en South Africa la cual es B.1.351. Todas estas variantes hacen que el virus se comporte diferente, lo que estas variantes tienen en común es que se cree que estas variantes se trasmiten más fácil que el virus original.
-
-¿Cómo buscarías información de la variante del virus en tu país?
-Para buscar este tipo de información sobre las variantes el sitio de PubMed relacionado con la base de datos biológica de NCBI sería la mejor opción. Esto porque aquí se publican muchos artículos medicos los cuales están relacionados con las variantes en diferentes países.
-
 https://pubmed.ncbi.nlm.nih.gov/33049069/
 
 
-Imagina que te encuentras en una situación similar a la de Li Wenliang, médico chino que intentó alertar sobre el brote de coronavirus en su país, pero fue detenido por las autoridades y obligado a retractarse, ¿qué harías en su caso? Selecciona un inciso:a) Lo reportas al centro de investigación o la universidad. b) Lo reportas a la prensa. c) Guardas la información. Elige y justifica tu respuesta. Revisa el siguiente video como apoyo:
-Este caso es delicado porque el gobierno de China no es conocido por ser abierto hacía otros países ni de ser un gobierno abierto con sus ciudadanos. En el caso del doctor él sintió que su obligación era alertar a la gente cercana sobre el virus y hacer lo posible para que se pudiera detener el contagio en su ciudad. Esto siento fue lo correcto y al igual si el gobierno chino me pide que me retracte probablemente lo haría ya que se está entrando en un territorio donde el gobierno no quiere hacer escándalos y menos hacía el mundo por lo que por eso le pidieron que se retractara e intentaron controlar silenciosamente este virus pero eso nunca iba a funcionar. Por lo que yo escogería la opción a. A pesar de retractarte ante el gobierno para no hacer un escándalo puedes comunicar esta información vital a tus compañeros medicos para que más gente este de acuerdo y sea más difícil para las autoridades esconder la epidemia.
-
-
 ## Parte 2
-
-```{r}
+#### Cargando librerias
+```{r, echo=FALSE}
 setwd("/Users/carla/WebstormProjects/NotasClaseR/Evidencia1")
 library("Biostrings")
 library("seqinr")
@@ -79,7 +105,7 @@ df <- data.frame(country=c("UK", "Brazil", "Ghana"), length=(c(length(ukParsed),
 head(df)
 ```
 ## Bases de ADN de cada variante
-
+En las tres tablas de las variantes se puede observar que se tiene un contenido más alto de (a), (t) comparado con los contenidos de (c) y (g).
 ### Variante UK
 ```{r}
 ukTable <- table(ukParsed)
@@ -87,7 +113,7 @@ plot(ukTable)
 ```
 
 
- ### Variante Brazil
+### Variante Brazil
 ```{r}
 brazilTable <- table(brazilParsed)
 plot(brazilTable)
@@ -102,6 +128,7 @@ plot(ghanaTable)
 
 
 ### Comparación bases de ADN
+En esta tabla de barras se observa lo que se mencionó antes que el contenido de A,T es mayor al contenido de C.,G. Esta tabla también nos ayuda a ver que la variante de UK es la que tiene menos contenido comparada con las otra dos, la variante de brazil tiene más contenido que la de UK pero menos que la Ghana. Por lo que la variante de ghana tiene más contenido de bases de ADN que las demás. Aunque la diferencia entre cada variante es mínima ya que se observa en la grafica de barras que casi los tres pilares están un poco desfazadas.
 ```{r}
 bars <- rbind(ukTable, brazilTable, ghanaTable)
 barplot(bars, beside=TRUE, legend=(c("UK", "Brazil", "Ghana")))
@@ -109,7 +136,8 @@ barplot(bars, beside=TRUE, legend=(c("UK", "Brazil", "Ghana")))
 
 
 ## GC de cada variante
-
+En esta tabla que se hizo se puede observar que el porcentaje de GC en cada variable es bastante similar ya que todas empiezan con **0.379**.
+Pero observando los otrs decimales vemos que la variable de Ghana es la que tiene menor porcentaje de GC, UK es la de mayor porcentaje de GC y la de Brazil tiene más porcentaje que Ghana pero menos que la de UK.
 ```{r}
 gcUK <- GC(ukParsed)
 gcBrazil <- GC(brazilParsed)
@@ -135,6 +163,7 @@ chartr("tagc","atcg", brazilParsed)
 ```{r}
 chartr("tagc","atcg", ghanaParsed)
 ```
+
 
 
 
