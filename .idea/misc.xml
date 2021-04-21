@@ -68,10 +68,25 @@
             </RMarkdownRenderProfile>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/Clase 7/sesion07GraficasGGPlot.Rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase 7" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/Clase_1-Intro/basicoR.Rmd">
           <value>
             <RMarkdownRenderProfile>
               <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Clase_1-Intro" />
+            </RMarkdownRenderProfile>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/Evidencia1/Evidencia_1.rmd">
+          <value>
+            <RMarkdownRenderProfile>
+              <option name="lastOutput" value="$PROJECT_DIR$/Evidencia1/Evidencia_1.html" />
+              <option name="outputDirectoryUrl" value="file://$PROJECT_DIR$/Evidencia1" />
             </RMarkdownRenderProfile>
           </value>
         </entry>

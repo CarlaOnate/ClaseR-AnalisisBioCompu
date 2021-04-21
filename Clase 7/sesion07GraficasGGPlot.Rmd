@@ -1,0 +1,583 @@
+---
+title: "Graficación y BioConductor"
+author: 'Profesor: R Computación'
+date: "2/19/2020"
+output:
+  html_document: default
+---
+# Graficación en R
+
+R define funciones, colecciones de datos y paquetes enteros para graficar y visualizar datos de todo tipo, incluídos datos financieros, periodísticos, geográficos, médicos y genéticos / genómicos. 
+
+* Puedes crear desde los paquetes incluídos en R (`base`) o con paquetes creados para graficar, `ggplot2` o `ggbio`. 
+
+* También paquetes especializados en un tipo de datos que incluyen funciones para graficar, como `ape`  o `phytools` para árboles filogenéticos. 
+
+Para esta sesión trabajaremos con las funciones básicas de graficación de R y después revisaremos las que son especiales para datos biológicos.
+ 
+## **Recursos para graficación**:
+
+* [R Graph Gallery](http://www.r-graph-gallery.com/)
+* [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/) 
+* [Blog de phytools](http://blog.phytools.org/)
+* [Documentación online de ggplot2](http://docs.ggplot2.org/current/)
+* [Documentación online de ggbio](http://www.tengfei.name/ggbio/docs/)
+* [Ejemplos básicos](https://sites.harding.edu/fmccown/r/)
+* [BBC Visual and Data Journalism cookbook for R graphics](https://bbc.github.io/rcookbook/)
+
+
+## Gráficas básicas en R:
+
+Los gráficos base se usan con mayor frecuencia y son un sistema muy poderoso para crear gráficos de datos. Hay dos fases para crear una gráfica base:
+
+1. Inicializando una nueva trama
+2. Anotar (agregar a) una trama existente
+
+Algunas de las más comunes son:
+
+* **pie**: pie charts
+* **dotchart**: cleveland dot plots
+* **image, heatmap, contour, persp**: functions to generate image-like plots
+* **qqnorm, qqline, qqplot:** distribution comparison plots
+* **plot**: generic x-y plotting
+* **barplot**: bar plots
+* **boxplot**: box-and-whisker plot
+* **hist**: histograms
+
+### Histogramas:
+
+Aquí hay un ejemplo de un histograma simple hecho usando la función hist () en el paquete de gráficas de R. Utilizaremos un paquete de `datasets` y el dataframe: airquality, cuya descripción:
+
+Daily readings of the following air quality values for May 1, 1973 (a Tuesday) to September 30, 1973.
+
+Ozone: Mean ozone in parts per billion from 1300 to 1500 hours at Roosevelt Island
+
+Solar.R: Solar radiation in Langleys in the frequency band 4000--7700 Angstroms from 0800 to 1200 hours at Central Park
+
+Wind: Average wind speed in miles per hour at 0700 and 1000 hours at LaGuardia Airport
+
+Temp: Maximum daily temperature in degrees Fahrenheit at La Guardia Airport.
+
+```{r}
+library(datasets)
+str(airquality)
+hist(airquality$Ozone)
+```
+### Scatterplot:
+Aquí hay un diagrama de dispersión simple hecho con la función plot().
+
+```{r}
+
+with(airquality, plot(Temp, Ozone))
+```
+
+
+En general, la función **plot ()** toma dos vectores numéricos: uno para las coordenadas del eje x y otro para las coordenadas del eje y. Sin embargo, plot () es lo que se llama una función genérica en R, lo que significa que su comportamiento puede cambiar dependiendo de los tipos de datos que se pasan a la función. No entraremos en detalles sobre ese comportamiento por ahora.
+
+
+### Crea gráficas desde un dataframe:
+
+```{r}
+diseases <- read.csv("diseases.csv", header = TRUE, stringsAsFactors = FALSE)
+head(diseases)
+```
+
+Puedes utilizar la función **table** para obtener una gráfica de barras:
+
+```{r}
+barplot(table(diseases$education))
+```
+
+Puedes asignar colores a las columnas, de acuerdo a las categorías:
+
+```{r}
+bartable <- table(diseases$gender,diseases$employment) 
+barplot(bartable, beside=TRUE, legend=as.factor(unique(diseases$gender)), col = c('red', 'blue'))
+```
+
+O también puedes crear barras apiladas:
+
+```{r}
+barplot(bartable, legend=as.factor(unique(diseases$gender)))
+
+```
+
+
+### Puedes visualizar multiples gráficas:
+
+Hacer múltiples gráficos uno al lado del otro es una forma útil de visualizar muchas relaciones entre variables con gráficos estáticos en 2-D. A menudo, la repetición de datos en una sola ventana de trazado puede ser una forma útil de identificar patrones en los datos. Para hacer esto, los parámetros mfrow y mfcol establecidos por la función par ():
+
+```{r}
+bartable <- table(diseases$gender,diseases$employment) 
+par(mfrow = c(2, 2))
+with(airquality, {
+  plot(Wind, Ozone, main = "Ozono y Viento")
+  plot(Solar.R, Ozone, main = "Ozono y Radiación Solar")
+  barplot(bartable,beside=TRUE, legend=as.factor(unique(diseases$gender)), col = c('red', 'blue'))
+  
+})
+```
+
+
+
+Muchas funciones de trazado base comparten un conjunto de parámetros globales. Aquí hay algunas claves:
+
+* **pch**: el símbolo de trazado (el valor predeterminado es círculo abierto)
+* **lty**: el tipo de línea (el valor predeterminado es una línea continua), puede ser discontinuo, punteado, etc.
+* **lwd**: el ancho de línea, especificado como un múltiplo entero
+* **col**: el color de trazado, especificado como un número, cadena o código hexadecimal; la función colors () te da un vector de colores por nombre
+* **xlab**: cadena de caracteres para la etiqueta del eje x
+* **ylab**: cadena de caracteres para la etiqueta del eje y
+
+R proporciona con su paquete base las herramientas necesarias para visualizar datos. Sin embargo, existen otros dos paquetes que extienden el paquete base y son: lattice y gglplot2. [lattice](https://www.statmethods.net/advgraphs/trellis.html) ha perdido popularidad, mientras que ggplot se ha extendido a ampliamente.
+
+
+# El paquete: ggplot2
+
+# Datos() + Estética() + Capas() + Facetas( )
+
+
+
+El paquete `ggplot2`en R es una implementación de **The Grammar of Graphics** como lo describe **Leland Wilkinson** en su libro. El paquete fue escrito originalmente por **Hadley Wickham** cuando era un estudiante graduado en la Universidad Estatal de Iowa (todavía mantiene activamente el paquete). El paquete implementa lo que podría considerarse un tercer sistema de gráficos para R (junto con los gráficos de base y lattice). El paquete está disponible en **CRAN** a través de install.packages(); la última versión de la fuente se puede encontrar en el repositorio de GitHub del paquete. La documentación del paquete se puede encontrar en [Ggplot](http://docs.ggplot2.org/current/)
+
+
+`ggplot` se basa en la idea de que cualquier gráfico se puede construir tres componentes: **datos**, **coordenadas** y **objetos geométricos (geoms)**.
+
+![Gramática de las gráficas](ilust1_ggplot.png)
+
+Y para visualizar resultados, se asignan variables a las propiedades visuales (**estética**) como **tamaño**, **color** y **posición x** o **y**.
+
+![Gramática de las gráficas](ilust2_ggplot.png)
+
+Para construir una gráfica con `gggplot` es necesario seguir este patrón:
+
+![Formula ggplot](ilust3_ggplot.png)
+
+
+La forma fácil de instalar ggplot es con el paquete de tidyverse:
+
+**install.packages("tidyverse")**
+
+```{r}
+if (!require(tidyverse)) install.packages("tidyverse", repos = "https://cloud.r-project.org")
+```
+
+### **Términos importantes**:
+
+* __ggplot__ la función principal donde se especifican el set de datos y las variables a graficar. 
+* __geoms__ "objetos geométricos" (el tipo de gráfica en cierto modo): 
+  - `geom_point()`
+  - `geom_bar()`
+  - `geom_density()`
+  - `geom_line()`
+  - `geom_area()`
+  - `geom_histogram()`
+* __aes__ los estéticos que pondremos: forma, transparencia (alpha), color, relleno, tipo de línea, etc. 
+* __scales__ para especificar si los datos se graficarán de forma continua, discreta, logarítmica.
+* __themes__ para modificar los elementos de la gráfica no relacionados con los datos, como el tipo de letra y el color del fondo.
+
+
+
+### Ejemplos:
+
+Para los ejemplos usaremos el dataframe de Iris. Se han escrito numerosas guías sobre la exploración de este conjunto de datos ampliamente conocido. Iris, presentado por Ronald Fisher en su artículo de 1936 El uso de mediciones múltiples en problemas taxonómicos, contiene tres especies de plantas (setosa, virginica, versicolor) y cuatro características medidas para cada muestra. Estos cuantifican la variación morfológica de la flor de iris en sus tres especies, todas las medidas se dan en centímetros.
+```{r}
+str(iris)
+```
+
+
+### Gráficas de dispersión 
+
+La función **geom_point()** agrega una capa de puntos a su diagrama, lo que crea un diagrama de dispersión.
+
+```{r}
+# Cargar ggplot2
+library(ggplot2)
+# Examinar datos pre-cargados
+head(iris)
+# graficar 
+ggplot(data=iris) + 
+geom_point(mapping = aes(x=Sepal.Length, y= Sepal.Width))
+
+```
+
+**Observación:** 
+
+¿Qué hace el símbolo +? Nota que el código  anterior tmb puede escribirse así:
+
+```{r}
+myplot<-ggplot(data=iris)
+myplot + geom_point(mapping = aes(x=Sepal.Length, y= Sepal.Width))
+```
+
+Otra forma de hacer misma la gráfica:
+
+```{r}
+myplot<-ggplot(data=iris, aes(x=Sepal.Length, y= Sepal.Width))
+myplot + geom_point()
+```
+
+
+Los colores y formas se cambian en **aes**:
+
+```{r}
+ggplot(data=iris, 
+        aes(x = Sepal.Length,
+            y = Sepal.Width,
+            color = Species,
+            shape = Species)) +
+geom_point()
+```
+
+Ya sea en el aes de la función inicial o dentro de los geoms (Nota que el tamaño no es un aes, sino un argumento de geom_point)
+
+```{r}
+ggplot(data = iris, 
+        aes(x = Sepal.Length,
+            y = Sepal.Width)) +
+geom_point(aes(color = Species,
+               shape=Species),
+           size=3)
+```
+
+[Temas en ggplot](https://ggplot2.tidyverse.org/reference/ggtheme.html)
+
+Estos son temas completos que controlan todas las pantallas que no son de datos. Se usa theme() si se necesita modificar la visualización de un tema existente.
+
+Si queremos quitar el fondo gris:
+
+```{r}
+ggplot(data=iris,
+        aes(x = Sepal.Length,
+            y = Sepal.Width)) +
+geom_point(aes(color = Species,
+               shape=Species),
+           size=3) +
+    theme_bw()
+```
+
+
+Puedes dividir en páneles los datos:
+
+```{r}
+ggplot(data=iris, aes(x=Sepal.Length, y= Sepal.Width )) + 
+  geom_point() +
+  facet_grid(Species ~ .)
+```
+
+**Aplica color** Pon color por especie a la gráfica anterior:
+
+```{r}
+ggplot(data=iris, aes(x=Sepal.Length, y= Sepal.Width, color=Species)) + 
+  geom_point() +
+  facet_grid(Species ~ .)
+```
+
+**Cambia la orientación de la gráfica:** 
+
+```{r}
+p <- ggplot(data=iris, aes(x=Sepal.Length, y= Sepal.Width, color=Species)) +
+  geom_point() +
+  facet_grid(. ~ Species)
+p 
+```
+
+### Gráficas de barras 
+
+Los gráficos de barras parecen simples, pero son interesantes porque revelan algo sutil sobre las gráficas. Considera una gráfica de barras básica, como se dibuja con geom_bar(). El siguiente cuadro muestra el número total de mediciones en el dataframe, agrupados por especie.
+
+```{r}
+ggplot(data = iris) + 
+  geom_bar(mapping = aes(x = Species))
+```
+
+Igualmente, puedes modificar sus características de visualización:
+
+```{r}
+ggplot(data = iris) + 
+  geom_bar(mapping = aes(x = Species, fill=Species))
+```
+**geom_bar** es interesante porque inicia con el dataset de iris y aplica un conteo con la variable (x) Species. Ese conteo se transforma en los datos del eje y.
+
+### ¿Cómo seguir una pandemia con datos?
+Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University:
+![Global Cases by the Center for Systems Science and Engineering (CSSE)](covid_19.png)
+
+*"En diciembre de 2019, se detectó un brote local de neumonía de causa inicialmente desconocida en Wuhan (Hubei, China), y se determinó rápidamente que era causado por un nuevo coronavirus, nombrado Síndrome Respiratorio Severo Agudo Coronavirus 2 (Severe Acute Respiratory Syndrome Coronavirus 2; SARS-CoV-2). Desde entonces, el brote se ha extendido a todas las provincias de China continental, así como a otros 27 países y regiones, con más de 70.000 casos confirmados al 17 de febrero de 2020.2 En respuesta a esta emergencia de salud pública en curso, desarrollamos un panel interactivo en línea, alojado por el Centro de Ciencia e Ingeniería de Sistemas (CSSE) de la Universidad Johns Hopkins, Baltimore, MD, EE. UU., para visualizar y rastrear los casos notificados de la enfermedad por coronavirus 2019 (COVID-19) en tiempo real."*
+
+**Actualización:** hasta el 17 de abril de 2021, el SARS-CoV-2 a alcanzado 192 países con un total de 140,457797 casos y 3,099,215 lamentables muertes.
+
+
+```{r}
+library(ggplot2)
+library(dplyr)
+require(maps)
+require(viridis)
+```
+Trabajaremos con los datos que publica Data Hub: [Data Hub](https://datahub.io/core/covid-19) y puedes tener acceso a los datos desde github: [Github COVID_19](https://github.com/datasets/covid-19/tree/master/data).
+En la sección de RAW puedes consultar los datos en un formato de CSV:
+![RAW data](raw_data.png)
+
+La variables que tienes son:
+1. Date
+2. Country.Region
+3. Province.State
+4. Lat
+5. Long
+6. Confirmed
+7. Recovered
+8. Deaths
+
+```{r}
+covid_19_data <- read.csv(url("https://raw.githubusercontent.com/datasets/covid-19/master/data/time-series-19-covid-combined.csv"))
+
+head(covid_19_data)
+```
+
+Realizaremos la visualización de datos de México:
+```{r}
+mexico <- subset(covid_19_data, Country.Region=="Mexico")
+head(mexico)
+```
+
+Revisa la estructura del dataframe y convierte los datos de caractér a Date:
+```{r}
+str(mexico)
+```
+Convierte los datos de caractér a Date:
+```{r}
+
+mexico$Date <-as.Date(mexico$Date, "%Y-%m-%d")
+```
+
+Crearemos una gráfica para visualizar el incremento de casos confirmados:
+```{r}
+grafica_mexico <- ggplot(data = mexico, 
+                          aes(x = Date,
+                              y = Confirmed,
+                              label = Confirmed)) +
+                  geom_point() +
+                  geom_line() +
+                  geom_text( hjust = "right")
+
+grafica_mexico
+```
+ Ahora integraremos los datos de casos confirmados, recuperados y muertos. También aplicaremos diferentes colores. Para aplicar colores puedes revisar la siguiente liga: [ggplot2 Quick Reference: colour (and fill)](http://sape.inf.usi.ch/quick-reference/ggplot2/colour) 
+ 
+```{r}
+grafica_mexico <- ggplot(data = mexico, 
+                          aes(x = Date)) +
+                  geom_line(aes(y = Confirmed,
+                                colour = "black")) +
+                  geom_line(aes(y = Recovered ),
+                                color = "springgreen4",
+                                linetype = "twodash") + 
+                  geom_line(aes(y = Deaths ),
+                            color = "darkred",
+                            linetype = "dotted") +
+                  theme_minimal()
+
+grafica_mexico
+```
+ 
+ Utilizaremos una escala logarítmica para observar el crecimiento de los casos confirmados:
+ 
+```{r}
+grafica_mexico <- ggplot(data = mexico, 
+                          aes(x = Date,
+                              y = log10(Confirmed),
+                              label = log10(Confirmed))) +
+                  geom_point() +
+                  geom_line() +
+                  geom_text(hjust = "right",
+                            size = 1.0)
+grafica_mexico
+```
+Aplicaremos el mismo concepto de escala logarítmica a las 3 variables:
+
+```{r}
+grafica_mexico <- ggplot(data = mexico, aes(x = Date)) +
+                  geom_line(aes(y = log10(Confirmed),
+                                color = "steelblue")) +
+                  geom_line(aes(y = log10(Recovered)),
+                                color = "springgreen4",
+                                linetype = "twodash") +
+                  geom_line(aes(y = log10(Deaths)),
+                                color = "darkred",
+                                linetype = "dotted") +
+                  theme_minimal()
+grafica_mexico
+```
+
+Al igual que el Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University, crearemos una mapa con los datos de casos confirmados en todo el mundo.
+
+La línea: world_map <- map_data("world") extrae toda la información de georeferencia que hay de todo el globo y con ggplot puedes generar un mapa.
+
+Observa los datos de world_map con head():
+```{r}
+world_map <- map_data("world")
+
+
+head(world_map)
+```
+Tienes las siguientes variables:
+1. long
+2. lat
+3. group
+4. order
+5. region
+6. subregion
+
+geom_polygon: [geom_polygon](https://ggplot2.tidyverse.org/reference/geom_polygon.html) puede crear un polígono con los puntos que indiques, para este caso son datos de georeferencia.
+
+```{r}
+world_map <- map_data("world")
+ww_map <- ggplot(data = world_map,
+                  aes(x = long,
+                      y = lat,
+                      group = group)) +
+          geom_polygon(fill = "lightgray",
+                       colour = "white")
+ww_map
+```
+
+Primero obtendremos el último día de registro del dataframe:
+```{r}
+ultimo_dia_datos <- mexico[nrow(mexico),]$Date
+ultimo_dia_datos
+```
+Obtén de los datos de todos los países:
+**La función subset obtiene un subconjunto de datos aplicando una condición:** [subset](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/subset)
+
+```{r}
+covid_19_data$Date <- as.Date(covid_19_data$Date, "%Y-%m-%d")
+datos_paises <- subset(covid_19_data, Date == ultimo_dia_datos)
+
+head(datos_paises)
+```
+
+Ahora trabajaremos con el operador %>%:
+**En R, el operador de tubería es %>%. Si no está familiarizado con F# (o | en shell), puede pensar en este operador como similar al + en una instrucción ggplot2. Su función es muy similar a la que ha visto del operador F#: toma la salida de una declaración y la convierte en la entrada de la siguiente declaración. Al describirlo, puede pensarlo como un "ENTONCES".** Para una referencia extra puedes revisar: [operador de tubería](https://www.youtube.com/watch?v=9yjhxvu-pDg)
+
+Primero instalaremos el paqueta:
+install.packages("stringr")
+```{r}
+if (!require(stringr)) install.packages("stringr", repos = "https://cloud.r-project.org")  
+```
+
+Recuerda incluir el paquete:
+```{r}
+library("stringr") 
+```
+
+Cambiaremos algunos nombres que no coinciden, los más evidentes son:
+* "US" = "USA",
+* "United Kingdom" = "UK"
+
+```{r}
+datos_paises <- datos_paises %>%
+  mutate(Country.Region = recode(str_trim(Country.Region), 
+                            "US" = "USA",
+                            "United Kingdom" = "UK"))
+```
+
+Otro problema, si observamos a China o Canadá ambos países tienen su información fraccionada:
+
+```{r}
+china <- datos_paises %>% 
+         subset(Country.Region == "China")
+china
+```
+Procesaremos los datos y sumaremos las regiones de los países que aplican:
+
+```{r}
+datos_paises <- datos_paises %>%
+                group_by(Country.Region) %>%
+                summarise(Confirmed = sum(Confirmed, na.rm = TRUE))  
+datos_paises
+```
+Juntaremos ambos dataframes en uno con una operación que se llama **left_join**:
+
+**devuelve todas las filas de x, y todas las columnas de x e y. Las filas en x sin coincidencia en y tendrán valores de NA en las nuevas columnas. Si hay múltiples coincidencias entre x e y, se devuelven todas las combinaciones de las coincidencias**
+
+
+
+```{r}
+datos_mapa_confirmados <- inner_join(world_map, 
+                                     datos_paises,
+                                     by = c("region" = "Country.Region" ))
+
+head(datos_mapa_confirmados)
+```
+Veamos el mapa, utilizando un escala de colores de rojo a azul con menos casos:
+
+```{r}
+mapa_confirmados <- ggplot(data = datos_mapa_confirmados, 
+                           mapping = aes(x = long,
+                                         y = lat,
+                                         group = group)) +
+                    geom_polygon(aes(fill = Confirmed)) +
+                    scale_fill_distiller(palette ="RdBu", 
+                                         direction = -1) +
+                    ggtitle("COVID-19 Casos confirmados")
+mapa_confirmados
+```
+
+Para más paletas de colores puedes revisar:
+[paletas de colores](https://ggplot2.tidyverse.org/reference/scale_brewer.html)
+
+
+### ¿Cómo ver una secuencia de DNA con ggplot?
+
+Instalaremoslos siguientes paquetes:
+
+```{r}
+if (!require(remotes)) install.packages("remotes", repos = "https://cloud.r-project.org")
+if (!require(treeio)) remotes::install_github("GuangchuangYu/treeio")
+if (!require(BiocManager)) install.packages("BiocManager", repos = "https://cloud.r-project.org")
+if (!require(ggtree)) BiocManager::install("ggtree")
+if (!require(DECIPHER)) BiocManager::install("DECIPHER")
+if (!require(S4Vectors)) BiocManager::install("S4Vectors")
+if (!require(seqmagick)) BiocManager::install("seqmagick")
+if (!require(Biostrings)) BiocManager::install("Biostrings")
+if (!require(ape)) install.packages("ape", repos = "https://cloud.r-project.org")
+if (!require(ggmsa)) install.packages("ggmsa", repos = "https://cloud.r-project.org")
+```
+Agrega las siguientes dependencias:
+
+```{r}
+library(seqinr)
+library(adegenet)
+library(ape)
+library(ggtree)
+library(DECIPHER)
+library(viridis)
+library(ggmsa)
+library(ggplot2)
+```
+
+Cargaremos las secuencias de **sars** y **sars-cov2**:
+
+```{r}
+sars_virus <- readDNAStringSet("sars_virus.fasta",format = "fasta")
+```
+Veamos las secuencias:
+
+```{r}
+sars_virus[[1]]
+sars_virus[[2]]
+```
+Finalmente, visualiza las secuencias utilizando la librería ggmsa [ggmsa](https://rdrr.io/cran/ggmsa/man/ggmsa.html):
+```{r}
+ggmsa(sars_virus, 0,100, color="Chemistry_AA")
+```
+¿Qué podemos concluir de la imagen de resultado?
+
+
+### Conclusión de ggplot:
+
+1. Las funciones de ggplot2 permiten obtener gráficas de gran calidad y con muchas opciones para representar los datos y extraer así información relevante de los conjuntos de datos que se estudien, como relaciones, distribuciones, patrones y demás comportamientos aplicables tanto al análisis de datos exploratorio como a los modelos predictivos. 
+
+2. Por supuesto, los ejemplos mostrados no agotan el tema, pero con ellos se busca hacer un primer acercamiento al uso de ggplot2 como una potente librería para la graficación científica. 
+
+3. Te recomiendo revisar los recursos adicionales para buscar cómo trabajar con ggplot en otros contextos.

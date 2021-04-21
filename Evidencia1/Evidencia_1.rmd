@@ -1,0 +1,140 @@
+---
+title: "Evidencia_1"
+author: CarlaO
+date: 4/20/21
+output: html_document
+---
+
+
+
+# Evidencia 1
+## Parte 1
+Investiga, ¿Cuál es la situación actual de COVID-19 a nivel mundial, en México, en tu estado de origen y en tu municipio, alcaldía o colonia? Puedes iniciar tu búsqueda en el sitio de Johns Hopkins.
+Hoy en día, más específicamente el 20 de abril de 2021 cuando se hizo este trabajo, la cantidad de casos confirmados de Covid a nivel mundial llegan a una cifra de 142,242,353 casos. Estos casos se encuentran en todos los países del mundo siendo Estados Unidos, India y Brazil los primeros tres países con más casos confirmados. Las muertes hasta este momento llegan a 3,033,145 siendo Estados Unidos, Brazil y México los primeros tres países con más muertes por este virus. La diferencia entre casos confirmados y muertes es enorme pero aun así los hospitales no pueden manejar la demanda de casos que llegan por sus puertas causando estragos en el sistema de salud de estos países.
+México tiene en total 212,466 muertes por covid-19, más específicamente la Ciudad de México tiene 629 mil casos confirmados y 32 mil muertes por este virus. En la colonia donde habito al 20 de abril de 2021 se tienen 5 muertes y 109 casos confirmados.
+
+https://coronavirus.jhu.edu/map.html
+https://mexico.as.com/mexico/2020/04/19/tikitakas/1587254041_991129.html
+
+
+¿Cuál fue la primera variante del virus que se propagó a todo el mundo?
+De acuerdo a la WHO(World Health Organization) hubo varias variantes confirmadas del virus después de que fuera detectado en Wuhan.  Las muestras se tomaron de gente en las afueras de Wuhan del virus 2019-vnCoV y se lograron identificar 80 variantes pero la más común fue la de 28144T>C. Así mismo un artículo de PubMed dice que la variante más común que se extendió al mundo a inicios de la pandemia es una con el nombre D614G.
+
+https://www.who.int/bulletin/online_first/20-253591.pdf
+https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html
+https://www.who.int/news/item/27-04-2020-who-timeline---covid-19
+https://pubmed.ncbi.nlm.nih.gov/33243994/
+
+¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo?
+Durante la pandemia el virus ha sufrido mutaciones y hemos visto nuevas variantes. Una es la variante B.1.1.7 que surgió en UK. Otra fue registrada por primera vez en brasil la cual es la variante P.1. Otra variante se encontró por primera vez en South Africa la cual es B.1.351. Todas estas variantes hacen que el virus se comporte diferente, lo que estas variantes tienen en común es que se cree que estas variantes se trasmiten más fácil que el virus original.
+
+¿Cómo buscarías información de la variante del virus en tu país?
+Para buscar este tipo de información sobre las variantes el sitio de PubMed relacionado con la base de datos biológica de NCBI sería la mejor opción. Esto porque aquí se publican muchos artículos medicos los cuales están relacionados con las variantes en diferentes países.
+
+https://pubmed.ncbi.nlm.nih.gov/33049069/
+
+
+Imagina que te encuentras en una situación similar a la de Li Wenliang, médico chino que intentó alertar sobre el brote de coronavirus en su país, pero fue detenido por las autoridades y obligado a retractarse, ¿qué harías en su caso? Selecciona un inciso:a) Lo reportas al centro de investigación o la universidad. b) Lo reportas a la prensa. c) Guardas la información. Elige y justifica tu respuesta. Revisa el siguiente video como apoyo:
+Este caso es delicado porque el gobierno de China no es conocido por ser abierto hacía otros países ni de ser un gobierno abierto con sus ciudadanos. En el caso del doctor él sintió que su obligación era alertar a la gente cercana sobre el virus y hacer lo posible para que se pudiera detener el contagio en su ciudad. Esto siento fue lo correcto y al igual si el gobierno chino me pide que me retracte probablemente lo haría ya que se está entrando en un territorio donde el gobierno no quiere hacer escándalos y menos hacía el mundo por lo que por eso le pidieron que se retractara e intentaron controlar silenciosamente este virus pero eso nunca iba a funcionar. Por lo que yo escogería la opción a. A pesar de retractarte ante el gobierno para no hacer un escándalo puedes comunicar esta información vital a tus compañeros medicos para que más gente este de acuerdo y sea más difícil para las autoridades esconder la epidemia.
+
+
+## Parte 2
+
+```{r}
+setwd("/Users/carla/WebstormProjects/NotasClaseR/Evidencia1")
+library("Biostrings")
+library("seqinr")
+```
+## Quitar valores n de los vectores
+```{r}
+uk <- read.fasta("./FR993745.fasta")
+brazil <- read.fasta("./MW592707.fasta")
+ghana <- read.fasta("./MW598408.fasta")
+ukParsed <- uk$FR993745.1[uk$FR993745.1 != "n"]
+brazilParsed <- brazil$MW592707.1[brazil$MW592707.1 != "n"]
+ghanaParsed <- ghana$MW598408.1[ghana$MW598408.1 != "n"]
+```
+
+
+
+## Longitud de variantes
+### Variante UK
+
+```{r}
+print(length(ukParsed))
+```
+### Variante Brazil
+```{r}
+print(length(brazilParsed))
+```
+
+### Variante Ghana
+```{r}
+print(length(ghanaParsed))
+```
+
+### Data frame comparando tamaño de cada variante
+```{r}
+df <- data.frame(country=c("UK", "Brazil", "Ghana"), length=(c(length(ukParsed), length(brazilParsed), length(ghanaParsed))))
+head(df)
+```
+## Bases de ADN de cada variante
+
+### Variante UK
+```{r}
+ukTable <- table(ukParsed)
+plot(ukTable)
+```
+
+
+ ### Variante Brazil
+```{r}
+brazilTable <- table(brazilParsed)
+plot(brazilTable)
+```
+
+
+### Variante Ghana
+```{r}
+ghanaTable <- table(ghanaParsed)
+plot(ghanaTable)
+```
+
+
+### Comparación bases de ADN
+```{r}
+bars <- rbind(ukTable, brazilTable, ghanaTable)
+barplot(bars, beside=TRUE, legend=(c("UK", "Brazil", "Ghana")))
+```
+
+
+## GC de cada variante
+
+```{r}
+gcUK <- GC(ukParsed)
+gcBrazil <- GC(brazilParsed)
+gcGhana <- GC(ghanaParsed)
+gcDf <- data.frame(country=c("UK", "Brazil", "Ghana"), gc=(c(gcUK, gcBrazil, gcGhana)))
+head(gcDf)
+```
+## Secuencia en contrasentido
+
+### Variante UK
+```{r}
+chartr("tagc","atcg", ukParsed)
+```
+
+
+### Variante de Brazil
+```{r}
+chartr("tagc","atcg", brazilParsed)
+```
+
+
+### Variante de Ghana
+```{r}
+chartr("tagc","atcg", ghanaParsed)
+```
+
+
+
