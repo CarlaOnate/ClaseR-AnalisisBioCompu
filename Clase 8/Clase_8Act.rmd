@@ -1,0 +1,137 @@
+---
+title: "R Notebook"
+author: carla
+date: 4/22/21
+output: html_document
+---
+
+
+
+
+```{r}
+library("ape")
+text.string <- "(lemur, human);"
+vert.tree <- read.tree(text=text.string)
+plot(vert.tree, no.margin=TRUE, edge.width = 5)
+```
+```{r}
+text.string <- "(bat,(lemur, human));"
+vert.tree <-  read.tree(text=text.string)
+plot(vert.tree, no.margin = TRUE, edge.width = 2)
+```
+
+```{r}
+text.string <- "(((cow, pig), whale),(bat,(lemur, human)));"
+vert.tree <- read.tree(text  =text.string)
+plot(vert.tree, no.margin = TRUE, edge.width = 2)
+```
+
+
+## Codigo para arbol - ejercicio
+```{r}
+text.string <- "(orangutans, (gorillas,((chimpanzees, bonobos),humans)));"
+vert.tree <- read.tree(text  =text.string)
+plot(vert.tree, no.margin = TRUE, edge.width = 2)
+```
+## phytools
+```{r}
+library("phytools")
+```
+
+```{r}
+roundPhylogram(vert.tree)
+plot(unroot(vert.tree), type="unrooted", no.margin = TRUE, lab4ut = "axial", edge.width = 2)
+```
+
+Los árboles sin raiz, unrooted , ilustran la relación de los nodos de las hojas sin hacer suposiciones sobre la ascendencia. No requieren que la raíz ancestral sea conocida o inferida. Los árboles no enraizados siempre se pueden generar a partir de los enraizados simplemente omitiendo la raíz. Por el contrario, inferir la raíz de un árbol sin raíz requiere algunos medios para identificar la ascendencia. Esto normalmente se hace incluyendo un grupo externo en los datos de entrada para que la raíz esté necesariamente entre el grupo externo y el resto de los taxones en el árbol, o introduciendo suposiciones adicionales sobre las tasas de evolución relativas en cada rama, como una aplicación de la hipótesis del reloj
+molecular.plot(unroot(vert.tree),type="unrooted",no.margin=TRUE,lab4ut="axial", edge.width=2)
+El objeto creado en la memoria cuando simulamos o estimamos una filogenia, o leemos una de un archivo de entrada, es una lista de la clase “filo”.Recuerde, una lista es solo un tipo de objeto personalizable que puede combinar diferentes objetos de diferentes tipos. Por ejemplo, una lista puede tener un vector de números reales (con el modo “numérico”) como primer elemento; y luego un vector de cadenas (con el modo “carácter”) como su segundo elemento; y así. Asignar nuestro árbol con una clase especial, “phylo”, es solo una forma conveniente de indicarle a las funciones especiales en R cómo tratar ese objeto.Un objeto de la clase “phylo” tiene al menos tres partes. Estos normalmente están ocultos.vert.tree## ## Phylogenetic tree with 6 tips and 5 internal nodes.
+Para comprender la estructura de un objeto “filo” un poco más claramente, leamos una filogenia mucho más simple, y luego descomponga en sus componentes esenciales:
+
+Tip labels:## [1] "cow"   "pig"   "whale" "bat"   "lemur" "human"
+Rooted; no branch lengths.
+str(vert.tree)## List of 3##
+edge     : int [1:10, 1:2] 7 8 9 9 8 7 10 10 11 11
+Nnode    : int 5
+tip.label: chr [1:6] "cow" "pig" "whale" "bat"
+attr(*, "class")= chr "phylo"
+attr(*, "order")= chr "cladewise"
+tree<-read.tree(text=“(((A,B),(C,D)),E);")
+Los siguientes comandos deben ejecutarse en la consola directamente:
+plotTree(tree,offset=1)
+tiplabels()
+nodelabels()
+
+
+## Escribir y leer arboles filogeneticos
+```{r}
+anolis.tree<-read.tree(file="alo.tre")
+anolis.tree
+plotTree(anolis.tree,fsize=0.4,lwd=1)
+plot(anolis.tree,type="fan", no.margin=TRUE)
+```
+Phylogenetic tree with 82 tips and 81 internal nodes.
+Tip labels:
+Anolis_ahli, Anolis_allogus, Anolis_rubribarbus, Anolis_imias, Anolis_sagrei, Anolis_bremeri,
+Rooted; includes branch lengths.
+plotTree(anolis.tree,fsize=0.4,lwd=1)
+Video: https://www.youtube.com/watch?v=09eD4A_HxVQ
+
+
+## Caso de estudio
+1. “AY508724” SARS coronavirus NS-1, complete genome
+2. “ AY485277” SARS coronavirus Sino1-11, complete genome
+3. “ AY390556” SARS coronavirus GZ02, complete genome
+4. “ AY278489” SARS coronavirus GD01, complete genome
+5. “ MN908947” Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome
+6. “ MN985325” Severe acute respiratory syndrome coronavirus 2 isolate 2019-nCoV/USA-WA1/2020, complete genome
+7.  . “MT292571” Severe acute respiratory syndrome coronavirus 2 isolate SARS-CoV-2/human/ESP/Valencia12/2020, complete genome
+8.   “JX869059” Human betacoronavirus 2c EMC/2012, complete genome
+
+
+
+```{r}
+library("Biostrings")
+library("seqinr")
+library("ade4")
+library("ape")
+#library("ggtree")
+library("DECIPHER")
+library("viridis")
+library("ggplot2")
+```
+
+
+```{r}
+sarsNS1 <- read.GenBank("AY508724")
+sarsSino <- read.GenBank("AY485277")
+sarsGZ02 <- read.GenBank("AY390556")
+sarsGD01 <- read.GenBank("AY278489")
+covidWuhan <- read.GenBank("MN908947")
+covidUSA <- read.GenBank("MN985325")
+covidEsp <- read.GenBank("MT292571")
+humanBetaCov <- read.GenBank("JX869059")
+virus <- c(sarsNS1$AY508724, sarsSino$AY485277, sarsGZ02$AY390556, sarsGD01$AY278489, covidWuhan$MN908947, covidUSA$MN985325, covidEsp$MT292571, humanBetaCov$JX869059)
+```
+
+```{r}
+str(sarsNS1)
+attributes(sarsNS1)
+names(sarsNS1)
+attr(sarsNS1, "class", exact = TRUE)
+```
+AQUI ME QUEDEEEE!
+```{r}
+write.dna(virus[1])
+```
+
+
+
+
+
+
+
+
+
+
+
